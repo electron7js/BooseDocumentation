@@ -25,10 +25,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: IBooseProgramRepository
     path: ../ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/IBooseProgramRepository.cs
-    startLine: 10
+    startLine: 13
   assemblies:
   - BooseWebApp.Server
   namespace: ApplicationDevelopmentProject.Data.Repository
+  summary: Interface for the Boose Programs Repository
+  example: []
   syntax:
     content: public interface IBooseProgramRepository
     content.vb: Public Interface IBooseProgramRepository
@@ -50,7 +52,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: GetAllAsync
     path: ../ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/IBooseProgramRepository.cs
-    startLine: 12
+    startLine: 16
   assemblies:
   - BooseWebApp.Server
   namespace: ApplicationDevelopmentProject.Data.Repository
@@ -78,7 +80,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: GetByIdAsync
     path: ../ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/IBooseProgramRepository.cs
-    startLine: 13
+    startLine: 17
   assemblies:
   - BooseWebApp.Server
   namespace: ApplicationDevelopmentProject.Data.Repository
@@ -112,7 +114,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: AddAsync
     path: ../ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/IBooseProgramRepository.cs
-    startLine: 14
+    startLine: 18
   assemblies:
   - BooseWebApp.Server
   namespace: ApplicationDevelopmentProject.Data.Repository
@@ -143,7 +145,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: UpdateAsync
     path: ../ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/IBooseProgramRepository.cs
-    startLine: 15
+    startLine: 19
   assemblies:
   - BooseWebApp.Server
   namespace: ApplicationDevelopmentProject.Data.Repository
@@ -174,7 +176,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: DeleteAsync
     path: ../ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/IBooseProgramRepository.cs
-    startLine: 16
+    startLine: 20
   assemblies:
   - BooseWebApp.Server
   namespace: ApplicationDevelopmentProject.Data.Repository
@@ -208,7 +210,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: GetByProgramNameAsync
     path: ../ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/IBooseProgramRepository.cs
-    startLine: 17
+    startLine: 21
   assemblies:
   - BooseWebApp.Server
   namespace: ApplicationDevelopmentProject.Data.Repository

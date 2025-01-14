@@ -26,10 +26,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: BooseProgramRepository
     path: ../ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/BooseProgramRepository.cs
-    startLine: 11
+    startLine: 14
   assemblies:
   - BooseWebApp.Server
   namespace: BooseWebApp.Server.Repositories
+  summary: Interface for the Boose Programs Repository
+  example: []
   syntax:
     content: 'public class BooseProgramRepository : IBooseProgramRepository'
     content.vb: Public Class BooseProgramRepository Implements IBooseProgramRepository
@@ -63,10 +65,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: .ctor
     path: ../ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/BooseProgramRepository.cs
-    startLine: 15
+    startLine: 24
   assemblies:
   - BooseWebApp.Server
   namespace: BooseWebApp.Server.Repositories
+  summary: Public Constructor to initialize the db and make the tables
+  example: []
   syntax:
     content: public BooseProgramRepository()
     content.vb: Public Sub New()
@@ -92,15 +96,17 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: GetAllAsync
     path: ../ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/BooseProgramRepository.cs
-    startLine: 22
+    startLine: 35
   assemblies:
   - BooseWebApp.Server
   namespace: BooseWebApp.Server.Repositories
+  summary: Gets all saved programs
   example: []
   syntax:
     content: public Task<List<BooseProgram>> GetAllAsync()
     return:
       type: System.Threading.Tasks.Task{System.Collections.Generic.List{ApplicationDevelopmentProject.Data.Models.BooseProgram}}
+      description: ''
     content.vb: Public Function GetAllAsync() As Task(Of List(Of BooseProgram))
   overload: BooseWebApp.Server.Repositories.BooseProgramRepository.GetAllAsync*
   implements:
@@ -123,18 +129,21 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: GetByIdAsync
     path: ../ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/BooseProgramRepository.cs
-    startLine: 27
+    startLine: 45
   assemblies:
   - BooseWebApp.Server
   namespace: BooseWebApp.Server.Repositories
+  summary: Gets program by id
   example: []
   syntax:
     content: public Task<BooseProgram> GetByIdAsync(int id)
     parameters:
     - id: id
       type: System.Int32
+      description: ''
     return:
       type: System.Threading.Tasks.Task{ApplicationDevelopmentProject.Data.Models.BooseProgram}
+      description: A program with the id
     content.vb: Public Function GetByIdAsync(id As Integer) As Task(Of BooseProgram)
   overload: BooseWebApp.Server.Repositories.BooseProgramRepository.GetByIdAsync*
   implements:
@@ -160,19 +169,22 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: AddAsync
     path: ../ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/BooseProgramRepository.cs
-    startLine: 32
+    startLine: 55
   assemblies:
   - BooseWebApp.Server
   namespace: BooseWebApp.Server.Repositories
+  summary: Adds the program to the database
   example: []
   syntax:
-    content: public Task AddAsync(BooseProgram user)
+    content: public Task AddAsync(BooseProgram program)
     parameters:
-    - id: user
+    - id: program
       type: ApplicationDevelopmentProject.Data.Models.BooseProgram
+      description: ''
     return:
       type: System.Threading.Tasks.Task
-    content.vb: Public Function AddAsync(user As BooseProgram) As Task
+      description: The added program
+    content.vb: Public Function AddAsync(program As BooseProgram) As Task
   overload: BooseWebApp.Server.Repositories.BooseProgramRepository.AddAsync*
   implements:
   - ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.AddAsync(ApplicationDevelopmentProject.Data.Models.BooseProgram)
@@ -194,19 +206,22 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: UpdateAsync
     path: ../ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/BooseProgramRepository.cs
-    startLine: 36
+    startLine: 65
   assemblies:
   - BooseWebApp.Server
   namespace: BooseWebApp.Server.Repositories
+  summary: Updates the program specified
   example: []
   syntax:
-    content: public Task UpdateAsync(BooseProgram user)
+    content: public Task UpdateAsync(BooseProgram program)
     parameters:
-    - id: user
+    - id: program
       type: ApplicationDevelopmentProject.Data.Models.BooseProgram
+      description: ''
     return:
       type: System.Threading.Tasks.Task
-    content.vb: Public Function UpdateAsync(user As BooseProgram) As Task
+      description: ''
+    content.vb: Public Function UpdateAsync(program As BooseProgram) As Task
   overload: BooseWebApp.Server.Repositories.BooseProgramRepository.UpdateAsync*
   implements:
   - ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.UpdateAsync(ApplicationDevelopmentProject.Data.Models.BooseProgram)
@@ -228,18 +243,21 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: DeleteAsync
     path: ../ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/BooseProgramRepository.cs
-    startLine: 41
+    startLine: 75
   assemblies:
   - BooseWebApp.Server
   namespace: BooseWebApp.Server.Repositories
+  summary: Deletes the program specified by id
   example: []
   syntax:
     content: public Task DeleteAsync(int id)
     parameters:
     - id: id
       type: System.Int32
+      description: Program id
     return:
       type: System.Threading.Tasks.Task
+      description: ''
     content.vb: Public Function DeleteAsync(id As Integer) As Task
   overload: BooseWebApp.Server.Repositories.BooseProgramRepository.DeleteAsync*
   implements:
@@ -265,7 +283,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: GetByProgramNameAsync
     path: ../ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/BooseProgramRepository.cs
-    startLine: 46
+    startLine: 80
   assemblies:
   - BooseWebApp.Server
   namespace: BooseWebApp.Server.Repositories
