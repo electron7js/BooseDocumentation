@@ -682,46 +682,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ApplicationDevelopmentProject.Data.Models.BooseProgram.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ApplicationDevelopmentProject.Data.Models.BooseProgram.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ApplicationDevelopmentProject.Data.Models.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ApplicationDevelopmentProject.Data.Models.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ApplicationDevelopmentProject.Data.Repository.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ApplicationDevelopmentProject.Data.Repository.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/BooseWebApp.Server.Controllers.BooseController.yml",
       "output": {
         ".html": {

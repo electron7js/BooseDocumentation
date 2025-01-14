@@ -334,26 +334,6 @@
     "title": "Namespace ASE_Assignment_Tests.EvaluationTests | ASE Assignment Bijesh",
     "keywords": "Namespace ASE_Assignment_Tests.EvaluationTests Classes BooseWrapperTests The Unit tests for the Boose Wrapper class. EvaluationCallTests The Unit tests for the EvaluationCall Class"
   },
-  "api/ApplicationDevelopmentProject.Data.Models.BooseProgram.html": {
-    "href": "api/ApplicationDevelopmentProject.Data.Models.BooseProgram.html",
-    "title": "Class BooseProgram | ASE Assignment Bijesh",
-    "keywords": "Class BooseProgram Namespace ApplicationDevelopmentProject.Data.Models Assembly BooseWebApp.Server.dll Entity to store boose programs in the database [Table(\"BooseProgram\")] public class BooseProgram Inheritance object BooseProgram Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Program_Code [MaxLength(4000)] public string Program_Code { get; set; } Property Value string Program_Name [NotNull] [MaxLength(100)] public string Program_Name { get; set; } Property Value string Program_id [PrimaryKey] [AutoIncrement] public int Program_id { get; set; } Property Value int"
-  },
-  "api/ApplicationDevelopmentProject.Data.Models.html": {
-    "href": "api/ApplicationDevelopmentProject.Data.Models.html",
-    "title": "Namespace ApplicationDevelopmentProject.Data.Models | ASE Assignment Bijesh",
-    "keywords": "Namespace ApplicationDevelopmentProject.Data.Models Classes BooseProgram Entity to store boose programs in the database"
-  },
-  "api/ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.html": {
-    "href": "api/ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.html",
-    "title": "Interface IBooseProgramRepository | ASE Assignment Bijesh",
-    "keywords": "Interface IBooseProgramRepository Namespace ApplicationDevelopmentProject.Data.Repository Assembly BooseWebApp.Server.dll Interface for the Boose Programs Repository public interface IBooseProgramRepository Methods AddAsync(BooseProgram) Task AddAsync(BooseProgram user) Parameters user BooseProgram Returns Task DeleteAsync(int) Task DeleteAsync(int id) Parameters id int Returns Task GetAllAsync() Task<List<BooseProgram>> GetAllAsync() Returns Task<List<BooseProgram>> GetByIdAsync(int) Task<BooseProgram> GetByIdAsync(int id) Parameters id int Returns Task<BooseProgram> GetByProgramNameAsync(string) Task<BooseProgram> GetByProgramNameAsync(string programName) Parameters programName string Returns Task<BooseProgram> UpdateAsync(BooseProgram) Task UpdateAsync(BooseProgram user) Parameters user BooseProgram Returns Task"
-  },
-  "api/ApplicationDevelopmentProject.Data.Repository.html": {
-    "href": "api/ApplicationDevelopmentProject.Data.Repository.html",
-    "title": "Namespace ApplicationDevelopmentProject.Data.Repository | ASE Assignment Bijesh",
-    "keywords": "Namespace ApplicationDevelopmentProject.Data.Repository Interfaces IBooseProgramRepository Interface for the Boose Programs Repository"
-  },
   "api/BooseWebApp.Server.Controllers.BooseController.html": {
     "href": "api/BooseWebApp.Server.Controllers.BooseController.html",
     "title": "Class BooseController | ASE Assignment Bijesh",
