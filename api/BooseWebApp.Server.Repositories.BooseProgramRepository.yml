@@ -6,12 +6,12 @@ items:
   parent: BooseWebApp.Server.Repositories
   children:
   - BooseWebApp.Server.Repositories.BooseProgramRepository.#ctor
-  - BooseWebApp.Server.Repositories.BooseProgramRepository.AddAsync(ApplicationDevelopmentProject.Data.Models.BooseProgram)
+  - BooseWebApp.Server.Repositories.BooseProgramRepository.AddAsync(BooseWebApp.Server.Models.BooseProgram)
   - BooseWebApp.Server.Repositories.BooseProgramRepository.DeleteAsync(System.Int32)
   - BooseWebApp.Server.Repositories.BooseProgramRepository.GetAllAsync
   - BooseWebApp.Server.Repositories.BooseProgramRepository.GetByIdAsync(System.Int32)
   - BooseWebApp.Server.Repositories.BooseProgramRepository.GetByProgramNameAsync(System.String)
-  - BooseWebApp.Server.Repositories.BooseProgramRepository.UpdateAsync(ApplicationDevelopmentProject.Data.Models.BooseProgram)
+  - BooseWebApp.Server.Repositories.BooseProgramRepository.UpdateAsync(BooseWebApp.Server.Models.BooseProgram)
   langs:
   - csharp
   - vb
@@ -26,7 +26,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: BooseProgramRepository
     path: ../ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/BooseProgramRepository.cs
-    startLine: 14
+    startLine: 13
   assemblies:
   - BooseWebApp.Server
   namespace: BooseWebApp.Server.Repositories
@@ -38,7 +38,7 @@ items:
   inheritance:
   - System.Object
   implements:
-  - ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository
+  - BooseWebApp.Server.Models.IBooseProgramRepository
   inheritedMembers:
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -65,7 +65,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: .ctor
     path: ../ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/BooseProgramRepository.cs
-    startLine: 24
+    startLine: 23
   assemblies:
   - BooseWebApp.Server
   namespace: BooseWebApp.Server.Repositories
@@ -96,7 +96,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: GetAllAsync
     path: ../ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/BooseProgramRepository.cs
-    startLine: 35
+    startLine: 34
   assemblies:
   - BooseWebApp.Server
   namespace: BooseWebApp.Server.Repositories
@@ -105,12 +105,12 @@ items:
   syntax:
     content: public Task<List<BooseProgram>> GetAllAsync()
     return:
-      type: System.Threading.Tasks.Task{System.Collections.Generic.List{ApplicationDevelopmentProject.Data.Models.BooseProgram}}
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{BooseWebApp.Server.Models.BooseProgram}}
       description: ''
     content.vb: Public Function GetAllAsync() As Task(Of List(Of BooseProgram))
   overload: BooseWebApp.Server.Repositories.BooseProgramRepository.GetAllAsync*
   implements:
-  - ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.GetAllAsync
+  - BooseWebApp.Server.Models.IBooseProgramRepository.GetAllAsync
 - uid: BooseWebApp.Server.Repositories.BooseProgramRepository.GetByIdAsync(System.Int32)
   commentId: M:BooseWebApp.Server.Repositories.BooseProgramRepository.GetByIdAsync(System.Int32)
   id: GetByIdAsync(System.Int32)
@@ -129,7 +129,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: GetByIdAsync
     path: ../ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/BooseProgramRepository.cs
-    startLine: 45
+    startLine: 44
   assemblies:
   - BooseWebApp.Server
   namespace: BooseWebApp.Server.Repositories
@@ -142,25 +142,25 @@ items:
       type: System.Int32
       description: ''
     return:
-      type: System.Threading.Tasks.Task{ApplicationDevelopmentProject.Data.Models.BooseProgram}
+      type: System.Threading.Tasks.Task{BooseWebApp.Server.Models.BooseProgram}
       description: A program with the id
     content.vb: Public Function GetByIdAsync(id As Integer) As Task(Of BooseProgram)
   overload: BooseWebApp.Server.Repositories.BooseProgramRepository.GetByIdAsync*
   implements:
-  - ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.GetByIdAsync(System.Int32)
+  - BooseWebApp.Server.Models.IBooseProgramRepository.GetByIdAsync(System.Int32)
   nameWithType.vb: BooseProgramRepository.GetByIdAsync(Integer)
   fullName.vb: BooseWebApp.Server.Repositories.BooseProgramRepository.GetByIdAsync(Integer)
   name.vb: GetByIdAsync(Integer)
-- uid: BooseWebApp.Server.Repositories.BooseProgramRepository.AddAsync(ApplicationDevelopmentProject.Data.Models.BooseProgram)
-  commentId: M:BooseWebApp.Server.Repositories.BooseProgramRepository.AddAsync(ApplicationDevelopmentProject.Data.Models.BooseProgram)
-  id: AddAsync(ApplicationDevelopmentProject.Data.Models.BooseProgram)
+- uid: BooseWebApp.Server.Repositories.BooseProgramRepository.AddAsync(BooseWebApp.Server.Models.BooseProgram)
+  commentId: M:BooseWebApp.Server.Repositories.BooseProgramRepository.AddAsync(BooseWebApp.Server.Models.BooseProgram)
+  id: AddAsync(BooseWebApp.Server.Models.BooseProgram)
   parent: BooseWebApp.Server.Repositories.BooseProgramRepository
   langs:
   - csharp
   - vb
   name: AddAsync(BooseProgram)
   nameWithType: BooseProgramRepository.AddAsync(BooseProgram)
-  fullName: BooseWebApp.Server.Repositories.BooseProgramRepository.AddAsync(ApplicationDevelopmentProject.Data.Models.BooseProgram)
+  fullName: BooseWebApp.Server.Repositories.BooseProgramRepository.AddAsync(BooseWebApp.Server.Models.BooseProgram)
   type: Method
   source:
     remote:
@@ -169,7 +169,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: AddAsync
     path: ../ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/BooseProgramRepository.cs
-    startLine: 55
+    startLine: 54
   assemblies:
   - BooseWebApp.Server
   namespace: BooseWebApp.Server.Repositories
@@ -179,7 +179,7 @@ items:
     content: public Task AddAsync(BooseProgram program)
     parameters:
     - id: program
-      type: ApplicationDevelopmentProject.Data.Models.BooseProgram
+      type: BooseWebApp.Server.Models.BooseProgram
       description: ''
     return:
       type: System.Threading.Tasks.Task
@@ -187,17 +187,17 @@ items:
     content.vb: Public Function AddAsync(program As BooseProgram) As Task
   overload: BooseWebApp.Server.Repositories.BooseProgramRepository.AddAsync*
   implements:
-  - ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.AddAsync(ApplicationDevelopmentProject.Data.Models.BooseProgram)
-- uid: BooseWebApp.Server.Repositories.BooseProgramRepository.UpdateAsync(ApplicationDevelopmentProject.Data.Models.BooseProgram)
-  commentId: M:BooseWebApp.Server.Repositories.BooseProgramRepository.UpdateAsync(ApplicationDevelopmentProject.Data.Models.BooseProgram)
-  id: UpdateAsync(ApplicationDevelopmentProject.Data.Models.BooseProgram)
+  - BooseWebApp.Server.Models.IBooseProgramRepository.AddAsync(BooseWebApp.Server.Models.BooseProgram)
+- uid: BooseWebApp.Server.Repositories.BooseProgramRepository.UpdateAsync(BooseWebApp.Server.Models.BooseProgram)
+  commentId: M:BooseWebApp.Server.Repositories.BooseProgramRepository.UpdateAsync(BooseWebApp.Server.Models.BooseProgram)
+  id: UpdateAsync(BooseWebApp.Server.Models.BooseProgram)
   parent: BooseWebApp.Server.Repositories.BooseProgramRepository
   langs:
   - csharp
   - vb
   name: UpdateAsync(BooseProgram)
   nameWithType: BooseProgramRepository.UpdateAsync(BooseProgram)
-  fullName: BooseWebApp.Server.Repositories.BooseProgramRepository.UpdateAsync(ApplicationDevelopmentProject.Data.Models.BooseProgram)
+  fullName: BooseWebApp.Server.Repositories.BooseProgramRepository.UpdateAsync(BooseWebApp.Server.Models.BooseProgram)
   type: Method
   source:
     remote:
@@ -206,7 +206,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: UpdateAsync
     path: ../ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/BooseProgramRepository.cs
-    startLine: 65
+    startLine: 64
   assemblies:
   - BooseWebApp.Server
   namespace: BooseWebApp.Server.Repositories
@@ -216,7 +216,7 @@ items:
     content: public Task UpdateAsync(BooseProgram program)
     parameters:
     - id: program
-      type: ApplicationDevelopmentProject.Data.Models.BooseProgram
+      type: BooseWebApp.Server.Models.BooseProgram
       description: ''
     return:
       type: System.Threading.Tasks.Task
@@ -224,7 +224,7 @@ items:
     content.vb: Public Function UpdateAsync(program As BooseProgram) As Task
   overload: BooseWebApp.Server.Repositories.BooseProgramRepository.UpdateAsync*
   implements:
-  - ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.UpdateAsync(ApplicationDevelopmentProject.Data.Models.BooseProgram)
+  - BooseWebApp.Server.Models.IBooseProgramRepository.UpdateAsync(BooseWebApp.Server.Models.BooseProgram)
 - uid: BooseWebApp.Server.Repositories.BooseProgramRepository.DeleteAsync(System.Int32)
   commentId: M:BooseWebApp.Server.Repositories.BooseProgramRepository.DeleteAsync(System.Int32)
   id: DeleteAsync(System.Int32)
@@ -243,7 +243,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: DeleteAsync
     path: ../ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/BooseProgramRepository.cs
-    startLine: 75
+    startLine: 74
   assemblies:
   - BooseWebApp.Server
   namespace: BooseWebApp.Server.Repositories
@@ -261,7 +261,7 @@ items:
     content.vb: Public Function DeleteAsync(id As Integer) As Task
   overload: BooseWebApp.Server.Repositories.BooseProgramRepository.DeleteAsync*
   implements:
-  - ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.DeleteAsync(System.Int32)
+  - BooseWebApp.Server.Models.IBooseProgramRepository.DeleteAsync(System.Int32)
   nameWithType.vb: BooseProgramRepository.DeleteAsync(Integer)
   fullName.vb: BooseWebApp.Server.Repositories.BooseProgramRepository.DeleteAsync(Integer)
   name.vb: DeleteAsync(Integer)
@@ -283,7 +283,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: GetByProgramNameAsync
     path: ../ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/BooseProgramRepository.cs
-    startLine: 80
+    startLine: 79
   assemblies:
   - BooseWebApp.Server
   namespace: BooseWebApp.Server.Repositories
@@ -294,11 +294,11 @@ items:
     - id: programName
       type: System.String
     return:
-      type: System.Threading.Tasks.Task{ApplicationDevelopmentProject.Data.Models.BooseProgram}
+      type: System.Threading.Tasks.Task{BooseWebApp.Server.Models.BooseProgram}
     content.vb: Public Function GetByProgramNameAsync(programName As String) As Task(Of BooseProgram)
   overload: BooseWebApp.Server.Repositories.BooseProgramRepository.GetByProgramNameAsync*
   implements:
-  - ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.GetByProgramNameAsync(System.String)
+  - BooseWebApp.Server.Models.IBooseProgramRepository.GetByProgramNameAsync(System.String)
   nameWithType.vb: BooseProgramRepository.GetByProgramNameAsync(String)
   fullName.vb: BooseWebApp.Server.Repositories.BooseProgramRepository.GetByProgramNameAsync(String)
   name.vb: GetByProgramNameAsync(String)
@@ -344,13 +344,13 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
-- uid: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository
-  commentId: T:ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository
-  parent: ApplicationDevelopmentProject.Data.Repository
-  href: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.html
+- uid: BooseWebApp.Server.Models.IBooseProgramRepository
+  commentId: T:BooseWebApp.Server.Models.IBooseProgramRepository
+  parent: BooseWebApp.Server.Models
+  href: BooseWebApp.Server.Models.IBooseProgramRepository.html
   name: IBooseProgramRepository
   nameWithType: IBooseProgramRepository
-  fullName: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository
+  fullName: BooseWebApp.Server.Models.IBooseProgramRepository
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
@@ -577,36 +577,36 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: ApplicationDevelopmentProject.Data.Repository
-  commentId: N:ApplicationDevelopmentProject.Data.Repository
-  href: ApplicationDevelopmentProject.html
-  name: ApplicationDevelopmentProject.Data.Repository
-  nameWithType: ApplicationDevelopmentProject.Data.Repository
-  fullName: ApplicationDevelopmentProject.Data.Repository
+- uid: BooseWebApp.Server.Models
+  commentId: N:BooseWebApp.Server.Models
+  href: BooseWebApp.html
+  name: BooseWebApp.Server.Models
+  nameWithType: BooseWebApp.Server.Models
+  fullName: BooseWebApp.Server.Models
   spec.csharp:
-  - uid: ApplicationDevelopmentProject
-    name: ApplicationDevelopmentProject
-    href: ApplicationDevelopmentProject.html
+  - uid: BooseWebApp
+    name: BooseWebApp
+    href: BooseWebApp.html
   - name: .
-  - uid: ApplicationDevelopmentProject.Data
-    name: Data
-    href: ApplicationDevelopmentProject.Data.html
+  - uid: BooseWebApp.Server
+    name: Server
+    href: BooseWebApp.Server.html
   - name: .
-  - uid: ApplicationDevelopmentProject.Data.Repository
-    name: Repository
-    href: ApplicationDevelopmentProject.Data.Repository.html
+  - uid: BooseWebApp.Server.Models
+    name: Models
+    href: BooseWebApp.Server.Models.html
   spec.vb:
-  - uid: ApplicationDevelopmentProject
-    name: ApplicationDevelopmentProject
-    href: ApplicationDevelopmentProject.html
+  - uid: BooseWebApp
+    name: BooseWebApp
+    href: BooseWebApp.html
   - name: .
-  - uid: ApplicationDevelopmentProject.Data
-    name: Data
-    href: ApplicationDevelopmentProject.Data.html
+  - uid: BooseWebApp.Server
+    name: Server
+    href: BooseWebApp.Server.html
   - name: .
-  - uid: ApplicationDevelopmentProject.Data.Repository
-    name: Repository
-    href: ApplicationDevelopmentProject.Data.Repository.html
+  - uid: BooseWebApp.Server.Models
+    name: Models
+    href: BooseWebApp.Server.Models.html
 - uid: BooseWebApp.Server.Repositories.BooseProgramRepository.#ctor*
   commentId: Overload:BooseWebApp.Server.Repositories.BooseProgramRepository.#ctor
   href: BooseWebApp.Server.Repositories.BooseProgramRepository.html#BooseWebApp_Server_Repositories_BooseProgramRepository__ctor
@@ -622,35 +622,35 @@ references:
   name: GetAllAsync
   nameWithType: BooseProgramRepository.GetAllAsync
   fullName: BooseWebApp.Server.Repositories.BooseProgramRepository.GetAllAsync
-- uid: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.GetAllAsync
-  commentId: M:ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.GetAllAsync
-  parent: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository
-  href: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.html#ApplicationDevelopmentProject_Data_Repository_IBooseProgramRepository_GetAllAsync
+- uid: BooseWebApp.Server.Models.IBooseProgramRepository.GetAllAsync
+  commentId: M:BooseWebApp.Server.Models.IBooseProgramRepository.GetAllAsync
+  parent: BooseWebApp.Server.Models.IBooseProgramRepository
+  href: BooseWebApp.Server.Models.IBooseProgramRepository.html#BooseWebApp_Server_Models_IBooseProgramRepository_GetAllAsync
   name: GetAllAsync()
   nameWithType: IBooseProgramRepository.GetAllAsync()
-  fullName: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.GetAllAsync()
+  fullName: BooseWebApp.Server.Models.IBooseProgramRepository.GetAllAsync()
   spec.csharp:
-  - uid: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.GetAllAsync
+  - uid: BooseWebApp.Server.Models.IBooseProgramRepository.GetAllAsync
     name: GetAllAsync
-    href: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.html#ApplicationDevelopmentProject_Data_Repository_IBooseProgramRepository_GetAllAsync
+    href: BooseWebApp.Server.Models.IBooseProgramRepository.html#BooseWebApp_Server_Models_IBooseProgramRepository_GetAllAsync
   - name: (
   - name: )
   spec.vb:
-  - uid: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.GetAllAsync
+  - uid: BooseWebApp.Server.Models.IBooseProgramRepository.GetAllAsync
     name: GetAllAsync
-    href: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.html#ApplicationDevelopmentProject_Data_Repository_IBooseProgramRepository_GetAllAsync
+    href: BooseWebApp.Server.Models.IBooseProgramRepository.html#BooseWebApp_Server_Models_IBooseProgramRepository_GetAllAsync
   - name: (
   - name: )
-- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{ApplicationDevelopmentProject.Data.Models.BooseProgram}}
-  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{ApplicationDevelopmentProject.Data.Models.BooseProgram}}
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{BooseWebApp.Server.Models.BooseProgram}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{BooseWebApp.Server.Models.BooseProgram}}
   parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
   href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<List<BooseProgram>>
   nameWithType: Task<List<BooseProgram>>
-  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<ApplicationDevelopmentProject.Data.Models.BooseProgram>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<BooseWebApp.Server.Models.BooseProgram>>
   nameWithType.vb: Task(Of List(Of BooseProgram))
-  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of ApplicationDevelopmentProject.Data.Models.BooseProgram))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of BooseWebApp.Server.Models.BooseProgram))
   name.vb: Task(Of List(Of BooseProgram))
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
@@ -663,9 +663,9 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-  - uid: ApplicationDevelopmentProject.Data.Models.BooseProgram
+  - uid: BooseWebApp.Server.Models.BooseProgram
     name: BooseProgram
-    href: ApplicationDevelopmentProject.Data.Models.BooseProgram.html
+    href: BooseWebApp.Server.Models.BooseProgram.html
   - name: '>'
   - name: '>'
   spec.vb:
@@ -683,9 +683,9 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: ApplicationDevelopmentProject.Data.Models.BooseProgram
+  - uid: BooseWebApp.Server.Models.BooseProgram
     name: BooseProgram
-    href: ApplicationDevelopmentProject.Data.Models.BooseProgram.html
+    href: BooseWebApp.Server.Models.BooseProgram.html
   - name: )
   - name: )
 - uid: System.Threading.Tasks.Task`1
@@ -759,21 +759,21 @@ references:
   name: GetByIdAsync
   nameWithType: BooseProgramRepository.GetByIdAsync
   fullName: BooseWebApp.Server.Repositories.BooseProgramRepository.GetByIdAsync
-- uid: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.GetByIdAsync(System.Int32)
-  commentId: M:ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.GetByIdAsync(System.Int32)
-  parent: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository
+- uid: BooseWebApp.Server.Models.IBooseProgramRepository.GetByIdAsync(System.Int32)
+  commentId: M:BooseWebApp.Server.Models.IBooseProgramRepository.GetByIdAsync(System.Int32)
+  parent: BooseWebApp.Server.Models.IBooseProgramRepository
   isExternal: true
-  href: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.html#ApplicationDevelopmentProject_Data_Repository_IBooseProgramRepository_GetByIdAsync_System_Int32_
+  href: BooseWebApp.Server.Models.IBooseProgramRepository.html#BooseWebApp_Server_Models_IBooseProgramRepository_GetByIdAsync_System_Int32_
   name: GetByIdAsync(int)
   nameWithType: IBooseProgramRepository.GetByIdAsync(int)
-  fullName: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.GetByIdAsync(int)
+  fullName: BooseWebApp.Server.Models.IBooseProgramRepository.GetByIdAsync(int)
   nameWithType.vb: IBooseProgramRepository.GetByIdAsync(Integer)
-  fullName.vb: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.GetByIdAsync(Integer)
+  fullName.vb: BooseWebApp.Server.Models.IBooseProgramRepository.GetByIdAsync(Integer)
   name.vb: GetByIdAsync(Integer)
   spec.csharp:
-  - uid: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.GetByIdAsync(System.Int32)
+  - uid: BooseWebApp.Server.Models.IBooseProgramRepository.GetByIdAsync(System.Int32)
     name: GetByIdAsync
-    href: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.html#ApplicationDevelopmentProject_Data_Repository_IBooseProgramRepository_GetByIdAsync_System_Int32_
+    href: BooseWebApp.Server.Models.IBooseProgramRepository.html#BooseWebApp_Server_Models_IBooseProgramRepository_GetByIdAsync_System_Int32_
   - name: (
   - uid: System.Int32
     name: int
@@ -781,9 +781,9 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
   spec.vb:
-  - uid: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.GetByIdAsync(System.Int32)
+  - uid: BooseWebApp.Server.Models.IBooseProgramRepository.GetByIdAsync(System.Int32)
     name: GetByIdAsync
-    href: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.html#ApplicationDevelopmentProject_Data_Repository_IBooseProgramRepository_GetByIdAsync_System_Int32_
+    href: BooseWebApp.Server.Models.IBooseProgramRepository.html#BooseWebApp_Server_Models_IBooseProgramRepository_GetByIdAsync_System_Int32_
   - name: (
   - uid: System.Int32
     name: Integer
@@ -801,16 +801,16 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: System.Threading.Tasks.Task{ApplicationDevelopmentProject.Data.Models.BooseProgram}
-  commentId: T:System.Threading.Tasks.Task{ApplicationDevelopmentProject.Data.Models.BooseProgram}
+- uid: System.Threading.Tasks.Task{BooseWebApp.Server.Models.BooseProgram}
+  commentId: T:System.Threading.Tasks.Task{BooseWebApp.Server.Models.BooseProgram}
   parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
   href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<BooseProgram>
   nameWithType: Task<BooseProgram>
-  fullName: System.Threading.Tasks.Task<ApplicationDevelopmentProject.Data.Models.BooseProgram>
+  fullName: System.Threading.Tasks.Task<BooseWebApp.Server.Models.BooseProgram>
   nameWithType.vb: Task(Of BooseProgram)
-  fullName.vb: System.Threading.Tasks.Task(Of ApplicationDevelopmentProject.Data.Models.BooseProgram)
+  fullName.vb: System.Threading.Tasks.Task(Of BooseWebApp.Server.Models.BooseProgram)
   name.vb: Task(Of BooseProgram)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
@@ -818,9 +818,9 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-  - uid: ApplicationDevelopmentProject.Data.Models.BooseProgram
+  - uid: BooseWebApp.Server.Models.BooseProgram
     name: BooseProgram
-    href: ApplicationDevelopmentProject.Data.Models.BooseProgram.html
+    href: BooseWebApp.Server.Models.BooseProgram.html
   - name: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
@@ -830,48 +830,48 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: ApplicationDevelopmentProject.Data.Models.BooseProgram
+  - uid: BooseWebApp.Server.Models.BooseProgram
     name: BooseProgram
-    href: ApplicationDevelopmentProject.Data.Models.BooseProgram.html
+    href: BooseWebApp.Server.Models.BooseProgram.html
   - name: )
 - uid: BooseWebApp.Server.Repositories.BooseProgramRepository.AddAsync*
   commentId: Overload:BooseWebApp.Server.Repositories.BooseProgramRepository.AddAsync
-  href: BooseWebApp.Server.Repositories.BooseProgramRepository.html#BooseWebApp_Server_Repositories_BooseProgramRepository_AddAsync_ApplicationDevelopmentProject_Data_Models_BooseProgram_
+  href: BooseWebApp.Server.Repositories.BooseProgramRepository.html#BooseWebApp_Server_Repositories_BooseProgramRepository_AddAsync_BooseWebApp_Server_Models_BooseProgram_
   name: AddAsync
   nameWithType: BooseProgramRepository.AddAsync
   fullName: BooseWebApp.Server.Repositories.BooseProgramRepository.AddAsync
-- uid: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.AddAsync(ApplicationDevelopmentProject.Data.Models.BooseProgram)
-  commentId: M:ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.AddAsync(ApplicationDevelopmentProject.Data.Models.BooseProgram)
-  parent: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository
-  href: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.html#ApplicationDevelopmentProject_Data_Repository_IBooseProgramRepository_AddAsync_ApplicationDevelopmentProject_Data_Models_BooseProgram_
+- uid: BooseWebApp.Server.Models.IBooseProgramRepository.AddAsync(BooseWebApp.Server.Models.BooseProgram)
+  commentId: M:BooseWebApp.Server.Models.IBooseProgramRepository.AddAsync(BooseWebApp.Server.Models.BooseProgram)
+  parent: BooseWebApp.Server.Models.IBooseProgramRepository
+  href: BooseWebApp.Server.Models.IBooseProgramRepository.html#BooseWebApp_Server_Models_IBooseProgramRepository_AddAsync_BooseWebApp_Server_Models_BooseProgram_
   name: AddAsync(BooseProgram)
   nameWithType: IBooseProgramRepository.AddAsync(BooseProgram)
-  fullName: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.AddAsync(ApplicationDevelopmentProject.Data.Models.BooseProgram)
+  fullName: BooseWebApp.Server.Models.IBooseProgramRepository.AddAsync(BooseWebApp.Server.Models.BooseProgram)
   spec.csharp:
-  - uid: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.AddAsync(ApplicationDevelopmentProject.Data.Models.BooseProgram)
+  - uid: BooseWebApp.Server.Models.IBooseProgramRepository.AddAsync(BooseWebApp.Server.Models.BooseProgram)
     name: AddAsync
-    href: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.html#ApplicationDevelopmentProject_Data_Repository_IBooseProgramRepository_AddAsync_ApplicationDevelopmentProject_Data_Models_BooseProgram_
+    href: BooseWebApp.Server.Models.IBooseProgramRepository.html#BooseWebApp_Server_Models_IBooseProgramRepository_AddAsync_BooseWebApp_Server_Models_BooseProgram_
   - name: (
-  - uid: ApplicationDevelopmentProject.Data.Models.BooseProgram
+  - uid: BooseWebApp.Server.Models.BooseProgram
     name: BooseProgram
-    href: ApplicationDevelopmentProject.Data.Models.BooseProgram.html
+    href: BooseWebApp.Server.Models.BooseProgram.html
   - name: )
   spec.vb:
-  - uid: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.AddAsync(ApplicationDevelopmentProject.Data.Models.BooseProgram)
+  - uid: BooseWebApp.Server.Models.IBooseProgramRepository.AddAsync(BooseWebApp.Server.Models.BooseProgram)
     name: AddAsync
-    href: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.html#ApplicationDevelopmentProject_Data_Repository_IBooseProgramRepository_AddAsync_ApplicationDevelopmentProject_Data_Models_BooseProgram_
+    href: BooseWebApp.Server.Models.IBooseProgramRepository.html#BooseWebApp_Server_Models_IBooseProgramRepository_AddAsync_BooseWebApp_Server_Models_BooseProgram_
   - name: (
-  - uid: ApplicationDevelopmentProject.Data.Models.BooseProgram
+  - uid: BooseWebApp.Server.Models.BooseProgram
     name: BooseProgram
-    href: ApplicationDevelopmentProject.Data.Models.BooseProgram.html
+    href: BooseWebApp.Server.Models.BooseProgram.html
   - name: )
-- uid: ApplicationDevelopmentProject.Data.Models.BooseProgram
-  commentId: T:ApplicationDevelopmentProject.Data.Models.BooseProgram
-  parent: ApplicationDevelopmentProject.Data.Models
-  href: ApplicationDevelopmentProject.Data.Models.BooseProgram.html
+- uid: BooseWebApp.Server.Models.BooseProgram
+  commentId: T:BooseWebApp.Server.Models.BooseProgram
+  parent: BooseWebApp.Server.Models
+  href: BooseWebApp.Server.Models.BooseProgram.html
   name: BooseProgram
   nameWithType: BooseProgram
-  fullName: ApplicationDevelopmentProject.Data.Models.BooseProgram
+  fullName: BooseWebApp.Server.Models.BooseProgram
 - uid: System.Threading.Tasks.Task
   commentId: T:System.Threading.Tasks.Task
   parent: System.Threading.Tasks
@@ -880,66 +880,36 @@ references:
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
-- uid: ApplicationDevelopmentProject.Data.Models
-  commentId: N:ApplicationDevelopmentProject.Data.Models
-  href: ApplicationDevelopmentProject.html
-  name: ApplicationDevelopmentProject.Data.Models
-  nameWithType: ApplicationDevelopmentProject.Data.Models
-  fullName: ApplicationDevelopmentProject.Data.Models
-  spec.csharp:
-  - uid: ApplicationDevelopmentProject
-    name: ApplicationDevelopmentProject
-    href: ApplicationDevelopmentProject.html
-  - name: .
-  - uid: ApplicationDevelopmentProject.Data
-    name: Data
-    href: ApplicationDevelopmentProject.Data.html
-  - name: .
-  - uid: ApplicationDevelopmentProject.Data.Models
-    name: Models
-    href: ApplicationDevelopmentProject.Data.Models.html
-  spec.vb:
-  - uid: ApplicationDevelopmentProject
-    name: ApplicationDevelopmentProject
-    href: ApplicationDevelopmentProject.html
-  - name: .
-  - uid: ApplicationDevelopmentProject.Data
-    name: Data
-    href: ApplicationDevelopmentProject.Data.html
-  - name: .
-  - uid: ApplicationDevelopmentProject.Data.Models
-    name: Models
-    href: ApplicationDevelopmentProject.Data.Models.html
 - uid: BooseWebApp.Server.Repositories.BooseProgramRepository.UpdateAsync*
   commentId: Overload:BooseWebApp.Server.Repositories.BooseProgramRepository.UpdateAsync
-  href: BooseWebApp.Server.Repositories.BooseProgramRepository.html#BooseWebApp_Server_Repositories_BooseProgramRepository_UpdateAsync_ApplicationDevelopmentProject_Data_Models_BooseProgram_
+  href: BooseWebApp.Server.Repositories.BooseProgramRepository.html#BooseWebApp_Server_Repositories_BooseProgramRepository_UpdateAsync_BooseWebApp_Server_Models_BooseProgram_
   name: UpdateAsync
   nameWithType: BooseProgramRepository.UpdateAsync
   fullName: BooseWebApp.Server.Repositories.BooseProgramRepository.UpdateAsync
-- uid: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.UpdateAsync(ApplicationDevelopmentProject.Data.Models.BooseProgram)
-  commentId: M:ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.UpdateAsync(ApplicationDevelopmentProject.Data.Models.BooseProgram)
-  parent: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository
-  href: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.html#ApplicationDevelopmentProject_Data_Repository_IBooseProgramRepository_UpdateAsync_ApplicationDevelopmentProject_Data_Models_BooseProgram_
+- uid: BooseWebApp.Server.Models.IBooseProgramRepository.UpdateAsync(BooseWebApp.Server.Models.BooseProgram)
+  commentId: M:BooseWebApp.Server.Models.IBooseProgramRepository.UpdateAsync(BooseWebApp.Server.Models.BooseProgram)
+  parent: BooseWebApp.Server.Models.IBooseProgramRepository
+  href: BooseWebApp.Server.Models.IBooseProgramRepository.html#BooseWebApp_Server_Models_IBooseProgramRepository_UpdateAsync_BooseWebApp_Server_Models_BooseProgram_
   name: UpdateAsync(BooseProgram)
   nameWithType: IBooseProgramRepository.UpdateAsync(BooseProgram)
-  fullName: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.UpdateAsync(ApplicationDevelopmentProject.Data.Models.BooseProgram)
+  fullName: BooseWebApp.Server.Models.IBooseProgramRepository.UpdateAsync(BooseWebApp.Server.Models.BooseProgram)
   spec.csharp:
-  - uid: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.UpdateAsync(ApplicationDevelopmentProject.Data.Models.BooseProgram)
+  - uid: BooseWebApp.Server.Models.IBooseProgramRepository.UpdateAsync(BooseWebApp.Server.Models.BooseProgram)
     name: UpdateAsync
-    href: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.html#ApplicationDevelopmentProject_Data_Repository_IBooseProgramRepository_UpdateAsync_ApplicationDevelopmentProject_Data_Models_BooseProgram_
+    href: BooseWebApp.Server.Models.IBooseProgramRepository.html#BooseWebApp_Server_Models_IBooseProgramRepository_UpdateAsync_BooseWebApp_Server_Models_BooseProgram_
   - name: (
-  - uid: ApplicationDevelopmentProject.Data.Models.BooseProgram
+  - uid: BooseWebApp.Server.Models.BooseProgram
     name: BooseProgram
-    href: ApplicationDevelopmentProject.Data.Models.BooseProgram.html
+    href: BooseWebApp.Server.Models.BooseProgram.html
   - name: )
   spec.vb:
-  - uid: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.UpdateAsync(ApplicationDevelopmentProject.Data.Models.BooseProgram)
+  - uid: BooseWebApp.Server.Models.IBooseProgramRepository.UpdateAsync(BooseWebApp.Server.Models.BooseProgram)
     name: UpdateAsync
-    href: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.html#ApplicationDevelopmentProject_Data_Repository_IBooseProgramRepository_UpdateAsync_ApplicationDevelopmentProject_Data_Models_BooseProgram_
+    href: BooseWebApp.Server.Models.IBooseProgramRepository.html#BooseWebApp_Server_Models_IBooseProgramRepository_UpdateAsync_BooseWebApp_Server_Models_BooseProgram_
   - name: (
-  - uid: ApplicationDevelopmentProject.Data.Models.BooseProgram
+  - uid: BooseWebApp.Server.Models.BooseProgram
     name: BooseProgram
-    href: ApplicationDevelopmentProject.Data.Models.BooseProgram.html
+    href: BooseWebApp.Server.Models.BooseProgram.html
   - name: )
 - uid: BooseWebApp.Server.Repositories.BooseProgramRepository.DeleteAsync*
   commentId: Overload:BooseWebApp.Server.Repositories.BooseProgramRepository.DeleteAsync
@@ -947,21 +917,21 @@ references:
   name: DeleteAsync
   nameWithType: BooseProgramRepository.DeleteAsync
   fullName: BooseWebApp.Server.Repositories.BooseProgramRepository.DeleteAsync
-- uid: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.DeleteAsync(System.Int32)
-  commentId: M:ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.DeleteAsync(System.Int32)
-  parent: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository
+- uid: BooseWebApp.Server.Models.IBooseProgramRepository.DeleteAsync(System.Int32)
+  commentId: M:BooseWebApp.Server.Models.IBooseProgramRepository.DeleteAsync(System.Int32)
+  parent: BooseWebApp.Server.Models.IBooseProgramRepository
   isExternal: true
-  href: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.html#ApplicationDevelopmentProject_Data_Repository_IBooseProgramRepository_DeleteAsync_System_Int32_
+  href: BooseWebApp.Server.Models.IBooseProgramRepository.html#BooseWebApp_Server_Models_IBooseProgramRepository_DeleteAsync_System_Int32_
   name: DeleteAsync(int)
   nameWithType: IBooseProgramRepository.DeleteAsync(int)
-  fullName: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.DeleteAsync(int)
+  fullName: BooseWebApp.Server.Models.IBooseProgramRepository.DeleteAsync(int)
   nameWithType.vb: IBooseProgramRepository.DeleteAsync(Integer)
-  fullName.vb: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.DeleteAsync(Integer)
+  fullName.vb: BooseWebApp.Server.Models.IBooseProgramRepository.DeleteAsync(Integer)
   name.vb: DeleteAsync(Integer)
   spec.csharp:
-  - uid: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.DeleteAsync(System.Int32)
+  - uid: BooseWebApp.Server.Models.IBooseProgramRepository.DeleteAsync(System.Int32)
     name: DeleteAsync
-    href: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.html#ApplicationDevelopmentProject_Data_Repository_IBooseProgramRepository_DeleteAsync_System_Int32_
+    href: BooseWebApp.Server.Models.IBooseProgramRepository.html#BooseWebApp_Server_Models_IBooseProgramRepository_DeleteAsync_System_Int32_
   - name: (
   - uid: System.Int32
     name: int
@@ -969,9 +939,9 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
   spec.vb:
-  - uid: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.DeleteAsync(System.Int32)
+  - uid: BooseWebApp.Server.Models.IBooseProgramRepository.DeleteAsync(System.Int32)
     name: DeleteAsync
-    href: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.html#ApplicationDevelopmentProject_Data_Repository_IBooseProgramRepository_DeleteAsync_System_Int32_
+    href: BooseWebApp.Server.Models.IBooseProgramRepository.html#BooseWebApp_Server_Models_IBooseProgramRepository_DeleteAsync_System_Int32_
   - name: (
   - uid: System.Int32
     name: Integer
@@ -984,21 +954,21 @@ references:
   name: GetByProgramNameAsync
   nameWithType: BooseProgramRepository.GetByProgramNameAsync
   fullName: BooseWebApp.Server.Repositories.BooseProgramRepository.GetByProgramNameAsync
-- uid: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.GetByProgramNameAsync(System.String)
-  commentId: M:ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.GetByProgramNameAsync(System.String)
-  parent: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository
+- uid: BooseWebApp.Server.Models.IBooseProgramRepository.GetByProgramNameAsync(System.String)
+  commentId: M:BooseWebApp.Server.Models.IBooseProgramRepository.GetByProgramNameAsync(System.String)
+  parent: BooseWebApp.Server.Models.IBooseProgramRepository
   isExternal: true
-  href: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.html#ApplicationDevelopmentProject_Data_Repository_IBooseProgramRepository_GetByProgramNameAsync_System_String_
+  href: BooseWebApp.Server.Models.IBooseProgramRepository.html#BooseWebApp_Server_Models_IBooseProgramRepository_GetByProgramNameAsync_System_String_
   name: GetByProgramNameAsync(string)
   nameWithType: IBooseProgramRepository.GetByProgramNameAsync(string)
-  fullName: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.GetByProgramNameAsync(string)
+  fullName: BooseWebApp.Server.Models.IBooseProgramRepository.GetByProgramNameAsync(string)
   nameWithType.vb: IBooseProgramRepository.GetByProgramNameAsync(String)
-  fullName.vb: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.GetByProgramNameAsync(String)
+  fullName.vb: BooseWebApp.Server.Models.IBooseProgramRepository.GetByProgramNameAsync(String)
   name.vb: GetByProgramNameAsync(String)
   spec.csharp:
-  - uid: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.GetByProgramNameAsync(System.String)
+  - uid: BooseWebApp.Server.Models.IBooseProgramRepository.GetByProgramNameAsync(System.String)
     name: GetByProgramNameAsync
-    href: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.html#ApplicationDevelopmentProject_Data_Repository_IBooseProgramRepository_GetByProgramNameAsync_System_String_
+    href: BooseWebApp.Server.Models.IBooseProgramRepository.html#BooseWebApp_Server_Models_IBooseProgramRepository_GetByProgramNameAsync_System_String_
   - name: (
   - uid: System.String
     name: string
@@ -1006,9 +976,9 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
   spec.vb:
-  - uid: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.GetByProgramNameAsync(System.String)
+  - uid: BooseWebApp.Server.Models.IBooseProgramRepository.GetByProgramNameAsync(System.String)
     name: GetByProgramNameAsync
-    href: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository.html#ApplicationDevelopmentProject_Data_Repository_IBooseProgramRepository_GetByProgramNameAsync_System_String_
+    href: BooseWebApp.Server.Models.IBooseProgramRepository.html#BooseWebApp_Server_Models_IBooseProgramRepository_GetByProgramNameAsync_System_String_
   - name: (
   - uid: System.String
     name: String

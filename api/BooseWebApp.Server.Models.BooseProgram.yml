@@ -1,0 +1,498 @@
+### YamlMime:ManagedReference
+items:
+- uid: BooseWebApp.Server.Models.BooseProgram
+  commentId: T:BooseWebApp.Server.Models.BooseProgram
+  id: BooseProgram
+  parent: BooseWebApp.Server.Models
+  children:
+  - BooseWebApp.Server.Models.BooseProgram.Program_Code
+  - BooseWebApp.Server.Models.BooseProgram.Program_Name
+  - BooseWebApp.Server.Models.BooseProgram.Program_id
+  langs:
+  - csharp
+  - vb
+  name: BooseProgram
+  nameWithType: BooseProgram
+  fullName: BooseWebApp.Server.Models.BooseProgram
+  type: Class
+  source:
+    remote:
+      path: ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Models/BooseProgram.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: BooseProgram
+    path: ../ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Models/BooseProgram.cs
+    startLine: 14
+  assemblies:
+  - BooseWebApp.Server
+  namespace: BooseWebApp.Server.Models
+  summary: Entity to store boose programs in the database
+  example: []
+  syntax:
+    content: >-
+      [Table("BooseProgram")]
+
+      public class BooseProgram
+    content.vb: >-
+      <Table("BooseProgram")>
+
+      Public Class BooseProgram
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: SQLite.TableAttribute
+    ctor: SQLite.TableAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: BooseProgram
+- uid: BooseWebApp.Server.Models.BooseProgram.Program_id
+  commentId: P:BooseWebApp.Server.Models.BooseProgram.Program_id
+  id: Program_id
+  parent: BooseWebApp.Server.Models.BooseProgram
+  langs:
+  - csharp
+  - vb
+  name: Program_id
+  nameWithType: BooseProgram.Program_id
+  fullName: BooseWebApp.Server.Models.BooseProgram.Program_id
+  type: Property
+  source:
+    remote:
+      path: ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Models/BooseProgram.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: Program_id
+    path: ../ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Models/BooseProgram.cs
+    startLine: 17
+  assemblies:
+  - BooseWebApp.Server
+  namespace: BooseWebApp.Server.Models
+  syntax:
+    content: >-
+      [PrimaryKey]
+
+      [AutoIncrement]
+
+      public int Program_id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <PrimaryKey>
+
+      <AutoIncrement>
+
+      Public Property Program_id As Integer
+  overload: BooseWebApp.Server.Models.BooseProgram.Program_id*
+  attributes:
+  - type: SQLite.PrimaryKeyAttribute
+    ctor: SQLite.PrimaryKeyAttribute.#ctor
+    arguments: []
+  - type: SQLite.AutoIncrementAttribute
+    ctor: SQLite.AutoIncrementAttribute.#ctor
+    arguments: []
+- uid: BooseWebApp.Server.Models.BooseProgram.Program_Name
+  commentId: P:BooseWebApp.Server.Models.BooseProgram.Program_Name
+  id: Program_Name
+  parent: BooseWebApp.Server.Models.BooseProgram
+  langs:
+  - csharp
+  - vb
+  name: Program_Name
+  nameWithType: BooseProgram.Program_Name
+  fullName: BooseWebApp.Server.Models.BooseProgram.Program_Name
+  type: Property
+  source:
+    remote:
+      path: ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Models/BooseProgram.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: Program_Name
+    path: ../ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Models/BooseProgram.cs
+    startLine: 21
+  assemblies:
+  - BooseWebApp.Server
+  namespace: BooseWebApp.Server.Models
+  syntax:
+    content: >-
+      [NotNull]
+
+      [MaxLength(100)]
+
+      public string Program_Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <NotNull>
+
+      <MaxLength(100)>
+
+      Public Property Program_Name As String
+  overload: BooseWebApp.Server.Models.BooseProgram.Program_Name*
+  attributes:
+  - type: SQLite.NotNullAttribute
+    ctor: SQLite.NotNullAttribute.#ctor
+    arguments: []
+  - type: SQLite.MaxLengthAttribute
+    ctor: SQLite.MaxLengthAttribute.#ctor(System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 100
+- uid: BooseWebApp.Server.Models.BooseProgram.Program_Code
+  commentId: P:BooseWebApp.Server.Models.BooseProgram.Program_Code
+  id: Program_Code
+  parent: BooseWebApp.Server.Models.BooseProgram
+  langs:
+  - csharp
+  - vb
+  name: Program_Code
+  nameWithType: BooseProgram.Program_Code
+  fullName: BooseWebApp.Server.Models.BooseProgram.Program_Code
+  type: Property
+  source:
+    remote:
+      path: ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Models/BooseProgram.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: Program_Code
+    path: ../ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Models/BooseProgram.cs
+    startLine: 25
+  assemblies:
+  - BooseWebApp.Server
+  namespace: BooseWebApp.Server.Models
+  syntax:
+    content: >-
+      [MaxLength(4000)]
+
+      public string Program_Code { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <MaxLength(4000)>
+
+      Public Property Program_Code As String
+  overload: BooseWebApp.Server.Models.BooseProgram.Program_Code*
+  attributes:
+  - type: SQLite.MaxLengthAttribute
+    ctor: SQLite.MaxLengthAttribute.#ctor(System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 4000
+references:
+- uid: BooseWebApp.Server.Models
+  commentId: N:BooseWebApp.Server.Models
+  href: BooseWebApp.html
+  name: BooseWebApp.Server.Models
+  nameWithType: BooseWebApp.Server.Models
+  fullName: BooseWebApp.Server.Models
+  spec.csharp:
+  - uid: BooseWebApp
+    name: BooseWebApp
+    href: BooseWebApp.html
+  - name: .
+  - uid: BooseWebApp.Server
+    name: Server
+    href: BooseWebApp.Server.html
+  - name: .
+  - uid: BooseWebApp.Server.Models
+    name: Models
+    href: BooseWebApp.Server.Models.html
+  spec.vb:
+  - uid: BooseWebApp
+    name: BooseWebApp
+    href: BooseWebApp.html
+  - name: .
+  - uid: BooseWebApp.Server
+    name: Server
+    href: BooseWebApp.Server.html
+  - name: .
+  - uid: BooseWebApp.Server.Models
+    name: Models
+    href: BooseWebApp.Server.Models.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BooseWebApp.Server.Models.BooseProgram.Program_id*
+  commentId: Overload:BooseWebApp.Server.Models.BooseProgram.Program_id
+  href: BooseWebApp.Server.Models.BooseProgram.html#BooseWebApp_Server_Models_BooseProgram_Program_id
+  name: Program_id
+  nameWithType: BooseProgram.Program_id
+  fullName: BooseWebApp.Server.Models.BooseProgram.Program_id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: BooseWebApp.Server.Models.BooseProgram.Program_Name*
+  commentId: Overload:BooseWebApp.Server.Models.BooseProgram.Program_Name
+  href: BooseWebApp.Server.Models.BooseProgram.html#BooseWebApp_Server_Models_BooseProgram_Program_Name
+  name: Program_Name
+  nameWithType: BooseProgram.Program_Name
+  fullName: BooseWebApp.Server.Models.BooseProgram.Program_Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: BooseWebApp.Server.Models.BooseProgram.Program_Code*
+  commentId: Overload:BooseWebApp.Server.Models.BooseProgram.Program_Code
+  href: BooseWebApp.Server.Models.BooseProgram.html#BooseWebApp_Server_Models_BooseProgram_Program_Code
+  name: Program_Code
+  nameWithType: BooseProgram.Program_Code
+  fullName: BooseWebApp.Server.Models.BooseProgram.Program_Code

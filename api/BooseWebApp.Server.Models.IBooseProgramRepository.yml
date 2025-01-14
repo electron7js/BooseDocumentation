@@ -1,0 +1,484 @@
+### YamlMime:ManagedReference
+items:
+- uid: BooseWebApp.Server.Models.IBooseProgramRepository
+  commentId: T:BooseWebApp.Server.Models.IBooseProgramRepository
+  id: IBooseProgramRepository
+  parent: BooseWebApp.Server.Models
+  children:
+  - BooseWebApp.Server.Models.IBooseProgramRepository.AddAsync(BooseWebApp.Server.Models.BooseProgram)
+  - BooseWebApp.Server.Models.IBooseProgramRepository.DeleteAsync(System.Int32)
+  - BooseWebApp.Server.Models.IBooseProgramRepository.GetAllAsync
+  - BooseWebApp.Server.Models.IBooseProgramRepository.GetByIdAsync(System.Int32)
+  - BooseWebApp.Server.Models.IBooseProgramRepository.GetByProgramNameAsync(System.String)
+  - BooseWebApp.Server.Models.IBooseProgramRepository.UpdateAsync(BooseWebApp.Server.Models.BooseProgram)
+  langs:
+  - csharp
+  - vb
+  name: IBooseProgramRepository
+  nameWithType: IBooseProgramRepository
+  fullName: BooseWebApp.Server.Models.IBooseProgramRepository
+  type: Interface
+  source:
+    remote:
+      path: ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/IBooseProgramRepository.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: IBooseProgramRepository
+    path: ../ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/IBooseProgramRepository.cs
+    startLine: 12
+  assemblies:
+  - BooseWebApp.Server
+  namespace: BooseWebApp.Server.Models
+  summary: Interface for the Boose Programs Repository
+  example: []
+  syntax:
+    content: public interface IBooseProgramRepository
+    content.vb: Public Interface IBooseProgramRepository
+- uid: BooseWebApp.Server.Models.IBooseProgramRepository.GetAllAsync
+  commentId: M:BooseWebApp.Server.Models.IBooseProgramRepository.GetAllAsync
+  id: GetAllAsync
+  parent: BooseWebApp.Server.Models.IBooseProgramRepository
+  langs:
+  - csharp
+  - vb
+  name: GetAllAsync()
+  nameWithType: IBooseProgramRepository.GetAllAsync()
+  fullName: BooseWebApp.Server.Models.IBooseProgramRepository.GetAllAsync()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/IBooseProgramRepository.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: GetAllAsync
+    path: ../ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/IBooseProgramRepository.cs
+    startLine: 15
+  assemblies:
+  - BooseWebApp.Server
+  namespace: BooseWebApp.Server.Models
+  syntax:
+    content: Task<List<BooseProgram>> GetAllAsync()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{BooseWebApp.Server.Models.BooseProgram}}
+    content.vb: Function GetAllAsync() As Task(Of List(Of BooseProgram))
+  overload: BooseWebApp.Server.Models.IBooseProgramRepository.GetAllAsync*
+- uid: BooseWebApp.Server.Models.IBooseProgramRepository.GetByIdAsync(System.Int32)
+  commentId: M:BooseWebApp.Server.Models.IBooseProgramRepository.GetByIdAsync(System.Int32)
+  id: GetByIdAsync(System.Int32)
+  parent: BooseWebApp.Server.Models.IBooseProgramRepository
+  langs:
+  - csharp
+  - vb
+  name: GetByIdAsync(int)
+  nameWithType: IBooseProgramRepository.GetByIdAsync(int)
+  fullName: BooseWebApp.Server.Models.IBooseProgramRepository.GetByIdAsync(int)
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/IBooseProgramRepository.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: GetByIdAsync
+    path: ../ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/IBooseProgramRepository.cs
+    startLine: 16
+  assemblies:
+  - BooseWebApp.Server
+  namespace: BooseWebApp.Server.Models
+  syntax:
+    content: Task<BooseProgram> GetByIdAsync(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: System.Threading.Tasks.Task{BooseWebApp.Server.Models.BooseProgram}
+    content.vb: Function GetByIdAsync(id As Integer) As Task(Of BooseProgram)
+  overload: BooseWebApp.Server.Models.IBooseProgramRepository.GetByIdAsync*
+  nameWithType.vb: IBooseProgramRepository.GetByIdAsync(Integer)
+  fullName.vb: BooseWebApp.Server.Models.IBooseProgramRepository.GetByIdAsync(Integer)
+  name.vb: GetByIdAsync(Integer)
+- uid: BooseWebApp.Server.Models.IBooseProgramRepository.AddAsync(BooseWebApp.Server.Models.BooseProgram)
+  commentId: M:BooseWebApp.Server.Models.IBooseProgramRepository.AddAsync(BooseWebApp.Server.Models.BooseProgram)
+  id: AddAsync(BooseWebApp.Server.Models.BooseProgram)
+  parent: BooseWebApp.Server.Models.IBooseProgramRepository
+  langs:
+  - csharp
+  - vb
+  name: AddAsync(BooseProgram)
+  nameWithType: IBooseProgramRepository.AddAsync(BooseProgram)
+  fullName: BooseWebApp.Server.Models.IBooseProgramRepository.AddAsync(BooseWebApp.Server.Models.BooseProgram)
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/IBooseProgramRepository.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: AddAsync
+    path: ../ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/IBooseProgramRepository.cs
+    startLine: 17
+  assemblies:
+  - BooseWebApp.Server
+  namespace: BooseWebApp.Server.Models
+  syntax:
+    content: Task AddAsync(BooseProgram user)
+    parameters:
+    - id: user
+      type: BooseWebApp.Server.Models.BooseProgram
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function AddAsync(user As BooseProgram) As Task
+  overload: BooseWebApp.Server.Models.IBooseProgramRepository.AddAsync*
+- uid: BooseWebApp.Server.Models.IBooseProgramRepository.UpdateAsync(BooseWebApp.Server.Models.BooseProgram)
+  commentId: M:BooseWebApp.Server.Models.IBooseProgramRepository.UpdateAsync(BooseWebApp.Server.Models.BooseProgram)
+  id: UpdateAsync(BooseWebApp.Server.Models.BooseProgram)
+  parent: BooseWebApp.Server.Models.IBooseProgramRepository
+  langs:
+  - csharp
+  - vb
+  name: UpdateAsync(BooseProgram)
+  nameWithType: IBooseProgramRepository.UpdateAsync(BooseProgram)
+  fullName: BooseWebApp.Server.Models.IBooseProgramRepository.UpdateAsync(BooseWebApp.Server.Models.BooseProgram)
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/IBooseProgramRepository.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: UpdateAsync
+    path: ../ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/IBooseProgramRepository.cs
+    startLine: 18
+  assemblies:
+  - BooseWebApp.Server
+  namespace: BooseWebApp.Server.Models
+  syntax:
+    content: Task UpdateAsync(BooseProgram user)
+    parameters:
+    - id: user
+      type: BooseWebApp.Server.Models.BooseProgram
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function UpdateAsync(user As BooseProgram) As Task
+  overload: BooseWebApp.Server.Models.IBooseProgramRepository.UpdateAsync*
+- uid: BooseWebApp.Server.Models.IBooseProgramRepository.DeleteAsync(System.Int32)
+  commentId: M:BooseWebApp.Server.Models.IBooseProgramRepository.DeleteAsync(System.Int32)
+  id: DeleteAsync(System.Int32)
+  parent: BooseWebApp.Server.Models.IBooseProgramRepository
+  langs:
+  - csharp
+  - vb
+  name: DeleteAsync(int)
+  nameWithType: IBooseProgramRepository.DeleteAsync(int)
+  fullName: BooseWebApp.Server.Models.IBooseProgramRepository.DeleteAsync(int)
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/IBooseProgramRepository.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: DeleteAsync
+    path: ../ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/IBooseProgramRepository.cs
+    startLine: 19
+  assemblies:
+  - BooseWebApp.Server
+  namespace: BooseWebApp.Server.Models
+  syntax:
+    content: Task DeleteAsync(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteAsync(id As Integer) As Task
+  overload: BooseWebApp.Server.Models.IBooseProgramRepository.DeleteAsync*
+  nameWithType.vb: IBooseProgramRepository.DeleteAsync(Integer)
+  fullName.vb: BooseWebApp.Server.Models.IBooseProgramRepository.DeleteAsync(Integer)
+  name.vb: DeleteAsync(Integer)
+- uid: BooseWebApp.Server.Models.IBooseProgramRepository.GetByProgramNameAsync(System.String)
+  commentId: M:BooseWebApp.Server.Models.IBooseProgramRepository.GetByProgramNameAsync(System.String)
+  id: GetByProgramNameAsync(System.String)
+  parent: BooseWebApp.Server.Models.IBooseProgramRepository
+  langs:
+  - csharp
+  - vb
+  name: GetByProgramNameAsync(string)
+  nameWithType: IBooseProgramRepository.GetByProgramNameAsync(string)
+  fullName: BooseWebApp.Server.Models.IBooseProgramRepository.GetByProgramNameAsync(string)
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/IBooseProgramRepository.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: GetByProgramNameAsync
+    path: ../ASE Assignment Bijesh/BooseWebApp/BooseWebApp.Server/Repositories/IBooseProgramRepository.cs
+    startLine: 20
+  assemblies:
+  - BooseWebApp.Server
+  namespace: BooseWebApp.Server.Models
+  syntax:
+    content: Task<BooseProgram> GetByProgramNameAsync(string programName)
+    parameters:
+    - id: programName
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{BooseWebApp.Server.Models.BooseProgram}
+    content.vb: Function GetByProgramNameAsync(programName As String) As Task(Of BooseProgram)
+  overload: BooseWebApp.Server.Models.IBooseProgramRepository.GetByProgramNameAsync*
+  nameWithType.vb: IBooseProgramRepository.GetByProgramNameAsync(String)
+  fullName.vb: BooseWebApp.Server.Models.IBooseProgramRepository.GetByProgramNameAsync(String)
+  name.vb: GetByProgramNameAsync(String)
+references:
+- uid: BooseWebApp.Server.Models
+  commentId: N:BooseWebApp.Server.Models
+  href: BooseWebApp.html
+  name: BooseWebApp.Server.Models
+  nameWithType: BooseWebApp.Server.Models
+  fullName: BooseWebApp.Server.Models
+  spec.csharp:
+  - uid: BooseWebApp
+    name: BooseWebApp
+    href: BooseWebApp.html
+  - name: .
+  - uid: BooseWebApp.Server
+    name: Server
+    href: BooseWebApp.Server.html
+  - name: .
+  - uid: BooseWebApp.Server.Models
+    name: Models
+    href: BooseWebApp.Server.Models.html
+  spec.vb:
+  - uid: BooseWebApp
+    name: BooseWebApp
+    href: BooseWebApp.html
+  - name: .
+  - uid: BooseWebApp.Server
+    name: Server
+    href: BooseWebApp.Server.html
+  - name: .
+  - uid: BooseWebApp.Server.Models
+    name: Models
+    href: BooseWebApp.Server.Models.html
+- uid: BooseWebApp.Server.Models.IBooseProgramRepository.GetAllAsync*
+  commentId: Overload:BooseWebApp.Server.Models.IBooseProgramRepository.GetAllAsync
+  href: BooseWebApp.Server.Models.IBooseProgramRepository.html#BooseWebApp_Server_Models_IBooseProgramRepository_GetAllAsync
+  name: GetAllAsync
+  nameWithType: IBooseProgramRepository.GetAllAsync
+  fullName: BooseWebApp.Server.Models.IBooseProgramRepository.GetAllAsync
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{BooseWebApp.Server.Models.BooseProgram}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{BooseWebApp.Server.Models.BooseProgram}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<List<BooseProgram>>
+  nameWithType: Task<List<BooseProgram>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<BooseWebApp.Server.Models.BooseProgram>>
+  nameWithType.vb: Task(Of List(Of BooseProgram))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of BooseWebApp.Server.Models.BooseProgram))
+  name.vb: Task(Of List(Of BooseProgram))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: BooseWebApp.Server.Models.BooseProgram
+    name: BooseProgram
+    href: BooseWebApp.Server.Models.BooseProgram.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: BooseWebApp.Server.Models.BooseProgram
+    name: BooseProgram
+    href: BooseWebApp.Server.Models.BooseProgram.html
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: BooseWebApp.Server.Models.IBooseProgramRepository.GetByIdAsync*
+  commentId: Overload:BooseWebApp.Server.Models.IBooseProgramRepository.GetByIdAsync
+  href: BooseWebApp.Server.Models.IBooseProgramRepository.html#BooseWebApp_Server_Models_IBooseProgramRepository_GetByIdAsync_System_Int32_
+  name: GetByIdAsync
+  nameWithType: IBooseProgramRepository.GetByIdAsync
+  fullName: BooseWebApp.Server.Models.IBooseProgramRepository.GetByIdAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.Tasks.Task{BooseWebApp.Server.Models.BooseProgram}
+  commentId: T:System.Threading.Tasks.Task{BooseWebApp.Server.Models.BooseProgram}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<BooseProgram>
+  nameWithType: Task<BooseProgram>
+  fullName: System.Threading.Tasks.Task<BooseWebApp.Server.Models.BooseProgram>
+  nameWithType.vb: Task(Of BooseProgram)
+  fullName.vb: System.Threading.Tasks.Task(Of BooseWebApp.Server.Models.BooseProgram)
+  name.vb: Task(Of BooseProgram)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: BooseWebApp.Server.Models.BooseProgram
+    name: BooseProgram
+    href: BooseWebApp.Server.Models.BooseProgram.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: BooseWebApp.Server.Models.BooseProgram
+    name: BooseProgram
+    href: BooseWebApp.Server.Models.BooseProgram.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BooseWebApp.Server.Models.IBooseProgramRepository.AddAsync*
+  commentId: Overload:BooseWebApp.Server.Models.IBooseProgramRepository.AddAsync
+  href: BooseWebApp.Server.Models.IBooseProgramRepository.html#BooseWebApp_Server_Models_IBooseProgramRepository_AddAsync_BooseWebApp_Server_Models_BooseProgram_
+  name: AddAsync
+  nameWithType: IBooseProgramRepository.AddAsync
+  fullName: BooseWebApp.Server.Models.IBooseProgramRepository.AddAsync
+- uid: BooseWebApp.Server.Models.BooseProgram
+  commentId: T:BooseWebApp.Server.Models.BooseProgram
+  parent: BooseWebApp.Server.Models
+  href: BooseWebApp.Server.Models.BooseProgram.html
+  name: BooseProgram
+  nameWithType: BooseProgram
+  fullName: BooseWebApp.Server.Models.BooseProgram
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: BooseWebApp.Server.Models.IBooseProgramRepository.UpdateAsync*
+  commentId: Overload:BooseWebApp.Server.Models.IBooseProgramRepository.UpdateAsync
+  href: BooseWebApp.Server.Models.IBooseProgramRepository.html#BooseWebApp_Server_Models_IBooseProgramRepository_UpdateAsync_BooseWebApp_Server_Models_BooseProgram_
+  name: UpdateAsync
+  nameWithType: IBooseProgramRepository.UpdateAsync
+  fullName: BooseWebApp.Server.Models.IBooseProgramRepository.UpdateAsync
+- uid: BooseWebApp.Server.Models.IBooseProgramRepository.DeleteAsync*
+  commentId: Overload:BooseWebApp.Server.Models.IBooseProgramRepository.DeleteAsync
+  href: BooseWebApp.Server.Models.IBooseProgramRepository.html#BooseWebApp_Server_Models_IBooseProgramRepository_DeleteAsync_System_Int32_
+  name: DeleteAsync
+  nameWithType: IBooseProgramRepository.DeleteAsync
+  fullName: BooseWebApp.Server.Models.IBooseProgramRepository.DeleteAsync
+- uid: BooseWebApp.Server.Models.IBooseProgramRepository.GetByProgramNameAsync*
+  commentId: Overload:BooseWebApp.Server.Models.IBooseProgramRepository.GetByProgramNameAsync
+  href: BooseWebApp.Server.Models.IBooseProgramRepository.html#BooseWebApp_Server_Models_IBooseProgramRepository_GetByProgramNameAsync_System_String_
+  name: GetByProgramNameAsync
+  nameWithType: IBooseProgramRepository.GetByProgramNameAsync
+  fullName: BooseWebApp.Server.Models.IBooseProgramRepository.GetByProgramNameAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

@@ -208,20 +208,6 @@ items:
   - uid: ASE_Assignment_Tests.EvaluationTests.EvaluationCallTests
     name: EvaluationCallTests
     type: Class
-- uid: ApplicationDevelopmentProject.Data.Models
-  name: ApplicationDevelopmentProject.Data.Models
-  type: Namespace
-  items:
-  - uid: ApplicationDevelopmentProject.Data.Models.BooseProgram
-    name: BooseProgram
-    type: Class
-- uid: ApplicationDevelopmentProject.Data.Repository
-  name: ApplicationDevelopmentProject.Data.Repository
-  type: Namespace
-  items:
-  - uid: ApplicationDevelopmentProject.Data.Repository.IBooseProgramRepository
-    name: IBooseProgramRepository
-    type: Interface
 - uid: BooseWebApp.Server
   name: BooseWebApp.Server
   type: Namespace
@@ -240,12 +226,18 @@ items:
   name: BooseWebApp.Server.Models
   type: Namespace
   items:
+  - uid: BooseWebApp.Server.Models.BooseProgram
+    name: BooseProgram
+    type: Class
   - uid: BooseWebApp.Server.Models.CommandInput
     name: CommandInput
     type: Class
   - uid: BooseWebApp.Server.Models.CommandOutput
     name: CommandOutput
     type: Class
+  - uid: BooseWebApp.Server.Models.IBooseProgramRepository
+    name: IBooseProgramRepository
+    type: Interface
 - uid: BooseWebApp.Server.Repositories
   name: BooseWebApp.Server.Repositories
   type: Namespace

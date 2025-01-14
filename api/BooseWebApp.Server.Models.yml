@@ -4,8 +4,10 @@ items:
   commentId: N:BooseWebApp.Server.Models
   id: BooseWebApp.Server.Models
   children:
+  - BooseWebApp.Server.Models.BooseProgram
   - BooseWebApp.Server.Models.CommandInput
   - BooseWebApp.Server.Models.CommandOutput
+  - BooseWebApp.Server.Models.IBooseProgramRepository
   langs:
   - csharp
   - vb
@@ -16,6 +18,13 @@ items:
   assemblies:
   - BooseWebApp.Server
 references:
+- uid: BooseWebApp.Server.Models.BooseProgram
+  commentId: T:BooseWebApp.Server.Models.BooseProgram
+  parent: BooseWebApp.Server.Models
+  href: BooseWebApp.Server.Models.BooseProgram.html
+  name: BooseProgram
+  nameWithType: BooseProgram
+  fullName: BooseWebApp.Server.Models.BooseProgram
 - uid: BooseWebApp.Server.Models.CommandInput
   commentId: T:BooseWebApp.Server.Models.CommandInput
   parent: BooseWebApp.Server.Models
@@ -29,6 +38,13 @@ references:
   name: CommandOutput
   nameWithType: CommandOutput
   fullName: BooseWebApp.Server.Models.CommandOutput
+- uid: BooseWebApp.Server.Models.IBooseProgramRepository
+  commentId: T:BooseWebApp.Server.Models.IBooseProgramRepository
+  parent: BooseWebApp.Server.Models
+  href: BooseWebApp.Server.Models.IBooseProgramRepository.html
+  name: IBooseProgramRepository
+  nameWithType: IBooseProgramRepository
+  fullName: BooseWebApp.Server.Models.IBooseProgramRepository
 - uid: BooseWebApp.Server.Models
   commentId: N:BooseWebApp.Server.Models
   href: BooseWebApp.html

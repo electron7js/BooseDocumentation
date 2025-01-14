@@ -11,6 +11,16 @@
       }
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "ManagedReference",
       "source_relative_path": "api/ASE_Assignment_Bijesh.MainForm.yml",
       "output": {
@@ -732,6 +742,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/BooseWebApp.Server.Models.BooseProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseWebApp.Server.Models.BooseProgram.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/BooseWebApp.Server.Models.CommandInput.yml",
       "output": {
         ".html": {
@@ -746,6 +766,16 @@
       "output": {
         ".html": {
           "relative_path": "api/BooseWebApp.Server.Models.CommandOutput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseWebApp.Server.Models.IBooseProgramRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseWebApp.Server.Models.IBooseProgramRepository.html"
         }
       },
       "version": ""
