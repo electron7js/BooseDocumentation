@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: BooseWebApp.Server.Models
+  commentId: N:BooseWebApp.Server.Models
+  id: BooseWebApp.Server.Models
+  children:
+  - BooseWebApp.Server.Models.CommandInput
+  - BooseWebApp.Server.Models.CommandOutput
+  langs:
+  - csharp
+  - vb
+  name: BooseWebApp.Server.Models
+  nameWithType: BooseWebApp.Server.Models
+  fullName: BooseWebApp.Server.Models
+  type: Namespace
+  assemblies:
+  - BooseWebApp.Server
+references:
+- uid: BooseWebApp.Server.Models.CommandInput
+  commentId: T:BooseWebApp.Server.Models.CommandInput
+  parent: BooseWebApp.Server.Models
+  href: BooseWebApp.Server.Models.CommandInput.html
+  name: CommandInput
+  nameWithType: CommandInput
+  fullName: BooseWebApp.Server.Models.CommandInput
+- uid: BooseWebApp.Server.Models.CommandOutput
+  commentId: T:BooseWebApp.Server.Models.CommandOutput
+  href: BooseWebApp.Server.Models.CommandOutput.html
+  name: CommandOutput
+  nameWithType: CommandOutput
+  fullName: BooseWebApp.Server.Models.CommandOutput
+- uid: BooseWebApp.Server.Models
+  commentId: N:BooseWebApp.Server.Models
+  href: BooseWebApp.html
+  name: BooseWebApp.Server.Models
+  nameWithType: BooseWebApp.Server.Models
+  fullName: BooseWebApp.Server.Models
+  spec.csharp:
+  - uid: BooseWebApp
+    name: BooseWebApp
+    href: BooseWebApp.html
+  - name: .
+  - uid: BooseWebApp.Server
+    name: Server
+    href: BooseWebApp.Server.html
+  - name: .
+  - uid: BooseWebApp.Server.Models
+    name: Models
+    href: BooseWebApp.Server.Models.html
+  spec.vb:
+  - uid: BooseWebApp
+    name: BooseWebApp
+    href: BooseWebApp.html
+  - name: .
+  - uid: BooseWebApp.Server
+    name: Server
+    href: BooseWebApp.Server.html
+  - name: .
+  - uid: BooseWebApp.Server.Models
+    name: Models
+    href: BooseWebApp.Server.Models.html

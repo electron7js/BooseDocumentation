@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: BooseWebApp.Server
+  commentId: N:BooseWebApp.Server
+  id: BooseWebApp.Server
+  children:
+  - BooseWebApp.Server.WeatherForecast
+  langs:
+  - csharp
+  - vb
+  name: BooseWebApp.Server
+  nameWithType: BooseWebApp.Server
+  fullName: BooseWebApp.Server
+  type: Namespace
+  assemblies:
+  - BooseWebApp.Server
+references:
+- uid: BooseWebApp.Server.WeatherForecast
+  commentId: T:BooseWebApp.Server.WeatherForecast
+  href: BooseWebApp.Server.WeatherForecast.html
+  name: WeatherForecast
+  nameWithType: WeatherForecast
+  fullName: BooseWebApp.Server.WeatherForecast

@@ -181,7 +181,7 @@ items:
   assemblies:
   - ASE Assignment Bijesh
   namespace: ASE_Assignment_Bijesh.Src.Components
-  summary: Insert a BOOSE program into the program stack
+  summary: Insert a Conditional command into the command program stack
   example: []
   syntax:
     content: public override void Push(ConditionalCommand Com)
@@ -214,13 +214,13 @@ items:
   assemblies:
   - ASE Assignment Bijesh
   namespace: ASE_Assignment_Bijesh.Src.Components
-  summary: Remove the top program from the program stack
+  summary: Remove the top program from the program conditional commands stack
   example: []
   syntax:
     content: public override ConditionalCommand Pop()
     return:
       type: BOOSE.ConditionalCommand
-      description: BOOSE Program Object
+      description: BOOSE Conditional Command Object
     content.vb: Public Overrides Function Pop() As ConditionalCommand
   overridden: BOOSE.StoredProgram.Pop
   overload: ASE_Assignment_Bijesh.Src.Components.AppStoredProgram.Pop*

@@ -5,7 +5,6 @@ items:
   id: ASE_Assignment_Bijesh.Src.Command
   children:
   - ASE_Assignment_Bijesh.Src.Command.CommandBrushColor
-  - ASE_Assignment_Bijesh.Src.Command.CommandCall
   - ASE_Assignment_Bijesh.Src.Command.CommandCircle
   - ASE_Assignment_Bijesh.Src.Command.CommandFilledCircle
   - ASE_Assignment_Bijesh.Src.Command.CommandFilledRectangle
@@ -28,12 +27,6 @@ references:
   name: CommandBrushColor
   nameWithType: CommandBrushColor
   fullName: ASE_Assignment_Bijesh.Src.Command.CommandBrushColor
-- uid: ASE_Assignment_Bijesh.Src.Command.CommandCall
-  commentId: T:ASE_Assignment_Bijesh.Src.Command.CommandCall
-  href: ASE_Assignment_Bijesh.Src.Command.CommandCall.html
-  name: CommandCall
-  nameWithType: CommandCall
-  fullName: ASE_Assignment_Bijesh.Src.Command.CommandCall
 - uid: ASE_Assignment_Bijesh.Src.Command.CommandCircle
   commentId: T:ASE_Assignment_Bijesh.Src.Command.CommandCircle
   href: ASE_Assignment_Bijesh.Src.Command.CommandCircle.html

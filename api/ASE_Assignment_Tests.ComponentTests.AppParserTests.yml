@@ -1,0 +1,1120 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests
+  commentId: T:ASE_Assignment_Tests.ComponentTests.AppParserTests
+  id: AppParserTests
+  parent: ASE_Assignment_Tests.ComponentTests
+  children:
+  - ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckBadCommand
+  - ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckMultiLineProgram
+  - ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeBrush
+  - ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeCircle
+  - ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationArray
+  - ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationCall
+  - ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationElse
+  - ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationFor
+  - ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationIf
+  - ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationInt
+  - ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationMethod
+  - ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationReal
+  - ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeFilledCircle
+  - ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeFilledRectangle
+  - ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeRectangle
+  - ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeTriangle
+  - ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeWrite
+  - ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckSyntaxError
+  langs:
+  - csharp
+  - vb
+  name: AppParserTests
+  nameWithType: AppParserTests
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests
+  type: Class
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: AppParserTests
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+    startLine: 12
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.ComponentTests
+  summary: The Unit tests for the AppCanvas Class. Tests the final positions of the cursor after the methods are called.
+  example: []
+  syntax:
+    content: >-
+      [TestClass]
+
+      public class AppParserTests
+    content.vb: >-
+      <TestClass>
+
+      Public Class AppParserTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeTriangle
+  commentId: M:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeTriangle
+  id: CheckReturnTypeTriangle
+  parent: ASE_Assignment_Tests.ComponentTests.AppParserTests
+  langs:
+  - csharp
+  - vb
+  name: CheckReturnTypeTriangle()
+  nameWithType: AppParserTests.CheckReturnTypeTriangle()
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeTriangle()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: CheckReturnTypeTriangle
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+    startLine: 20
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.ComponentTests
+  summary: Checks if the Parser properly returns Triangle object
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CheckReturnTypeTriangle()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CheckReturnTypeTriangle()
+  overload: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeTriangle*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeWrite
+  commentId: M:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeWrite
+  id: CheckReturnTypeWrite
+  parent: ASE_Assignment_Tests.ComponentTests.AppParserTests
+  langs:
+  - csharp
+  - vb
+  name: CheckReturnTypeWrite()
+  nameWithType: AppParserTests.CheckReturnTypeWrite()
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeWrite()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: CheckReturnTypeWrite
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+    startLine: 36
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.ComponentTests
+  summary: Checks if the Parser properly returns Write object
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CheckReturnTypeWrite()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CheckReturnTypeWrite()
+  overload: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeWrite*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeBrush
+  commentId: M:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeBrush
+  id: CheckReturnTypeBrush
+  parent: ASE_Assignment_Tests.ComponentTests.AppParserTests
+  langs:
+  - csharp
+  - vb
+  name: CheckReturnTypeBrush()
+  nameWithType: AppParserTests.CheckReturnTypeBrush()
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeBrush()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: CheckReturnTypeBrush
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+    startLine: 50
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.ComponentTests
+  summary: Checks if the Parser properly returns Brush object
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CheckReturnTypeBrush()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CheckReturnTypeBrush()
+  overload: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeBrush*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeFilledCircle
+  commentId: M:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeFilledCircle
+  id: CheckReturnTypeFilledCircle
+  parent: ASE_Assignment_Tests.ComponentTests.AppParserTests
+  langs:
+  - csharp
+  - vb
+  name: CheckReturnTypeFilledCircle()
+  nameWithType: AppParserTests.CheckReturnTypeFilledCircle()
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeFilledCircle()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: CheckReturnTypeFilledCircle
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+    startLine: 64
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.ComponentTests
+  summary: Checks if the Parser properly returns filled circle object
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CheckReturnTypeFilledCircle()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CheckReturnTypeFilledCircle()
+  overload: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeFilledCircle*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeCircle
+  commentId: M:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeCircle
+  id: CheckReturnTypeCircle
+  parent: ASE_Assignment_Tests.ComponentTests.AppParserTests
+  langs:
+  - csharp
+  - vb
+  name: CheckReturnTypeCircle()
+  nameWithType: AppParserTests.CheckReturnTypeCircle()
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeCircle()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: CheckReturnTypeCircle
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+    startLine: 78
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.ComponentTests
+  summary: Checks if the Parser properly returns circle object
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CheckReturnTypeCircle()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CheckReturnTypeCircle()
+  overload: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeCircle*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeRectangle
+  commentId: M:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeRectangle
+  id: CheckReturnTypeRectangle
+  parent: ASE_Assignment_Tests.ComponentTests.AppParserTests
+  langs:
+  - csharp
+  - vb
+  name: CheckReturnTypeRectangle()
+  nameWithType: AppParserTests.CheckReturnTypeRectangle()
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeRectangle()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: CheckReturnTypeRectangle
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+    startLine: 92
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.ComponentTests
+  summary: Checks if the Parser properly returns rectangle object
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CheckReturnTypeRectangle()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CheckReturnTypeRectangle()
+  overload: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeRectangle*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeFilledRectangle
+  commentId: M:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeFilledRectangle
+  id: CheckReturnTypeFilledRectangle
+  parent: ASE_Assignment_Tests.ComponentTests.AppParserTests
+  langs:
+  - csharp
+  - vb
+  name: CheckReturnTypeFilledRectangle()
+  nameWithType: AppParserTests.CheckReturnTypeFilledRectangle()
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeFilledRectangle()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: CheckReturnTypeFilledRectangle
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+    startLine: 106
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.ComponentTests
+  summary: Checks if the Parser properly returns filled rectangle object
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CheckReturnTypeFilledRectangle()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CheckReturnTypeFilledRectangle()
+  overload: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeFilledRectangle*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationInt
+  commentId: M:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationInt
+  id: CheckReturnTypeEvaluationInt
+  parent: ASE_Assignment_Tests.ComponentTests.AppParserTests
+  langs:
+  - csharp
+  - vb
+  name: CheckReturnTypeEvaluationInt()
+  nameWithType: AppParserTests.CheckReturnTypeEvaluationInt()
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationInt()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: CheckReturnTypeEvaluationInt
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+    startLine: 120
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.ComponentTests
+  summary: Checks if the Parser properly returns EvaluationInt object
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CheckReturnTypeEvaluationInt()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CheckReturnTypeEvaluationInt()
+  overload: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationInt*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationReal
+  commentId: M:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationReal
+  id: CheckReturnTypeEvaluationReal
+  parent: ASE_Assignment_Tests.ComponentTests.AppParserTests
+  langs:
+  - csharp
+  - vb
+  name: CheckReturnTypeEvaluationReal()
+  nameWithType: AppParserTests.CheckReturnTypeEvaluationReal()
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationReal()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: CheckReturnTypeEvaluationReal
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+    startLine: 134
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.ComponentTests
+  summary: Checks if the Parser properly returns EvaluationReal object
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CheckReturnTypeEvaluationReal()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CheckReturnTypeEvaluationReal()
+  overload: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationReal*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationArray
+  commentId: M:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationArray
+  id: CheckReturnTypeEvaluationArray
+  parent: ASE_Assignment_Tests.ComponentTests.AppParserTests
+  langs:
+  - csharp
+  - vb
+  name: CheckReturnTypeEvaluationArray()
+  nameWithType: AppParserTests.CheckReturnTypeEvaluationArray()
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationArray()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: CheckReturnTypeEvaluationArray
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+    startLine: 146
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.ComponentTests
+  summary: Checks if the Parser properly returns EvaluationArray object
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CheckReturnTypeEvaluationArray()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CheckReturnTypeEvaluationArray()
+  overload: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationArray*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationIf
+  commentId: M:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationIf
+  id: CheckReturnTypeEvaluationIf
+  parent: ASE_Assignment_Tests.ComponentTests.AppParserTests
+  langs:
+  - csharp
+  - vb
+  name: CheckReturnTypeEvaluationIf()
+  nameWithType: AppParserTests.CheckReturnTypeEvaluationIf()
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationIf()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: CheckReturnTypeEvaluationIf
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+    startLine: 158
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.ComponentTests
+  summary: Checks if the Parser properly returns EvaluationIf object
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CheckReturnTypeEvaluationIf()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CheckReturnTypeEvaluationIf()
+  overload: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationIf*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationElse
+  commentId: M:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationElse
+  id: CheckReturnTypeEvaluationElse
+  parent: ASE_Assignment_Tests.ComponentTests.AppParserTests
+  langs:
+  - csharp
+  - vb
+  name: CheckReturnTypeEvaluationElse()
+  nameWithType: AppParserTests.CheckReturnTypeEvaluationElse()
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationElse()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: CheckReturnTypeEvaluationElse
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+    startLine: 171
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.ComponentTests
+  summary: Checks if the Parser properly returns EvaluationElse object
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CheckReturnTypeEvaluationElse()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CheckReturnTypeEvaluationElse()
+  overload: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationElse*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationFor
+  commentId: M:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationFor
+  id: CheckReturnTypeEvaluationFor
+  parent: ASE_Assignment_Tests.ComponentTests.AppParserTests
+  langs:
+  - csharp
+  - vb
+  name: CheckReturnTypeEvaluationFor()
+  nameWithType: AppParserTests.CheckReturnTypeEvaluationFor()
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationFor()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: CheckReturnTypeEvaluationFor
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+    startLine: 186
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.ComponentTests
+  summary: Checks if the Parser properly returns EvaluationFor object
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CheckReturnTypeEvaluationFor()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CheckReturnTypeEvaluationFor()
+  overload: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationFor*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationMethod
+  commentId: M:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationMethod
+  id: CheckReturnTypeEvaluationMethod
+  parent: ASE_Assignment_Tests.ComponentTests.AppParserTests
+  langs:
+  - csharp
+  - vb
+  name: CheckReturnTypeEvaluationMethod()
+  nameWithType: AppParserTests.CheckReturnTypeEvaluationMethod()
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationMethod()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: CheckReturnTypeEvaluationMethod
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+    startLine: 201
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.ComponentTests
+  summary: Checks if the Parser properly returns EvaluationMethod object
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CheckReturnTypeEvaluationMethod()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CheckReturnTypeEvaluationMethod()
+  overload: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationMethod*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationCall
+  commentId: M:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationCall
+  id: CheckReturnTypeEvaluationCall
+  parent: ASE_Assignment_Tests.ComponentTests.AppParserTests
+  langs:
+  - csharp
+  - vb
+  name: CheckReturnTypeEvaluationCall()
+  nameWithType: AppParserTests.CheckReturnTypeEvaluationCall()
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationCall()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: CheckReturnTypeEvaluationCall
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+    startLine: 215
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.ComponentTests
+  summary: Checks if the Parser properly returns EvaluationCall object
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CheckReturnTypeEvaluationCall()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CheckReturnTypeEvaluationCall()
+  overload: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationCall*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckMultiLineProgram
+  commentId: M:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckMultiLineProgram
+  id: CheckMultiLineProgram
+  parent: ASE_Assignment_Tests.ComponentTests.AppParserTests
+  langs:
+  - csharp
+  - vb
+  name: CheckMultiLineProgram()
+  nameWithType: AppParserTests.CheckMultiLineProgram()
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckMultiLineProgram()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: CheckMultiLineProgram
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+    startLine: 229
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.ComponentTests
+  summary: Checks if the Parser properly parses a multi-line program
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CheckMultiLineProgram()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CheckMultiLineProgram()
+  overload: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckMultiLineProgram*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckBadCommand
+  commentId: M:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckBadCommand
+  id: CheckBadCommand
+  parent: ASE_Assignment_Tests.ComponentTests.AppParserTests
+  langs:
+  - csharp
+  - vb
+  name: CheckBadCommand()
+  nameWithType: AppParserTests.CheckBadCommand()
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckBadCommand()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: CheckBadCommand
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+    startLine: 244
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.ComponentTests
+  summary: Checks if the Parser properly throws exception on illegal commands
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CheckBadCommand()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CheckBadCommand()
+  overload: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckBadCommand*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckSyntaxError
+  commentId: M:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckSyntaxError
+  id: CheckSyntaxError
+  parent: ASE_Assignment_Tests.ComponentTests.AppParserTests
+  langs:
+  - csharp
+  - vb
+  name: CheckSyntaxError()
+  nameWithType: AppParserTests.CheckSyntaxError()
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckSyntaxError()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: CheckSyntaxError
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppParserTests.cs
+    startLine: 258
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.ComponentTests
+  summary: Checks if the Parser properly throws exception on syntax errors
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CheckSyntaxError()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CheckSyntaxError()
+  overload: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckSyntaxError*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+references:
+- uid: ASE_Assignment_Tests.ComponentTests
+  commentId: N:ASE_Assignment_Tests.ComponentTests
+  href: ASE_Assignment_Tests.html
+  name: ASE_Assignment_Tests.ComponentTests
+  nameWithType: ASE_Assignment_Tests.ComponentTests
+  fullName: ASE_Assignment_Tests.ComponentTests
+  spec.csharp:
+  - uid: ASE_Assignment_Tests
+    name: ASE_Assignment_Tests
+    href: ASE_Assignment_Tests.html
+  - name: .
+  - uid: ASE_Assignment_Tests.ComponentTests
+    name: ComponentTests
+    href: ASE_Assignment_Tests.ComponentTests.html
+  spec.vb:
+  - uid: ASE_Assignment_Tests
+    name: ASE_Assignment_Tests
+    href: ASE_Assignment_Tests.html
+  - name: .
+  - uid: ASE_Assignment_Tests.ComponentTests
+    name: ComponentTests
+    href: ASE_Assignment_Tests.ComponentTests.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeTriangle*
+  commentId: Overload:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeTriangle
+  href: ASE_Assignment_Tests.ComponentTests.AppParserTests.html#ASE_Assignment_Tests_ComponentTests_AppParserTests_CheckReturnTypeTriangle
+  name: CheckReturnTypeTriangle
+  nameWithType: AppParserTests.CheckReturnTypeTriangle
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeTriangle
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeWrite*
+  commentId: Overload:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeWrite
+  href: ASE_Assignment_Tests.ComponentTests.AppParserTests.html#ASE_Assignment_Tests_ComponentTests_AppParserTests_CheckReturnTypeWrite
+  name: CheckReturnTypeWrite
+  nameWithType: AppParserTests.CheckReturnTypeWrite
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeWrite
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeBrush*
+  commentId: Overload:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeBrush
+  href: ASE_Assignment_Tests.ComponentTests.AppParserTests.html#ASE_Assignment_Tests_ComponentTests_AppParserTests_CheckReturnTypeBrush
+  name: CheckReturnTypeBrush
+  nameWithType: AppParserTests.CheckReturnTypeBrush
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeBrush
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeFilledCircle*
+  commentId: Overload:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeFilledCircle
+  href: ASE_Assignment_Tests.ComponentTests.AppParserTests.html#ASE_Assignment_Tests_ComponentTests_AppParserTests_CheckReturnTypeFilledCircle
+  name: CheckReturnTypeFilledCircle
+  nameWithType: AppParserTests.CheckReturnTypeFilledCircle
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeFilledCircle
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeCircle*
+  commentId: Overload:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeCircle
+  href: ASE_Assignment_Tests.ComponentTests.AppParserTests.html#ASE_Assignment_Tests_ComponentTests_AppParserTests_CheckReturnTypeCircle
+  name: CheckReturnTypeCircle
+  nameWithType: AppParserTests.CheckReturnTypeCircle
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeCircle
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeRectangle*
+  commentId: Overload:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeRectangle
+  href: ASE_Assignment_Tests.ComponentTests.AppParserTests.html#ASE_Assignment_Tests_ComponentTests_AppParserTests_CheckReturnTypeRectangle
+  name: CheckReturnTypeRectangle
+  nameWithType: AppParserTests.CheckReturnTypeRectangle
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeRectangle
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeFilledRectangle*
+  commentId: Overload:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeFilledRectangle
+  href: ASE_Assignment_Tests.ComponentTests.AppParserTests.html#ASE_Assignment_Tests_ComponentTests_AppParserTests_CheckReturnTypeFilledRectangle
+  name: CheckReturnTypeFilledRectangle
+  nameWithType: AppParserTests.CheckReturnTypeFilledRectangle
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeFilledRectangle
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationInt*
+  commentId: Overload:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationInt
+  href: ASE_Assignment_Tests.ComponentTests.AppParserTests.html#ASE_Assignment_Tests_ComponentTests_AppParserTests_CheckReturnTypeEvaluationInt
+  name: CheckReturnTypeEvaluationInt
+  nameWithType: AppParserTests.CheckReturnTypeEvaluationInt
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationInt
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationReal*
+  commentId: Overload:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationReal
+  href: ASE_Assignment_Tests.ComponentTests.AppParserTests.html#ASE_Assignment_Tests_ComponentTests_AppParserTests_CheckReturnTypeEvaluationReal
+  name: CheckReturnTypeEvaluationReal
+  nameWithType: AppParserTests.CheckReturnTypeEvaluationReal
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationReal
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationArray*
+  commentId: Overload:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationArray
+  href: ASE_Assignment_Tests.ComponentTests.AppParserTests.html#ASE_Assignment_Tests_ComponentTests_AppParserTests_CheckReturnTypeEvaluationArray
+  name: CheckReturnTypeEvaluationArray
+  nameWithType: AppParserTests.CheckReturnTypeEvaluationArray
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationArray
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationIf*
+  commentId: Overload:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationIf
+  href: ASE_Assignment_Tests.ComponentTests.AppParserTests.html#ASE_Assignment_Tests_ComponentTests_AppParserTests_CheckReturnTypeEvaluationIf
+  name: CheckReturnTypeEvaluationIf
+  nameWithType: AppParserTests.CheckReturnTypeEvaluationIf
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationIf
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationElse*
+  commentId: Overload:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationElse
+  href: ASE_Assignment_Tests.ComponentTests.AppParserTests.html#ASE_Assignment_Tests_ComponentTests_AppParserTests_CheckReturnTypeEvaluationElse
+  name: CheckReturnTypeEvaluationElse
+  nameWithType: AppParserTests.CheckReturnTypeEvaluationElse
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationElse
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationFor*
+  commentId: Overload:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationFor
+  href: ASE_Assignment_Tests.ComponentTests.AppParserTests.html#ASE_Assignment_Tests_ComponentTests_AppParserTests_CheckReturnTypeEvaluationFor
+  name: CheckReturnTypeEvaluationFor
+  nameWithType: AppParserTests.CheckReturnTypeEvaluationFor
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationFor
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationMethod*
+  commentId: Overload:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationMethod
+  href: ASE_Assignment_Tests.ComponentTests.AppParserTests.html#ASE_Assignment_Tests_ComponentTests_AppParserTests_CheckReturnTypeEvaluationMethod
+  name: CheckReturnTypeEvaluationMethod
+  nameWithType: AppParserTests.CheckReturnTypeEvaluationMethod
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationMethod
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationCall*
+  commentId: Overload:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationCall
+  href: ASE_Assignment_Tests.ComponentTests.AppParserTests.html#ASE_Assignment_Tests_ComponentTests_AppParserTests_CheckReturnTypeEvaluationCall
+  name: CheckReturnTypeEvaluationCall
+  nameWithType: AppParserTests.CheckReturnTypeEvaluationCall
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckReturnTypeEvaluationCall
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckMultiLineProgram*
+  commentId: Overload:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckMultiLineProgram
+  href: ASE_Assignment_Tests.ComponentTests.AppParserTests.html#ASE_Assignment_Tests_ComponentTests_AppParserTests_CheckMultiLineProgram
+  name: CheckMultiLineProgram
+  nameWithType: AppParserTests.CheckMultiLineProgram
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckMultiLineProgram
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckBadCommand*
+  commentId: Overload:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckBadCommand
+  href: ASE_Assignment_Tests.ComponentTests.AppParserTests.html#ASE_Assignment_Tests_ComponentTests_AppParserTests_CheckBadCommand
+  name: CheckBadCommand
+  nameWithType: AppParserTests.CheckBadCommand
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckBadCommand
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckSyntaxError*
+  commentId: Overload:ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckSyntaxError
+  href: ASE_Assignment_Tests.ComponentTests.AppParserTests.html#ASE_Assignment_Tests_ComponentTests_AppParserTests_CheckSyntaxError
+  name: CheckSyntaxError
+  nameWithType: AppParserTests.CheckSyntaxError
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests.CheckSyntaxError

@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: BooseWebApp.Server.Repositories
+  commentId: N:BooseWebApp.Server.Repositories
+  id: BooseWebApp.Server.Repositories
+  children:
+  - BooseWebApp.Server.Repositories.BooseProgramRepository
+  langs:
+  - csharp
+  - vb
+  name: BooseWebApp.Server.Repositories
+  nameWithType: BooseWebApp.Server.Repositories
+  fullName: BooseWebApp.Server.Repositories
+  type: Namespace
+  assemblies:
+  - BooseWebApp.Server
+references:
+- uid: BooseWebApp.Server.Repositories.BooseProgramRepository
+  commentId: T:BooseWebApp.Server.Repositories.BooseProgramRepository
+  href: BooseWebApp.Server.Repositories.BooseProgramRepository.html
+  name: BooseProgramRepository
+  nameWithType: BooseProgramRepository
+  fullName: BooseWebApp.Server.Repositories.BooseProgramRepository

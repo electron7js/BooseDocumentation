@@ -1,0 +1,981 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment_Tests.ComponentTests.AppCanvasTests
+  commentId: T:ASE_Assignment_Tests.ComponentTests.AppCanvasTests
+  id: AppCanvasTests
+  parent: ASE_Assignment_Tests.ComponentTests
+  children:
+  - ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestBitmap
+  - ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestChangeBrushColour
+  - ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestChangePenColour
+  - ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestCircle
+  - ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestCircleFilled
+  - ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestClear
+  - ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestDrawToCanvas
+  - ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestMoveToCanvas
+  - ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestMultiLineMainProgram
+  - ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestRect
+  - ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestRectFilled
+  - ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestResetCanvas
+  - ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestSetCanvas
+  - ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestTriangle
+  - ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestWriteText
+  langs:
+  - csharp
+  - vb
+  name: AppCanvasTests
+  nameWithType: AppCanvasTests
+  fullName: ASE_Assignment_Tests.ComponentTests.AppCanvasTests
+  type: Class
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: AppCanvasTests
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppCanvasTests.cs
+    startLine: 9
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.ComponentTests
+  summary: The Unit tests for the AppCanvas Class. Tests the final positions of the cursor after the methods are called.
+  example: []
+  syntax:
+    content: >-
+      [TestClass]
+
+      public class AppCanvasTests
+    content.vb: >-
+      <TestClass>
+
+      Public Class AppCanvasTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestMoveToCanvas
+  commentId: M:ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestMoveToCanvas
+  id: TestMoveToCanvas
+  parent: ASE_Assignment_Tests.ComponentTests.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: TestMoveToCanvas()
+  nameWithType: AppCanvasTests.TestMoveToCanvas()
+  fullName: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestMoveToCanvas()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: TestMoveToCanvas
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppCanvasTests.cs
+    startLine: 13
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.ComponentTests
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMoveToCanvas()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMoveToCanvas()
+  overload: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestMoveToCanvas*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestDrawToCanvas
+  commentId: M:ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestDrawToCanvas
+  id: TestDrawToCanvas
+  parent: ASE_Assignment_Tests.ComponentTests.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: TestDrawToCanvas()
+  nameWithType: AppCanvasTests.TestDrawToCanvas()
+  fullName: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestDrawToCanvas()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: TestDrawToCanvas
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppCanvasTests.cs
+    startLine: 49
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.ComponentTests
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestDrawToCanvas()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestDrawToCanvas()
+  overload: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestDrawToCanvas*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestMultiLineMainProgram
+  commentId: M:ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestMultiLineMainProgram
+  id: TestMultiLineMainProgram
+  parent: ASE_Assignment_Tests.ComponentTests.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: TestMultiLineMainProgram()
+  nameWithType: AppCanvasTests.TestMultiLineMainProgram()
+  fullName: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestMultiLineMainProgram()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: TestMultiLineMainProgram
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppCanvasTests.cs
+    startLine: 91
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.ComponentTests
+  summary: Tests system by passing in a multiline program
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMultiLineMainProgram()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMultiLineMainProgram()
+  overload: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestMultiLineMainProgram*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestChangePenColour
+  commentId: M:ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestChangePenColour
+  id: TestChangePenColour
+  parent: ASE_Assignment_Tests.ComponentTests.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: TestChangePenColour()
+  nameWithType: AppCanvasTests.TestChangePenColour()
+  fullName: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestChangePenColour()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: TestChangePenColour
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppCanvasTests.cs
+    startLine: 133
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.ComponentTests
+  summary: Tests the changing the pen colour externally
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestChangePenColour()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestChangePenColour()
+  overload: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestChangePenColour*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestChangeBrushColour
+  commentId: M:ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestChangeBrushColour
+  id: TestChangeBrushColour
+  parent: ASE_Assignment_Tests.ComponentTests.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: TestChangeBrushColour()
+  nameWithType: AppCanvasTests.TestChangeBrushColour()
+  fullName: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestChangeBrushColour()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: TestChangeBrushColour
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppCanvasTests.cs
+    startLine: 148
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.ComponentTests
+  summary: Tests the changing the brush colour externally
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestChangeBrushColour()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestChangeBrushColour()
+  overload: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestChangeBrushColour*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestCircle
+  commentId: M:ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestCircle
+  id: TestCircle
+  parent: ASE_Assignment_Tests.ComponentTests.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: TestCircle()
+  nameWithType: AppCanvasTests.TestCircle()
+  fullName: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestCircle()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: TestCircle
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppCanvasTests.cs
+    startLine: 167
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.ComponentTests
+  summary: Tests the circle method
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestCircle()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestCircle()
+  overload: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestCircle*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestCircleFilled
+  commentId: M:ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestCircleFilled
+  id: TestCircleFilled
+  parent: ASE_Assignment_Tests.ComponentTests.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: TestCircleFilled()
+  nameWithType: AppCanvasTests.TestCircleFilled()
+  fullName: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestCircleFilled()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: TestCircleFilled
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppCanvasTests.cs
+    startLine: 189
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.ComponentTests
+  summary: Tests the circle method with fill true
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestCircleFilled()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestCircleFilled()
+  overload: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestCircleFilled*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestClear
+  commentId: M:ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestClear
+  id: TestClear
+  parent: ASE_Assignment_Tests.ComponentTests.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: TestClear()
+  nameWithType: AppCanvasTests.TestClear()
+  fullName: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestClear()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: TestClear
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppCanvasTests.cs
+    startLine: 210
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.ComponentTests
+  summary: Tests the canvas clear method
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestClear()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestClear()
+  overload: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestClear*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestBitmap
+  commentId: M:ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestBitmap
+  id: TestBitmap
+  parent: ASE_Assignment_Tests.ComponentTests.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: TestBitmap()
+  nameWithType: AppCanvasTests.TestBitmap()
+  fullName: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestBitmap()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: TestBitmap
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppCanvasTests.cs
+    startLine: 231
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.ComponentTests
+  summary: Tests the get bitmap function
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestBitmap()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestBitmap()
+  overload: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestBitmap*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestRect
+  commentId: M:ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestRect
+  id: TestRect
+  parent: ASE_Assignment_Tests.ComponentTests.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: TestRect()
+  nameWithType: AppCanvasTests.TestRect()
+  fullName: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestRect()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: TestRect
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppCanvasTests.cs
+    startLine: 251
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.ComponentTests
+  summary: Tests the Rectangle method
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestRect()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestRect()
+  overload: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestRect*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestRectFilled
+  commentId: M:ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestRectFilled
+  id: TestRectFilled
+  parent: ASE_Assignment_Tests.ComponentTests.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: TestRectFilled()
+  nameWithType: AppCanvasTests.TestRectFilled()
+  fullName: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestRectFilled()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: TestRectFilled
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppCanvasTests.cs
+    startLine: 275
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.ComponentTests
+  summary: Tests the Rectangle method with fill true
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestRectFilled()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestRectFilled()
+  overload: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestRectFilled*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestTriangle
+  commentId: M:ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestTriangle
+  id: TestTriangle
+  parent: ASE_Assignment_Tests.ComponentTests.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: TestTriangle()
+  nameWithType: AppCanvasTests.TestTriangle()
+  fullName: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestTriangle()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: TestTriangle
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppCanvasTests.cs
+    startLine: 297
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.ComponentTests
+  summary: Tests the Triangle
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestTriangle()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestTriangle()
+  overload: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestTriangle*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestWriteText
+  commentId: M:ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestWriteText
+  id: TestWriteText
+  parent: ASE_Assignment_Tests.ComponentTests.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: TestWriteText()
+  nameWithType: AppCanvasTests.TestWriteText()
+  fullName: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestWriteText()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: TestWriteText
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppCanvasTests.cs
+    startLine: 320
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.ComponentTests
+  summary: Tests the write text method
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestWriteText()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestWriteText()
+  overload: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestWriteText*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestResetCanvas
+  commentId: M:ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestResetCanvas
+  id: TestResetCanvas
+  parent: ASE_Assignment_Tests.ComponentTests.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: TestResetCanvas()
+  nameWithType: AppCanvasTests.TestResetCanvas()
+  fullName: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestResetCanvas()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: TestResetCanvas
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppCanvasTests.cs
+    startLine: 341
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.ComponentTests
+  summary: Tests the canvas reset method
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestResetCanvas()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestResetCanvas()
+  overload: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestResetCanvas*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestSetCanvas
+  commentId: M:ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestSetCanvas
+  id: TestSetCanvas
+  parent: ASE_Assignment_Tests.ComponentTests.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: TestSetCanvas()
+  nameWithType: AppCanvasTests.TestSetCanvas()
+  fullName: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestSetCanvas()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: TestSetCanvas
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/ComponentTests/AppCanvasTests.cs
+    startLine: 385
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.ComponentTests
+  summary: Tests the set canvas method
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestSetCanvas()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestSetCanvas()
+  overload: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestSetCanvas*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+references:
+- uid: ASE_Assignment_Tests.ComponentTests
+  commentId: N:ASE_Assignment_Tests.ComponentTests
+  href: ASE_Assignment_Tests.html
+  name: ASE_Assignment_Tests.ComponentTests
+  nameWithType: ASE_Assignment_Tests.ComponentTests
+  fullName: ASE_Assignment_Tests.ComponentTests
+  spec.csharp:
+  - uid: ASE_Assignment_Tests
+    name: ASE_Assignment_Tests
+    href: ASE_Assignment_Tests.html
+  - name: .
+  - uid: ASE_Assignment_Tests.ComponentTests
+    name: ComponentTests
+    href: ASE_Assignment_Tests.ComponentTests.html
+  spec.vb:
+  - uid: ASE_Assignment_Tests
+    name: ASE_Assignment_Tests
+    href: ASE_Assignment_Tests.html
+  - name: .
+  - uid: ASE_Assignment_Tests.ComponentTests
+    name: ComponentTests
+    href: ASE_Assignment_Tests.ComponentTests.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestMoveToCanvas*
+  commentId: Overload:ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestMoveToCanvas
+  href: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.html#ASE_Assignment_Tests_ComponentTests_AppCanvasTests_TestMoveToCanvas
+  name: TestMoveToCanvas
+  nameWithType: AppCanvasTests.TestMoveToCanvas
+  fullName: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestMoveToCanvas
+- uid: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestDrawToCanvas*
+  commentId: Overload:ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestDrawToCanvas
+  href: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.html#ASE_Assignment_Tests_ComponentTests_AppCanvasTests_TestDrawToCanvas
+  name: TestDrawToCanvas
+  nameWithType: AppCanvasTests.TestDrawToCanvas
+  fullName: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestDrawToCanvas
+- uid: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestMultiLineMainProgram*
+  commentId: Overload:ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestMultiLineMainProgram
+  href: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.html#ASE_Assignment_Tests_ComponentTests_AppCanvasTests_TestMultiLineMainProgram
+  name: TestMultiLineMainProgram
+  nameWithType: AppCanvasTests.TestMultiLineMainProgram
+  fullName: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestMultiLineMainProgram
+- uid: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestChangePenColour*
+  commentId: Overload:ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestChangePenColour
+  href: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.html#ASE_Assignment_Tests_ComponentTests_AppCanvasTests_TestChangePenColour
+  name: TestChangePenColour
+  nameWithType: AppCanvasTests.TestChangePenColour
+  fullName: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestChangePenColour
+- uid: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestChangeBrushColour*
+  commentId: Overload:ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestChangeBrushColour
+  href: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.html#ASE_Assignment_Tests_ComponentTests_AppCanvasTests_TestChangeBrushColour
+  name: TestChangeBrushColour
+  nameWithType: AppCanvasTests.TestChangeBrushColour
+  fullName: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestChangeBrushColour
+- uid: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestCircle*
+  commentId: Overload:ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestCircle
+  href: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.html#ASE_Assignment_Tests_ComponentTests_AppCanvasTests_TestCircle
+  name: TestCircle
+  nameWithType: AppCanvasTests.TestCircle
+  fullName: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestCircle
+- uid: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestCircleFilled*
+  commentId: Overload:ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestCircleFilled
+  href: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.html#ASE_Assignment_Tests_ComponentTests_AppCanvasTests_TestCircleFilled
+  name: TestCircleFilled
+  nameWithType: AppCanvasTests.TestCircleFilled
+  fullName: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestCircleFilled
+- uid: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestClear*
+  commentId: Overload:ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestClear
+  href: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.html#ASE_Assignment_Tests_ComponentTests_AppCanvasTests_TestClear
+  name: TestClear
+  nameWithType: AppCanvasTests.TestClear
+  fullName: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestClear
+- uid: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestBitmap*
+  commentId: Overload:ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestBitmap
+  href: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.html#ASE_Assignment_Tests_ComponentTests_AppCanvasTests_TestBitmap
+  name: TestBitmap
+  nameWithType: AppCanvasTests.TestBitmap
+  fullName: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestBitmap
+- uid: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestRect*
+  commentId: Overload:ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestRect
+  href: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.html#ASE_Assignment_Tests_ComponentTests_AppCanvasTests_TestRect
+  name: TestRect
+  nameWithType: AppCanvasTests.TestRect
+  fullName: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestRect
+- uid: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestRectFilled*
+  commentId: Overload:ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestRectFilled
+  href: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.html#ASE_Assignment_Tests_ComponentTests_AppCanvasTests_TestRectFilled
+  name: TestRectFilled
+  nameWithType: AppCanvasTests.TestRectFilled
+  fullName: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestRectFilled
+- uid: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestTriangle*
+  commentId: Overload:ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestTriangle
+  href: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.html#ASE_Assignment_Tests_ComponentTests_AppCanvasTests_TestTriangle
+  name: TestTriangle
+  nameWithType: AppCanvasTests.TestTriangle
+  fullName: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestTriangle
+- uid: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestWriteText*
+  commentId: Overload:ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestWriteText
+  href: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.html#ASE_Assignment_Tests_ComponentTests_AppCanvasTests_TestWriteText
+  name: TestWriteText
+  nameWithType: AppCanvasTests.TestWriteText
+  fullName: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestWriteText
+- uid: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestResetCanvas*
+  commentId: Overload:ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestResetCanvas
+  href: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.html#ASE_Assignment_Tests_ComponentTests_AppCanvasTests_TestResetCanvas
+  name: TestResetCanvas
+  nameWithType: AppCanvasTests.TestResetCanvas
+  fullName: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestResetCanvas
+- uid: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestSetCanvas*
+  commentId: Overload:ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestSetCanvas
+  href: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.html#ASE_Assignment_Tests_ComponentTests_AppCanvasTests_TestSetCanvas
+  name: TestSetCanvas
+  nameWithType: AppCanvasTests.TestSetCanvas
+  fullName: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.TestSetCanvas

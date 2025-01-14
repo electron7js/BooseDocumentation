@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: ApplicationDevelopmentProject.Data.Models
+  commentId: N:ApplicationDevelopmentProject.Data.Models
+  id: ApplicationDevelopmentProject.Data.Models
+  children:
+  - ApplicationDevelopmentProject.Data.Models.BooseProgram
+  langs:
+  - csharp
+  - vb
+  name: ApplicationDevelopmentProject.Data.Models
+  nameWithType: ApplicationDevelopmentProject.Data.Models
+  fullName: ApplicationDevelopmentProject.Data.Models
+  type: Namespace
+  assemblies:
+  - BooseWebApp.Server
+references:
+- uid: ApplicationDevelopmentProject.Data.Models.BooseProgram
+  commentId: T:ApplicationDevelopmentProject.Data.Models.BooseProgram
+  parent: ApplicationDevelopmentProject.Data.Models
+  href: ApplicationDevelopmentProject.Data.Models.BooseProgram.html
+  name: BooseProgram
+  nameWithType: BooseProgram
+  fullName: ApplicationDevelopmentProject.Data.Models.BooseProgram
+- uid: ApplicationDevelopmentProject.Data.Models
+  commentId: N:ApplicationDevelopmentProject.Data.Models
+  href: ApplicationDevelopmentProject.html
+  name: ApplicationDevelopmentProject.Data.Models
+  nameWithType: ApplicationDevelopmentProject.Data.Models
+  fullName: ApplicationDevelopmentProject.Data.Models
+  spec.csharp:
+  - uid: ApplicationDevelopmentProject
+    name: ApplicationDevelopmentProject
+    href: ApplicationDevelopmentProject.html
+  - name: .
+  - uid: ApplicationDevelopmentProject.Data
+    name: Data
+    href: ApplicationDevelopmentProject.Data.html
+  - name: .
+  - uid: ApplicationDevelopmentProject.Data.Models
+    name: Models
+    href: ApplicationDevelopmentProject.Data.Models.html
+  spec.vb:
+  - uid: ApplicationDevelopmentProject
+    name: ApplicationDevelopmentProject
+    href: ApplicationDevelopmentProject.html
+  - name: .
+  - uid: ApplicationDevelopmentProject.Data
+    name: Data
+    href: ApplicationDevelopmentProject.Data.html
+  - name: .
+  - uid: ApplicationDevelopmentProject.Data.Models
+    name: Models
+    href: ApplicationDevelopmentProject.Data.Models.html

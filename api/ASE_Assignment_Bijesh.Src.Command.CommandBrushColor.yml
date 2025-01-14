@@ -164,7 +164,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: CheckParameters
     path: ../ASE Assignment Bijesh/ASE Assignment Bijesh/Src/Command/CommandBrushColor.cs
-    startLine: 58
+    startLine: 59
   assemblies:
   - ASE Assignment Bijesh
   namespace: ASE_Assignment_Bijesh.Src.Command
@@ -202,7 +202,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: Execute
     path: ../ASE Assignment Bijesh/ASE Assignment Bijesh/Src/Command/CommandBrushColor.cs
-    startLine: 71
+    startLine: 72
   assemblies:
   - ASE Assignment Bijesh
   namespace: ASE_Assignment_Bijesh.Src.Command

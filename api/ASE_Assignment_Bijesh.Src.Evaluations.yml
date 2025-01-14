@@ -6,6 +6,7 @@ items:
   children:
   - ASE_Assignment_Bijesh.Src.Evaluations.EvaluationArray
   - ASE_Assignment_Bijesh.Src.Evaluations.EvaluationBool
+  - ASE_Assignment_Bijesh.Src.Evaluations.EvaluationCall
   - ASE_Assignment_Bijesh.Src.Evaluations.EvaluationElse
   - ASE_Assignment_Bijesh.Src.Evaluations.EvaluationEnd
   - ASE_Assignment_Bijesh.Src.Evaluations.EvaluationFor
@@ -37,6 +38,12 @@ references:
   name: EvaluationBool
   nameWithType: EvaluationBool
   fullName: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationBool
+- uid: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationCall
+  commentId: T:ASE_Assignment_Bijesh.Src.Evaluations.EvaluationCall
+  href: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationCall.html
+  name: EvaluationCall
+  nameWithType: EvaluationCall
+  fullName: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationCall
 - uid: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationElse
   commentId: T:ASE_Assignment_Bijesh.Src.Evaluations.EvaluationElse
   href: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationElse.html

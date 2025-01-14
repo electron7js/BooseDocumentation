@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: BooseWebApp.Server.Controllers
+  commentId: N:BooseWebApp.Server.Controllers
+  id: BooseWebApp.Server.Controllers
+  children:
+  - BooseWebApp.Server.Controllers.BooseController
+  langs:
+  - csharp
+  - vb
+  name: BooseWebApp.Server.Controllers
+  nameWithType: BooseWebApp.Server.Controllers
+  fullName: BooseWebApp.Server.Controllers
+  type: Namespace
+  assemblies:
+  - BooseWebApp.Server
+references:
+- uid: BooseWebApp.Server.Controllers.BooseController
+  commentId: T:BooseWebApp.Server.Controllers.BooseController
+  href: BooseWebApp.Server.Controllers.BooseController.html
+  name: BooseController
+  nameWithType: BooseController
+  fullName: BooseWebApp.Server.Controllers.BooseController

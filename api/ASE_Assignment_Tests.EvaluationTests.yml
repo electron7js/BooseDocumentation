@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment_Tests.EvaluationTests
+  commentId: N:ASE_Assignment_Tests.EvaluationTests
+  id: ASE_Assignment_Tests.EvaluationTests
+  children:
+  - ASE_Assignment_Tests.EvaluationTests.BooseWrapperTests
+  - ASE_Assignment_Tests.EvaluationTests.EvaluationCallTests
+  langs:
+  - csharp
+  - vb
+  name: ASE_Assignment_Tests.EvaluationTests
+  nameWithType: ASE_Assignment_Tests.EvaluationTests
+  fullName: ASE_Assignment_Tests.EvaluationTests
+  type: Namespace
+  assemblies:
+  - ASE Assignment Tests
+references:
+- uid: ASE_Assignment_Tests.EvaluationTests.BooseWrapperTests
+  commentId: T:ASE_Assignment_Tests.EvaluationTests.BooseWrapperTests
+  href: ASE_Assignment_Tests.EvaluationTests.BooseWrapperTests.html
+  name: BooseWrapperTests
+  nameWithType: BooseWrapperTests
+  fullName: ASE_Assignment_Tests.EvaluationTests.BooseWrapperTests
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationCallTests
+  commentId: T:ASE_Assignment_Tests.EvaluationTests.EvaluationCallTests
+  href: ASE_Assignment_Tests.EvaluationTests.EvaluationCallTests.html
+  name: EvaluationCallTests
+  nameWithType: EvaluationCallTests
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationCallTests

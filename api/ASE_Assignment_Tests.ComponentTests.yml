@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment_Tests.ComponentTests
+  commentId: N:ASE_Assignment_Tests.ComponentTests
+  id: ASE_Assignment_Tests.ComponentTests
+  children:
+  - ASE_Assignment_Tests.ComponentTests.AppCanvasTests
+  - ASE_Assignment_Tests.ComponentTests.AppCommandFactoryTests
+  - ASE_Assignment_Tests.ComponentTests.AppParserTests
+  - ASE_Assignment_Tests.ComponentTests.AppStoredProgramTests
+  langs:
+  - csharp
+  - vb
+  name: ASE_Assignment_Tests.ComponentTests
+  nameWithType: ASE_Assignment_Tests.ComponentTests
+  fullName: ASE_Assignment_Tests.ComponentTests
+  type: Namespace
+  assemblies:
+  - ASE Assignment Tests
+references:
+- uid: ASE_Assignment_Tests.ComponentTests.AppCanvasTests
+  commentId: T:ASE_Assignment_Tests.ComponentTests.AppCanvasTests
+  href: ASE_Assignment_Tests.ComponentTests.AppCanvasTests.html
+  name: AppCanvasTests
+  nameWithType: AppCanvasTests
+  fullName: ASE_Assignment_Tests.ComponentTests.AppCanvasTests
+- uid: ASE_Assignment_Tests.ComponentTests.AppCommandFactoryTests
+  commentId: T:ASE_Assignment_Tests.ComponentTests.AppCommandFactoryTests
+  href: ASE_Assignment_Tests.ComponentTests.AppCommandFactoryTests.html
+  name: AppCommandFactoryTests
+  nameWithType: AppCommandFactoryTests
+  fullName: ASE_Assignment_Tests.ComponentTests.AppCommandFactoryTests
+- uid: ASE_Assignment_Tests.ComponentTests.AppParserTests
+  commentId: T:ASE_Assignment_Tests.ComponentTests.AppParserTests
+  href: ASE_Assignment_Tests.ComponentTests.AppParserTests.html
+  name: AppParserTests
+  nameWithType: AppParserTests
+  fullName: ASE_Assignment_Tests.ComponentTests.AppParserTests
+- uid: ASE_Assignment_Tests.ComponentTests.AppStoredProgramTests
+  commentId: T:ASE_Assignment_Tests.ComponentTests.AppStoredProgramTests
+  href: ASE_Assignment_Tests.ComponentTests.AppStoredProgramTests.html
+  name: AppStoredProgramTests
+  nameWithType: AppStoredProgramTests
+  fullName: ASE_Assignment_Tests.ComponentTests.AppStoredProgramTests

@@ -7,6 +7,13 @@
           "src": "../ASE Assignment Bijesh/",
           "files": [
             "**/*.csproj"
+          ],
+          "exclude":[
+            "**/obj/**",
+            "**/bin/**",
+            "**/node_modules/**",
+            "**/boosewebapp.client/**"
+
           ]
         }
       ],
@@ -20,7 +27,12 @@
           "**/*.{md,yml}"
         ],
         "exclude": [
-          "_site/**"
+          "_site/**",
+          "**/obj/**",
+          "**/bin/**",
+          "**/node_modules/**",
+          "**/boosewebapp.client/**"
+
         ]
       }
     ],

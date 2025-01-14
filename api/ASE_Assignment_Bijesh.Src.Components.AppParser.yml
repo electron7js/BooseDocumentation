@@ -61,17 +61,21 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: .ctor
     path: ../ASE Assignment Bijesh/ASE Assignment Bijesh/Src/Components/AppParser.cs
-    startLine: 13
+    startLine: 18
   assemblies:
   - ASE Assignment Bijesh
   namespace: ASE_Assignment_Bijesh.Src.Components
+  summary: The public constructor to initialize the parser with its factory and stored program
+  example: []
   syntax:
     content: public AppParser(CommandFactory Factory, AppStoredProgram Program)
     parameters:
     - id: Factory
       type: BOOSE.CommandFactory
+      description: ''
     - id: Program
       type: ASE_Assignment_Bijesh.Src.Components.AppStoredProgram
+      description: ''
     content.vb: Public Sub New(Factory As CommandFactory, Program As AppStoredProgram)
   overload: ASE_Assignment_Bijesh.Src.Components.AppParser.#ctor*
   nameWithType.vb: AppParser.New(CommandFactory, AppStoredProgram)
@@ -95,7 +99,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: ParseCommand
     path: ../ASE Assignment Bijesh/ASE Assignment Bijesh/Src/Components/AppParser.cs
-    startLine: 31
+    startLine: 36
   assemblies:
   - ASE Assignment Bijesh
   namespace: ASE_Assignment_Bijesh.Src.Components
@@ -139,7 +143,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: ParseProgram
     path: ../ASE Assignment Bijesh/ASE Assignment Bijesh/Src/Components/AppParser.cs
-    startLine: 94
+    startLine: 99
   assemblies:
   - ASE Assignment Bijesh
   namespace: ASE_Assignment_Bijesh.Src.Components
