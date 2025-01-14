@@ -1,0 +1,770 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment_Bijesh.Src.BooseWrapper
+  commentId: T:ASE_Assignment_Bijesh.Src.BooseWrapper
+  id: BooseWrapper
+  parent: ASE_Assignment_Bijesh.Src
+  children:
+  - ASE_Assignment_Bijesh.Src.BooseWrapper.ClearScreen
+  - ASE_Assignment_Bijesh.Src.BooseWrapper.GetBitmap
+  - ASE_Assignment_Bijesh.Src.BooseWrapper.GetCurrentPosition
+  - ASE_Assignment_Bijesh.Src.BooseWrapper.GetInstance
+  - ASE_Assignment_Bijesh.Src.BooseWrapper.Instance
+  - ASE_Assignment_Bijesh.Src.BooseWrapper.Reset
+  - ASE_Assignment_Bijesh.Src.BooseWrapper.RunProgram(System.String)
+  langs:
+  - csharp
+  - vb
+  name: BooseWrapper
+  nameWithType: BooseWrapper
+  fullName: ASE_Assignment_Bijesh.Src.BooseWrapper
+  type: Class
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Bijesh/Src/BooseWrapper.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: BooseWrapper
+    path: ../ASE Assignment Bijesh/ASE Assignment Bijesh/Src/BooseWrapper.cs
+    startLine: 13
+  assemblies:
+  - ASE Assignment Bijesh
+  namespace: ASE_Assignment_Bijesh.Src
+  summary: An encapsulated streamlined class for running the BOOSE interpreter
+  example: []
+  syntax:
+    content: 'public class BooseWrapper : IBooseWrapper'
+    content.vb: Public Class BooseWrapper Implements IBooseWrapper
+  inheritance:
+  - System.Object
+  implements:
+  - ASE_Assignment_Bijesh.Src.IBooseWrapper
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: ASE_Assignment_Bijesh.Src.BooseWrapper.Instance
+  commentId: P:ASE_Assignment_Bijesh.Src.BooseWrapper.Instance
+  id: Instance
+  parent: ASE_Assignment_Bijesh.Src.BooseWrapper
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: BooseWrapper.Instance
+  fullName: ASE_Assignment_Bijesh.Src.BooseWrapper.Instance
+  type: Property
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Bijesh/Src/BooseWrapper.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: Instance
+    path: ../ASE Assignment Bijesh/ASE Assignment Bijesh/Src/BooseWrapper.cs
+    startLine: 52
+  assemblies:
+  - ASE Assignment Bijesh
+  namespace: ASE_Assignment_Bijesh.Src
+  syntax:
+    content: public static BooseWrapper Instance { get; }
+    parameters: []
+    return:
+      type: ASE_Assignment_Bijesh.Src.BooseWrapper
+    content.vb: Public Shared ReadOnly Property Instance As BooseWrapper
+  overload: ASE_Assignment_Bijesh.Src.BooseWrapper.Instance*
+- uid: ASE_Assignment_Bijesh.Src.BooseWrapper.RunProgram(System.String)
+  commentId: M:ASE_Assignment_Bijesh.Src.BooseWrapper.RunProgram(System.String)
+  id: RunProgram(System.String)
+  parent: ASE_Assignment_Bijesh.Src.BooseWrapper
+  langs:
+  - csharp
+  - vb
+  name: RunProgram(string)
+  nameWithType: BooseWrapper.RunProgram(string)
+  fullName: ASE_Assignment_Bijesh.Src.BooseWrapper.RunProgram(string)
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Bijesh/Src/BooseWrapper.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: RunProgram
+    path: ../ASE Assignment Bijesh/ASE Assignment Bijesh/Src/BooseWrapper.cs
+    startLine: 75
+  assemblies:
+  - ASE Assignment Bijesh
+  namespace: ASE_Assignment_Bijesh.Src
+  summary: Compiles and runs the program given in the program string
+  example: []
+  syntax:
+    content: public void RunProgram(string program)
+    parameters:
+    - id: program
+      type: System.String
+      description: ''
+    content.vb: Public Sub RunProgram(program As String)
+  overload: ASE_Assignment_Bijesh.Src.BooseWrapper.RunProgram*
+  implements:
+  - ASE_Assignment_Bijesh.Src.IBooseWrapper.RunProgram(System.String)
+  nameWithType.vb: BooseWrapper.RunProgram(String)
+  fullName.vb: ASE_Assignment_Bijesh.Src.BooseWrapper.RunProgram(String)
+  name.vb: RunProgram(String)
+- uid: ASE_Assignment_Bijesh.Src.BooseWrapper.GetCurrentPosition
+  commentId: M:ASE_Assignment_Bijesh.Src.BooseWrapper.GetCurrentPosition
+  id: GetCurrentPosition
+  parent: ASE_Assignment_Bijesh.Src.BooseWrapper
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentPosition()
+  nameWithType: BooseWrapper.GetCurrentPosition()
+  fullName: ASE_Assignment_Bijesh.Src.BooseWrapper.GetCurrentPosition()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Bijesh/Src/BooseWrapper.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: GetCurrentPosition
+    path: ../ASE Assignment Bijesh/ASE Assignment Bijesh/Src/BooseWrapper.cs
+    startLine: 97
+  assemblies:
+  - ASE Assignment Bijesh
+  namespace: ASE_Assignment_Bijesh.Src
+  summary: Returns the current X,Y coordinate of the virtual cursor at
+  example: []
+  syntax:
+    content: public Point GetCurrentPosition()
+    return:
+      type: System.Drawing.Point
+      description: ''
+    content.vb: Public Function GetCurrentPosition() As Point
+  overload: ASE_Assignment_Bijesh.Src.BooseWrapper.GetCurrentPosition*
+  implements:
+  - ASE_Assignment_Bijesh.Src.IBooseWrapper.GetCurrentPosition
+- uid: ASE_Assignment_Bijesh.Src.BooseWrapper.GetBitmap
+  commentId: M:ASE_Assignment_Bijesh.Src.BooseWrapper.GetBitmap
+  id: GetBitmap
+  parent: ASE_Assignment_Bijesh.Src.BooseWrapper
+  langs:
+  - csharp
+  - vb
+  name: GetBitmap()
+  nameWithType: BooseWrapper.GetBitmap()
+  fullName: ASE_Assignment_Bijesh.Src.BooseWrapper.GetBitmap()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Bijesh/Src/BooseWrapper.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: GetBitmap
+    path: ../ASE Assignment Bijesh/ASE Assignment Bijesh/Src/BooseWrapper.cs
+    startLine: 106
+  assemblies:
+  - ASE Assignment Bijesh
+  namespace: ASE_Assignment_Bijesh.Src
+  summary: Returns the bitmap of the current state of the canvas
+  example: []
+  syntax:
+    content: public Bitmap GetBitmap()
+    return:
+      type: System.Drawing.Bitmap
+      description: ''
+    content.vb: Public Function GetBitmap() As Bitmap
+  overload: ASE_Assignment_Bijesh.Src.BooseWrapper.GetBitmap*
+  implements:
+  - ASE_Assignment_Bijesh.Src.IBooseWrapper.GetBitmap
+- uid: ASE_Assignment_Bijesh.Src.BooseWrapper.ClearScreen
+  commentId: M:ASE_Assignment_Bijesh.Src.BooseWrapper.ClearScreen
+  id: ClearScreen
+  parent: ASE_Assignment_Bijesh.Src.BooseWrapper
+  langs:
+  - csharp
+  - vb
+  name: ClearScreen()
+  nameWithType: BooseWrapper.ClearScreen()
+  fullName: ASE_Assignment_Bijesh.Src.BooseWrapper.ClearScreen()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Bijesh/Src/BooseWrapper.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: ClearScreen
+    path: ../ASE Assignment Bijesh/ASE Assignment Bijesh/Src/BooseWrapper.cs
+    startLine: 114
+  assemblies:
+  - ASE Assignment Bijesh
+  namespace: ASE_Assignment_Bijesh.Src
+  summary: Clears the Screen
+  example: []
+  syntax:
+    content: public void ClearScreen()
+    content.vb: Public Sub ClearScreen()
+  overload: ASE_Assignment_Bijesh.Src.BooseWrapper.ClearScreen*
+  implements:
+  - ASE_Assignment_Bijesh.Src.IBooseWrapper.ClearScreen
+- uid: ASE_Assignment_Bijesh.Src.BooseWrapper.Reset
+  commentId: M:ASE_Assignment_Bijesh.Src.BooseWrapper.Reset
+  id: Reset
+  parent: ASE_Assignment_Bijesh.Src.BooseWrapper
+  langs:
+  - csharp
+  - vb
+  name: Reset()
+  nameWithType: BooseWrapper.Reset()
+  fullName: ASE_Assignment_Bijesh.Src.BooseWrapper.Reset()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Bijesh/Src/BooseWrapper.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: Reset
+    path: ../ASE Assignment Bijesh/ASE Assignment Bijesh/Src/BooseWrapper.cs
+    startLine: 121
+  assemblies:
+  - ASE Assignment Bijesh
+  namespace: ASE_Assignment_Bijesh.Src
+  summary: Clears the Screen
+  example: []
+  syntax:
+    content: public void Reset()
+    content.vb: Public Sub Reset()
+  overload: ASE_Assignment_Bijesh.Src.BooseWrapper.Reset*
+  implements:
+  - ASE_Assignment_Bijesh.Src.IBooseWrapper.Reset
+- uid: ASE_Assignment_Bijesh.Src.BooseWrapper.GetInstance
+  commentId: M:ASE_Assignment_Bijesh.Src.BooseWrapper.GetInstance
+  id: GetInstance
+  parent: ASE_Assignment_Bijesh.Src.BooseWrapper
+  langs:
+  - csharp
+  - vb
+  name: GetInstance()
+  nameWithType: BooseWrapper.GetInstance()
+  fullName: ASE_Assignment_Bijesh.Src.BooseWrapper.GetInstance()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Bijesh/Src/BooseWrapper.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: GetInstance
+    path: ../ASE Assignment Bijesh/ASE Assignment Bijesh/Src/BooseWrapper.cs
+    startLine: 130
+  assemblies:
+  - ASE Assignment Bijesh
+  namespace: ASE_Assignment_Bijesh.Src
+  summary: Returns the singleton instance as a IBooseWrapper reference
+  example: []
+  syntax:
+    content: public static IBooseWrapper GetInstance()
+    return:
+      type: ASE_Assignment_Bijesh.Src.IBooseWrapper
+      description: ''
+    content.vb: Public Shared Function GetInstance() As IBooseWrapper
+  overload: ASE_Assignment_Bijesh.Src.BooseWrapper.GetInstance*
+  implements:
+  - ASE_Assignment_Bijesh.Src.IBooseWrapper.GetInstance
+references:
+- uid: ASE_Assignment_Bijesh.Src
+  commentId: N:ASE_Assignment_Bijesh.Src
+  href: ASE_Assignment_Bijesh.html
+  name: ASE_Assignment_Bijesh.Src
+  nameWithType: ASE_Assignment_Bijesh.Src
+  fullName: ASE_Assignment_Bijesh.Src
+  spec.csharp:
+  - uid: ASE_Assignment_Bijesh
+    name: ASE_Assignment_Bijesh
+    href: ASE_Assignment_Bijesh.html
+  - name: .
+  - uid: ASE_Assignment_Bijesh.Src
+    name: Src
+    href: ASE_Assignment_Bijesh.Src.html
+  spec.vb:
+  - uid: ASE_Assignment_Bijesh
+    name: ASE_Assignment_Bijesh
+    href: ASE_Assignment_Bijesh.html
+  - name: .
+  - uid: ASE_Assignment_Bijesh.Src
+    name: Src
+    href: ASE_Assignment_Bijesh.Src.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ASE_Assignment_Bijesh.Src.IBooseWrapper
+  commentId: T:ASE_Assignment_Bijesh.Src.IBooseWrapper
+  parent: ASE_Assignment_Bijesh.Src
+  href: ASE_Assignment_Bijesh.Src.IBooseWrapper.html
+  name: IBooseWrapper
+  nameWithType: IBooseWrapper
+  fullName: ASE_Assignment_Bijesh.Src.IBooseWrapper
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ASE_Assignment_Bijesh.Src.BooseWrapper.Instance*
+  commentId: Overload:ASE_Assignment_Bijesh.Src.BooseWrapper.Instance
+  href: ASE_Assignment_Bijesh.Src.BooseWrapper.html#ASE_Assignment_Bijesh_Src_BooseWrapper_Instance
+  name: Instance
+  nameWithType: BooseWrapper.Instance
+  fullName: ASE_Assignment_Bijesh.Src.BooseWrapper.Instance
+- uid: ASE_Assignment_Bijesh.Src.BooseWrapper
+  commentId: T:ASE_Assignment_Bijesh.Src.BooseWrapper
+  parent: ASE_Assignment_Bijesh.Src
+  href: ASE_Assignment_Bijesh.Src.BooseWrapper.html
+  name: BooseWrapper
+  nameWithType: BooseWrapper
+  fullName: ASE_Assignment_Bijesh.Src.BooseWrapper
+- uid: ASE_Assignment_Bijesh.Src.BooseWrapper.RunProgram*
+  commentId: Overload:ASE_Assignment_Bijesh.Src.BooseWrapper.RunProgram
+  href: ASE_Assignment_Bijesh.Src.BooseWrapper.html#ASE_Assignment_Bijesh_Src_BooseWrapper_RunProgram_System_String_
+  name: RunProgram
+  nameWithType: BooseWrapper.RunProgram
+  fullName: ASE_Assignment_Bijesh.Src.BooseWrapper.RunProgram
+- uid: ASE_Assignment_Bijesh.Src.IBooseWrapper.RunProgram(System.String)
+  commentId: M:ASE_Assignment_Bijesh.Src.IBooseWrapper.RunProgram(System.String)
+  parent: ASE_Assignment_Bijesh.Src.IBooseWrapper
+  isExternal: true
+  href: ASE_Assignment_Bijesh.Src.IBooseWrapper.html#ASE_Assignment_Bijesh_Src_IBooseWrapper_RunProgram_System_String_
+  name: RunProgram(string)
+  nameWithType: IBooseWrapper.RunProgram(string)
+  fullName: ASE_Assignment_Bijesh.Src.IBooseWrapper.RunProgram(string)
+  nameWithType.vb: IBooseWrapper.RunProgram(String)
+  fullName.vb: ASE_Assignment_Bijesh.Src.IBooseWrapper.RunProgram(String)
+  name.vb: RunProgram(String)
+  spec.csharp:
+  - uid: ASE_Assignment_Bijesh.Src.IBooseWrapper.RunProgram(System.String)
+    name: RunProgram
+    href: ASE_Assignment_Bijesh.Src.IBooseWrapper.html#ASE_Assignment_Bijesh_Src_IBooseWrapper_RunProgram_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: ASE_Assignment_Bijesh.Src.IBooseWrapper.RunProgram(System.String)
+    name: RunProgram
+    href: ASE_Assignment_Bijesh.Src.IBooseWrapper.html#ASE_Assignment_Bijesh_Src_IBooseWrapper_RunProgram_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: ASE_Assignment_Bijesh.Src.BooseWrapper.GetCurrentPosition*
+  commentId: Overload:ASE_Assignment_Bijesh.Src.BooseWrapper.GetCurrentPosition
+  href: ASE_Assignment_Bijesh.Src.BooseWrapper.html#ASE_Assignment_Bijesh_Src_BooseWrapper_GetCurrentPosition
+  name: GetCurrentPosition
+  nameWithType: BooseWrapper.GetCurrentPosition
+  fullName: ASE_Assignment_Bijesh.Src.BooseWrapper.GetCurrentPosition
+- uid: ASE_Assignment_Bijesh.Src.IBooseWrapper.GetCurrentPosition
+  commentId: M:ASE_Assignment_Bijesh.Src.IBooseWrapper.GetCurrentPosition
+  parent: ASE_Assignment_Bijesh.Src.IBooseWrapper
+  href: ASE_Assignment_Bijesh.Src.IBooseWrapper.html#ASE_Assignment_Bijesh_Src_IBooseWrapper_GetCurrentPosition
+  name: GetCurrentPosition()
+  nameWithType: IBooseWrapper.GetCurrentPosition()
+  fullName: ASE_Assignment_Bijesh.Src.IBooseWrapper.GetCurrentPosition()
+  spec.csharp:
+  - uid: ASE_Assignment_Bijesh.Src.IBooseWrapper.GetCurrentPosition
+    name: GetCurrentPosition
+    href: ASE_Assignment_Bijesh.Src.IBooseWrapper.html#ASE_Assignment_Bijesh_Src_IBooseWrapper_GetCurrentPosition
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ASE_Assignment_Bijesh.Src.IBooseWrapper.GetCurrentPosition
+    name: GetCurrentPosition
+    href: ASE_Assignment_Bijesh.Src.IBooseWrapper.html#ASE_Assignment_Bijesh_Src_IBooseWrapper_GetCurrentPosition
+  - name: (
+  - name: )
+- uid: System.Drawing.Point
+  commentId: T:System.Drawing.Point
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.point
+  name: Point
+  nameWithType: Point
+  fullName: System.Drawing.Point
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+- uid: ASE_Assignment_Bijesh.Src.BooseWrapper.GetBitmap*
+  commentId: Overload:ASE_Assignment_Bijesh.Src.BooseWrapper.GetBitmap
+  href: ASE_Assignment_Bijesh.Src.BooseWrapper.html#ASE_Assignment_Bijesh_Src_BooseWrapper_GetBitmap
+  name: GetBitmap
+  nameWithType: BooseWrapper.GetBitmap
+  fullName: ASE_Assignment_Bijesh.Src.BooseWrapper.GetBitmap
+- uid: ASE_Assignment_Bijesh.Src.IBooseWrapper.GetBitmap
+  commentId: M:ASE_Assignment_Bijesh.Src.IBooseWrapper.GetBitmap
+  parent: ASE_Assignment_Bijesh.Src.IBooseWrapper
+  href: ASE_Assignment_Bijesh.Src.IBooseWrapper.html#ASE_Assignment_Bijesh_Src_IBooseWrapper_GetBitmap
+  name: GetBitmap()
+  nameWithType: IBooseWrapper.GetBitmap()
+  fullName: ASE_Assignment_Bijesh.Src.IBooseWrapper.GetBitmap()
+  spec.csharp:
+  - uid: ASE_Assignment_Bijesh.Src.IBooseWrapper.GetBitmap
+    name: GetBitmap
+    href: ASE_Assignment_Bijesh.Src.IBooseWrapper.html#ASE_Assignment_Bijesh_Src_IBooseWrapper_GetBitmap
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ASE_Assignment_Bijesh.Src.IBooseWrapper.GetBitmap
+    name: GetBitmap
+    href: ASE_Assignment_Bijesh.Src.IBooseWrapper.html#ASE_Assignment_Bijesh_Src_IBooseWrapper_GetBitmap
+  - name: (
+  - name: )
+- uid: System.Drawing.Bitmap
+  commentId: T:System.Drawing.Bitmap
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.bitmap
+  name: Bitmap
+  nameWithType: Bitmap
+  fullName: System.Drawing.Bitmap
+- uid: ASE_Assignment_Bijesh.Src.BooseWrapper.ClearScreen*
+  commentId: Overload:ASE_Assignment_Bijesh.Src.BooseWrapper.ClearScreen
+  href: ASE_Assignment_Bijesh.Src.BooseWrapper.html#ASE_Assignment_Bijesh_Src_BooseWrapper_ClearScreen
+  name: ClearScreen
+  nameWithType: BooseWrapper.ClearScreen
+  fullName: ASE_Assignment_Bijesh.Src.BooseWrapper.ClearScreen
+- uid: ASE_Assignment_Bijesh.Src.IBooseWrapper.ClearScreen
+  commentId: M:ASE_Assignment_Bijesh.Src.IBooseWrapper.ClearScreen
+  parent: ASE_Assignment_Bijesh.Src.IBooseWrapper
+  href: ASE_Assignment_Bijesh.Src.IBooseWrapper.html#ASE_Assignment_Bijesh_Src_IBooseWrapper_ClearScreen
+  name: ClearScreen()
+  nameWithType: IBooseWrapper.ClearScreen()
+  fullName: ASE_Assignment_Bijesh.Src.IBooseWrapper.ClearScreen()
+  spec.csharp:
+  - uid: ASE_Assignment_Bijesh.Src.IBooseWrapper.ClearScreen
+    name: ClearScreen
+    href: ASE_Assignment_Bijesh.Src.IBooseWrapper.html#ASE_Assignment_Bijesh_Src_IBooseWrapper_ClearScreen
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ASE_Assignment_Bijesh.Src.IBooseWrapper.ClearScreen
+    name: ClearScreen
+    href: ASE_Assignment_Bijesh.Src.IBooseWrapper.html#ASE_Assignment_Bijesh_Src_IBooseWrapper_ClearScreen
+  - name: (
+  - name: )
+- uid: ASE_Assignment_Bijesh.Src.BooseWrapper.Reset*
+  commentId: Overload:ASE_Assignment_Bijesh.Src.BooseWrapper.Reset
+  href: ASE_Assignment_Bijesh.Src.BooseWrapper.html#ASE_Assignment_Bijesh_Src_BooseWrapper_Reset
+  name: Reset
+  nameWithType: BooseWrapper.Reset
+  fullName: ASE_Assignment_Bijesh.Src.BooseWrapper.Reset
+- uid: ASE_Assignment_Bijesh.Src.IBooseWrapper.Reset
+  commentId: M:ASE_Assignment_Bijesh.Src.IBooseWrapper.Reset
+  parent: ASE_Assignment_Bijesh.Src.IBooseWrapper
+  href: ASE_Assignment_Bijesh.Src.IBooseWrapper.html#ASE_Assignment_Bijesh_Src_IBooseWrapper_Reset
+  name: Reset()
+  nameWithType: IBooseWrapper.Reset()
+  fullName: ASE_Assignment_Bijesh.Src.IBooseWrapper.Reset()
+  spec.csharp:
+  - uid: ASE_Assignment_Bijesh.Src.IBooseWrapper.Reset
+    name: Reset
+    href: ASE_Assignment_Bijesh.Src.IBooseWrapper.html#ASE_Assignment_Bijesh_Src_IBooseWrapper_Reset
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ASE_Assignment_Bijesh.Src.IBooseWrapper.Reset
+    name: Reset
+    href: ASE_Assignment_Bijesh.Src.IBooseWrapper.html#ASE_Assignment_Bijesh_Src_IBooseWrapper_Reset
+  - name: (
+  - name: )
+- uid: ASE_Assignment_Bijesh.Src.BooseWrapper.GetInstance*
+  commentId: Overload:ASE_Assignment_Bijesh.Src.BooseWrapper.GetInstance
+  href: ASE_Assignment_Bijesh.Src.BooseWrapper.html#ASE_Assignment_Bijesh_Src_BooseWrapper_GetInstance
+  name: GetInstance
+  nameWithType: BooseWrapper.GetInstance
+  fullName: ASE_Assignment_Bijesh.Src.BooseWrapper.GetInstance
+- uid: ASE_Assignment_Bijesh.Src.IBooseWrapper.GetInstance
+  commentId: M:ASE_Assignment_Bijesh.Src.IBooseWrapper.GetInstance
+  parent: ASE_Assignment_Bijesh.Src.IBooseWrapper
+  href: ASE_Assignment_Bijesh.Src.IBooseWrapper.html#ASE_Assignment_Bijesh_Src_IBooseWrapper_GetInstance
+  name: GetInstance()
+  nameWithType: IBooseWrapper.GetInstance()
+  fullName: ASE_Assignment_Bijesh.Src.IBooseWrapper.GetInstance()
+  spec.csharp:
+  - uid: ASE_Assignment_Bijesh.Src.IBooseWrapper.GetInstance
+    name: GetInstance
+    href: ASE_Assignment_Bijesh.Src.IBooseWrapper.html#ASE_Assignment_Bijesh_Src_IBooseWrapper_GetInstance
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ASE_Assignment_Bijesh.Src.IBooseWrapper.GetInstance
+    name: GetInstance
+    href: ASE_Assignment_Bijesh.Src.IBooseWrapper.html#ASE_Assignment_Bijesh_Src_IBooseWrapper_GetInstance
+  - name: (
+  - name: )

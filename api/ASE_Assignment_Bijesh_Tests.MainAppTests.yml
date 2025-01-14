@@ -1,0 +1,429 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment_Bijesh_Tests.MainAppTests
+  commentId: T:ASE_Assignment_Bijesh_Tests.MainAppTests
+  id: MainAppTests
+  parent: ASE_Assignment_Bijesh_Tests
+  children:
+  - ASE_Assignment_Bijesh_Tests.MainAppTests.TestDrawToMainProgram
+  - ASE_Assignment_Bijesh_Tests.MainAppTests.TestMoveToMainProgram
+  - ASE_Assignment_Bijesh_Tests.MainAppTests.TestMultiLineMainProgram
+  langs:
+  - csharp
+  - vb
+  name: MainAppTests
+  nameWithType: MainAppTests
+  fullName: ASE_Assignment_Bijesh_Tests.MainAppTests
+  type: Class
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/MainAppTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: MainAppTests
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/MainAppTests.cs
+    startLine: 11
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Bijesh_Tests
+  summary: The Unit tests for the Mainform Class but tests the overall BOOSE System implementation.
+  example: []
+  syntax:
+    content: >-
+      [TestClass]
+
+      public class MainAppTests
+    content.vb: >-
+      <TestClass>
+
+      Public Class MainAppTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Bijesh_Tests.MainAppTests.TestMoveToMainProgram
+  commentId: M:ASE_Assignment_Bijesh_Tests.MainAppTests.TestMoveToMainProgram
+  id: TestMoveToMainProgram
+  parent: ASE_Assignment_Bijesh_Tests.MainAppTests
+  langs:
+  - csharp
+  - vb
+  name: TestMoveToMainProgram()
+  nameWithType: MainAppTests.TestMoveToMainProgram()
+  fullName: ASE_Assignment_Bijesh_Tests.MainAppTests.TestMoveToMainProgram()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/MainAppTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: TestMoveToMainProgram
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/MainAppTests.cs
+    startLine: 20
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Bijesh_Tests
+  summary: Tests the moveto command passed through the parser
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMoveToMainProgram()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMoveToMainProgram()
+  overload: ASE_Assignment_Bijesh_Tests.MainAppTests.TestMoveToMainProgram*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Bijesh_Tests.MainAppTests.TestDrawToMainProgram
+  commentId: M:ASE_Assignment_Bijesh_Tests.MainAppTests.TestDrawToMainProgram
+  id: TestDrawToMainProgram
+  parent: ASE_Assignment_Bijesh_Tests.MainAppTests
+  langs:
+  - csharp
+  - vb
+  name: TestDrawToMainProgram()
+  nameWithType: MainAppTests.TestDrawToMainProgram()
+  fullName: ASE_Assignment_Bijesh_Tests.MainAppTests.TestDrawToMainProgram()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/MainAppTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: TestDrawToMainProgram
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/MainAppTests.cs
+    startLine: 59
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Bijesh_Tests
+  summary: Tests the drawto command passed through the parser
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestDrawToMainProgram()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestDrawToMainProgram()
+  overload: ASE_Assignment_Bijesh_Tests.MainAppTests.TestDrawToMainProgram*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Bijesh_Tests.MainAppTests.TestMultiLineMainProgram
+  commentId: M:ASE_Assignment_Bijesh_Tests.MainAppTests.TestMultiLineMainProgram
+  id: TestMultiLineMainProgram
+  parent: ASE_Assignment_Bijesh_Tests.MainAppTests
+  langs:
+  - csharp
+  - vb
+  name: TestMultiLineMainProgram()
+  nameWithType: MainAppTests.TestMultiLineMainProgram()
+  fullName: ASE_Assignment_Bijesh_Tests.MainAppTests.TestMultiLineMainProgram()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/MainAppTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: TestMultiLineMainProgram
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/MainAppTests.cs
+    startLine: 98
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Bijesh_Tests
+  summary: Tests system by passing in a multiline program
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMultiLineMainProgram()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMultiLineMainProgram()
+  overload: ASE_Assignment_Bijesh_Tests.MainAppTests.TestMultiLineMainProgram*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+references:
+- uid: ASE_Assignment_Bijesh_Tests
+  commentId: N:ASE_Assignment_Bijesh_Tests
+  href: ASE_Assignment_Bijesh_Tests.html
+  name: ASE_Assignment_Bijesh_Tests
+  nameWithType: ASE_Assignment_Bijesh_Tests
+  fullName: ASE_Assignment_Bijesh_Tests
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ASE_Assignment_Bijesh_Tests.MainAppTests.TestMoveToMainProgram*
+  commentId: Overload:ASE_Assignment_Bijesh_Tests.MainAppTests.TestMoveToMainProgram
+  href: ASE_Assignment_Bijesh_Tests.MainAppTests.html#ASE_Assignment_Bijesh_Tests_MainAppTests_TestMoveToMainProgram
+  name: TestMoveToMainProgram
+  nameWithType: MainAppTests.TestMoveToMainProgram
+  fullName: ASE_Assignment_Bijesh_Tests.MainAppTests.TestMoveToMainProgram
+- uid: ASE_Assignment_Bijesh_Tests.MainAppTests.TestDrawToMainProgram*
+  commentId: Overload:ASE_Assignment_Bijesh_Tests.MainAppTests.TestDrawToMainProgram
+  href: ASE_Assignment_Bijesh_Tests.MainAppTests.html#ASE_Assignment_Bijesh_Tests_MainAppTests_TestDrawToMainProgram
+  name: TestDrawToMainProgram
+  nameWithType: MainAppTests.TestDrawToMainProgram
+  fullName: ASE_Assignment_Bijesh_Tests.MainAppTests.TestDrawToMainProgram
+- uid: ASE_Assignment_Bijesh_Tests.MainAppTests.TestMultiLineMainProgram*
+  commentId: Overload:ASE_Assignment_Bijesh_Tests.MainAppTests.TestMultiLineMainProgram
+  href: ASE_Assignment_Bijesh_Tests.MainAppTests.html#ASE_Assignment_Bijesh_Tests_MainAppTests_TestMultiLineMainProgram
+  name: TestMultiLineMainProgram
+  nameWithType: MainAppTests.TestMultiLineMainProgram
+  fullName: ASE_Assignment_Bijesh_Tests.MainAppTests.TestMultiLineMainProgram

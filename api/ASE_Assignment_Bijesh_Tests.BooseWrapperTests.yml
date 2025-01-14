@@ -1,0 +1,1059 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests
+  commentId: T:ASE_Assignment_Bijesh_Tests.BooseWrapperTests
+  id: BooseWrapperTests
+  parent: ASE_Assignment_Bijesh_Tests
+  children:
+  - ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestArrayEvaluation
+  - ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestBrush
+  - ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestCircle
+  - ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestDrawToMainProgram
+  - ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestElseEvaluation
+  - ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestFilledCircle
+  - ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestFilledRectangle
+  - ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestForEvaluation
+  - ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestIfEvaluation
+  - ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestIntEvaluation
+  - ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestMethodEvaluation
+  - ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestMoveToMainProgram
+  - ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestMultiLineMainProgram
+  - ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestRealEvaluation
+  - ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestRectangle
+  - ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestTriangle
+  - ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestWrite
+  langs:
+  - csharp
+  - vb
+  name: BooseWrapperTests
+  nameWithType: BooseWrapperTests
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests
+  type: Class
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: BooseWrapperTests
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+    startLine: 9
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Bijesh_Tests
+  summary: The Unit tests for the Boose Wrapper class.
+  example: []
+  syntax:
+    content: >-
+      [TestClass]
+
+      public class BooseWrapperTests
+    content.vb: >-
+      <TestClass>
+
+      Public Class BooseWrapperTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestMoveToMainProgram
+  commentId: M:ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestMoveToMainProgram
+  id: TestMoveToMainProgram
+  parent: ASE_Assignment_Bijesh_Tests.BooseWrapperTests
+  langs:
+  - csharp
+  - vb
+  name: TestMoveToMainProgram()
+  nameWithType: BooseWrapperTests.TestMoveToMainProgram()
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestMoveToMainProgram()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: TestMoveToMainProgram
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+    startLine: 18
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Bijesh_Tests
+  summary: Tests the moveto command passed through the parser
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMoveToMainProgram()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMoveToMainProgram()
+  overload: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestMoveToMainProgram*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestDrawToMainProgram
+  commentId: M:ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestDrawToMainProgram
+  id: TestDrawToMainProgram
+  parent: ASE_Assignment_Bijesh_Tests.BooseWrapperTests
+  langs:
+  - csharp
+  - vb
+  name: TestDrawToMainProgram()
+  nameWithType: BooseWrapperTests.TestDrawToMainProgram()
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestDrawToMainProgram()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: TestDrawToMainProgram
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+    startLine: 57
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Bijesh_Tests
+  summary: Tests the drawto command passed through the parser
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestDrawToMainProgram()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestDrawToMainProgram()
+  overload: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestDrawToMainProgram*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestMultiLineMainProgram
+  commentId: M:ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestMultiLineMainProgram
+  id: TestMultiLineMainProgram
+  parent: ASE_Assignment_Bijesh_Tests.BooseWrapperTests
+  langs:
+  - csharp
+  - vb
+  name: TestMultiLineMainProgram()
+  nameWithType: BooseWrapperTests.TestMultiLineMainProgram()
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestMultiLineMainProgram()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: TestMultiLineMainProgram
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+    startLine: 96
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Bijesh_Tests
+  summary: Tests system by passing in a multiline program
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMultiLineMainProgram()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMultiLineMainProgram()
+  overload: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestMultiLineMainProgram*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestTriangle
+  commentId: M:ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestTriangle
+  id: TestTriangle
+  parent: ASE_Assignment_Bijesh_Tests.BooseWrapperTests
+  langs:
+  - csharp
+  - vb
+  name: TestTriangle()
+  nameWithType: BooseWrapperTests.TestTriangle()
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestTriangle()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: TestTriangle
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+    startLine: 139
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Bijesh_Tests
+  summary: Tests the triangle command creation
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestTriangle()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestTriangle()
+  overload: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestTriangle*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestWrite
+  commentId: M:ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestWrite
+  id: TestWrite
+  parent: ASE_Assignment_Bijesh_Tests.BooseWrapperTests
+  langs:
+  - csharp
+  - vb
+  name: TestWrite()
+  nameWithType: BooseWrapperTests.TestWrite()
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestWrite()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: TestWrite
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+    startLine: 158
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Bijesh_Tests
+  summary: Tests the write command creation
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestWrite()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestWrite()
+  overload: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestWrite*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestBrush
+  commentId: M:ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestBrush
+  id: TestBrush
+  parent: ASE_Assignment_Bijesh_Tests.BooseWrapperTests
+  langs:
+  - csharp
+  - vb
+  name: TestBrush()
+  nameWithType: BooseWrapperTests.TestBrush()
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestBrush()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: TestBrush
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+    startLine: 178
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Bijesh_Tests
+  summary: Tests the brush command creation
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestBrush()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestBrush()
+  overload: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestBrush*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestFilledCircle
+  commentId: M:ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestFilledCircle
+  id: TestFilledCircle
+  parent: ASE_Assignment_Bijesh_Tests.BooseWrapperTests
+  langs:
+  - csharp
+  - vb
+  name: TestFilledCircle()
+  nameWithType: BooseWrapperTests.TestFilledCircle()
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestFilledCircle()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: TestFilledCircle
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+    startLine: 197
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Bijesh_Tests
+  summary: Tests the filled circle command creation
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestFilledCircle()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestFilledCircle()
+  overload: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestFilledCircle*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestCircle
+  commentId: M:ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestCircle
+  id: TestCircle
+  parent: ASE_Assignment_Bijesh_Tests.BooseWrapperTests
+  langs:
+  - csharp
+  - vb
+  name: TestCircle()
+  nameWithType: BooseWrapperTests.TestCircle()
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestCircle()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: TestCircle
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+    startLine: 218
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Bijesh_Tests
+  summary: Tests the circle command creation
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestCircle()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestCircle()
+  overload: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestCircle*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestRectangle
+  commentId: M:ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestRectangle
+  id: TestRectangle
+  parent: ASE_Assignment_Bijesh_Tests.BooseWrapperTests
+  langs:
+  - csharp
+  - vb
+  name: TestRectangle()
+  nameWithType: BooseWrapperTests.TestRectangle()
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestRectangle()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: TestRectangle
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+    startLine: 238
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Bijesh_Tests
+  summary: Tests the rectangle command creation
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestRectangle()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestRectangle()
+  overload: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestRectangle*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestFilledRectangle
+  commentId: M:ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestFilledRectangle
+  id: TestFilledRectangle
+  parent: ASE_Assignment_Bijesh_Tests.BooseWrapperTests
+  langs:
+  - csharp
+  - vb
+  name: TestFilledRectangle()
+  nameWithType: BooseWrapperTests.TestFilledRectangle()
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestFilledRectangle()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: TestFilledRectangle
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+    startLine: 258
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Bijesh_Tests
+  summary: Tests the filled rectangle command creation
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestFilledRectangle()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestFilledRectangle()
+  overload: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestFilledRectangle*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestIntEvaluation
+  commentId: M:ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestIntEvaluation
+  id: TestIntEvaluation
+  parent: ASE_Assignment_Bijesh_Tests.BooseWrapperTests
+  langs:
+  - csharp
+  - vb
+  name: TestIntEvaluation()
+  nameWithType: BooseWrapperTests.TestIntEvaluation()
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestIntEvaluation()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: TestIntEvaluation
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+    startLine: 277
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Bijesh_Tests
+  summary: Tests the int evaluation command creation
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestIntEvaluation()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestIntEvaluation()
+  overload: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestIntEvaluation*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestRealEvaluation
+  commentId: M:ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestRealEvaluation
+  id: TestRealEvaluation
+  parent: ASE_Assignment_Bijesh_Tests.BooseWrapperTests
+  langs:
+  - csharp
+  - vb
+  name: TestRealEvaluation()
+  nameWithType: BooseWrapperTests.TestRealEvaluation()
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestRealEvaluation()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: TestRealEvaluation
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+    startLine: 297
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Bijesh_Tests
+  summary: Tests the real evaluation command creation
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestRealEvaluation()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestRealEvaluation()
+  overload: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestRealEvaluation*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestArrayEvaluation
+  commentId: M:ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestArrayEvaluation
+  id: TestArrayEvaluation
+  parent: ASE_Assignment_Bijesh_Tests.BooseWrapperTests
+  langs:
+  - csharp
+  - vb
+  name: TestArrayEvaluation()
+  nameWithType: BooseWrapperTests.TestArrayEvaluation()
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestArrayEvaluation()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: TestArrayEvaluation
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+    startLine: 315
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Bijesh_Tests
+  summary: Tests the array evaluation command creation
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestArrayEvaluation()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestArrayEvaluation()
+  overload: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestArrayEvaluation*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestIfEvaluation
+  commentId: M:ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestIfEvaluation
+  id: TestIfEvaluation
+  parent: ASE_Assignment_Bijesh_Tests.BooseWrapperTests
+  langs:
+  - csharp
+  - vb
+  name: TestIfEvaluation()
+  nameWithType: BooseWrapperTests.TestIfEvaluation()
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestIfEvaluation()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: TestIfEvaluation
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+    startLine: 333
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Bijesh_Tests
+  summary: Tests the if evaluation command creation
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestIfEvaluation()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestIfEvaluation()
+  overload: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestIfEvaluation*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestElseEvaluation
+  commentId: M:ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestElseEvaluation
+  id: TestElseEvaluation
+  parent: ASE_Assignment_Bijesh_Tests.BooseWrapperTests
+  langs:
+  - csharp
+  - vb
+  name: TestElseEvaluation()
+  nameWithType: BooseWrapperTests.TestElseEvaluation()
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestElseEvaluation()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: TestElseEvaluation
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+    startLine: 351
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Bijesh_Tests
+  summary: Tests the else evaluation command creation
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestElseEvaluation()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestElseEvaluation()
+  overload: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestElseEvaluation*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestForEvaluation
+  commentId: M:ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestForEvaluation
+  id: TestForEvaluation
+  parent: ASE_Assignment_Bijesh_Tests.BooseWrapperTests
+  langs:
+  - csharp
+  - vb
+  name: TestForEvaluation()
+  nameWithType: BooseWrapperTests.TestForEvaluation()
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestForEvaluation()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: TestForEvaluation
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+    startLine: 371
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Bijesh_Tests
+  summary: Tests the for evaluation command creation
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestForEvaluation()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestForEvaluation()
+  overload: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestForEvaluation*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestMethodEvaluation
+  commentId: M:ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestMethodEvaluation
+  id: TestMethodEvaluation
+  parent: ASE_Assignment_Bijesh_Tests.BooseWrapperTests
+  langs:
+  - csharp
+  - vb
+  name: TestMethodEvaluation()
+  nameWithType: BooseWrapperTests.TestMethodEvaluation()
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestMethodEvaluation()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: TestMethodEvaluation
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/BooseWrapperTests.cs
+    startLine: 390
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Bijesh_Tests
+  summary: Tests the method evaluation command creation
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMethodEvaluation()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMethodEvaluation()
+  overload: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestMethodEvaluation*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+references:
+- uid: ASE_Assignment_Bijesh_Tests
+  commentId: N:ASE_Assignment_Bijesh_Tests
+  href: ASE_Assignment_Bijesh_Tests.html
+  name: ASE_Assignment_Bijesh_Tests
+  nameWithType: ASE_Assignment_Bijesh_Tests
+  fullName: ASE_Assignment_Bijesh_Tests
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestMoveToMainProgram*
+  commentId: Overload:ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestMoveToMainProgram
+  href: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.html#ASE_Assignment_Bijesh_Tests_BooseWrapperTests_TestMoveToMainProgram
+  name: TestMoveToMainProgram
+  nameWithType: BooseWrapperTests.TestMoveToMainProgram
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestMoveToMainProgram
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestDrawToMainProgram*
+  commentId: Overload:ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestDrawToMainProgram
+  href: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.html#ASE_Assignment_Bijesh_Tests_BooseWrapperTests_TestDrawToMainProgram
+  name: TestDrawToMainProgram
+  nameWithType: BooseWrapperTests.TestDrawToMainProgram
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestDrawToMainProgram
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestMultiLineMainProgram*
+  commentId: Overload:ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestMultiLineMainProgram
+  href: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.html#ASE_Assignment_Bijesh_Tests_BooseWrapperTests_TestMultiLineMainProgram
+  name: TestMultiLineMainProgram
+  nameWithType: BooseWrapperTests.TestMultiLineMainProgram
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestMultiLineMainProgram
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestTriangle*
+  commentId: Overload:ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestTriangle
+  href: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.html#ASE_Assignment_Bijesh_Tests_BooseWrapperTests_TestTriangle
+  name: TestTriangle
+  nameWithType: BooseWrapperTests.TestTriangle
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestTriangle
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestWrite*
+  commentId: Overload:ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestWrite
+  href: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.html#ASE_Assignment_Bijesh_Tests_BooseWrapperTests_TestWrite
+  name: TestWrite
+  nameWithType: BooseWrapperTests.TestWrite
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestWrite
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestBrush*
+  commentId: Overload:ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestBrush
+  href: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.html#ASE_Assignment_Bijesh_Tests_BooseWrapperTests_TestBrush
+  name: TestBrush
+  nameWithType: BooseWrapperTests.TestBrush
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestBrush
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestFilledCircle*
+  commentId: Overload:ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestFilledCircle
+  href: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.html#ASE_Assignment_Bijesh_Tests_BooseWrapperTests_TestFilledCircle
+  name: TestFilledCircle
+  nameWithType: BooseWrapperTests.TestFilledCircle
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestFilledCircle
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestCircle*
+  commentId: Overload:ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestCircle
+  href: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.html#ASE_Assignment_Bijesh_Tests_BooseWrapperTests_TestCircle
+  name: TestCircle
+  nameWithType: BooseWrapperTests.TestCircle
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestCircle
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestRectangle*
+  commentId: Overload:ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestRectangle
+  href: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.html#ASE_Assignment_Bijesh_Tests_BooseWrapperTests_TestRectangle
+  name: TestRectangle
+  nameWithType: BooseWrapperTests.TestRectangle
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestRectangle
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestFilledRectangle*
+  commentId: Overload:ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestFilledRectangle
+  href: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.html#ASE_Assignment_Bijesh_Tests_BooseWrapperTests_TestFilledRectangle
+  name: TestFilledRectangle
+  nameWithType: BooseWrapperTests.TestFilledRectangle
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestFilledRectangle
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestIntEvaluation*
+  commentId: Overload:ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestIntEvaluation
+  href: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.html#ASE_Assignment_Bijesh_Tests_BooseWrapperTests_TestIntEvaluation
+  name: TestIntEvaluation
+  nameWithType: BooseWrapperTests.TestIntEvaluation
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestIntEvaluation
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestRealEvaluation*
+  commentId: Overload:ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestRealEvaluation
+  href: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.html#ASE_Assignment_Bijesh_Tests_BooseWrapperTests_TestRealEvaluation
+  name: TestRealEvaluation
+  nameWithType: BooseWrapperTests.TestRealEvaluation
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestRealEvaluation
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestArrayEvaluation*
+  commentId: Overload:ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestArrayEvaluation
+  href: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.html#ASE_Assignment_Bijesh_Tests_BooseWrapperTests_TestArrayEvaluation
+  name: TestArrayEvaluation
+  nameWithType: BooseWrapperTests.TestArrayEvaluation
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestArrayEvaluation
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestIfEvaluation*
+  commentId: Overload:ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestIfEvaluation
+  href: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.html#ASE_Assignment_Bijesh_Tests_BooseWrapperTests_TestIfEvaluation
+  name: TestIfEvaluation
+  nameWithType: BooseWrapperTests.TestIfEvaluation
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestIfEvaluation
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestElseEvaluation*
+  commentId: Overload:ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestElseEvaluation
+  href: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.html#ASE_Assignment_Bijesh_Tests_BooseWrapperTests_TestElseEvaluation
+  name: TestElseEvaluation
+  nameWithType: BooseWrapperTests.TestElseEvaluation
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestElseEvaluation
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestForEvaluation*
+  commentId: Overload:ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestForEvaluation
+  href: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.html#ASE_Assignment_Bijesh_Tests_BooseWrapperTests_TestForEvaluation
+  name: TestForEvaluation
+  nameWithType: BooseWrapperTests.TestForEvaluation
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestForEvaluation
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestMethodEvaluation*
+  commentId: Overload:ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestMethodEvaluation
+  href: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.html#ASE_Assignment_Bijesh_Tests_BooseWrapperTests_TestMethodEvaluation
+  name: TestMethodEvaluation
+  nameWithType: BooseWrapperTests.TestMethodEvaluation
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.TestMethodEvaluation

@@ -1,0 +1,518 @@
+{
+  "source_base_path": "C:/Users/bijes/Class/TBC/Sem7/ASE/BijeshManShrestha_77356837_ASE/BijeshManShrestha_77356837_ASE/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.MainForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.MainForm.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.BooseWrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.BooseWrapper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.Command.CommandBrushColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.Command.CommandBrushColor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.Command.CommandCall.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.Command.CommandCall.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.Command.CommandCircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.Command.CommandCircle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.Command.CommandFilledCircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.Command.CommandFilledCircle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.Command.CommandFilledRectangle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.Command.CommandFilledRectangle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.Command.CommandRect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.Command.CommandRect.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.Command.CommandTriangle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.Command.CommandTriangle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.Command.CommandWrite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.Command.CommandWrite.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.Command.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.Components.AppCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.Components.AppCanvas.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.Components.AppCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.Components.AppCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.Components.AppCommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.Components.AppCommandFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.Components.AppParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.Components.AppParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.Components.AppStoredProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.Components.AppStoredProgram.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.Components.IExtendedCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.Components.IExtendedCanvas.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.Components.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.Components.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.Conditionals.AppCompoundCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.Conditionals.AppCompoundCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.Conditionals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.Conditionals.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.Evaluations.EvaluationArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.Evaluations.EvaluationArray.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.Evaluations.EvaluationBool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.Evaluations.EvaluationBool.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.Evaluations.EvaluationElse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.Evaluations.EvaluationElse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.Evaluations.EvaluationEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.Evaluations.EvaluationEnd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.Evaluations.EvaluationFor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.Evaluations.EvaluationFor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.Evaluations.EvaluationIf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.Evaluations.EvaluationIf.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.Evaluations.EvaluationInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.Evaluations.EvaluationInt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.Evaluations.EvaluationIntRewrite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.Evaluations.EvaluationIntRewrite.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.Evaluations.EvaluationMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.Evaluations.EvaluationMethod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.Evaluations.EvaluationReal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.Evaluations.EvaluationReal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.Evaluations.EvaluationWhile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.Evaluations.EvaluationWhile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.Evaluations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.Evaluations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.IBooseWrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.IBooseWrapper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.Src.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.Src.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh_Tests.BooseWrapperTests.AppCommandFactoryTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh_Tests.BooseWrapperTests.AppCommandFactoryTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh_Tests.BooseWrapperTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh_Tests.BooseWrapperTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh_Tests.CanvasTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh_Tests.CanvasTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh_Tests.MainAppTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh_Tests.MainAppTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Bijesh_Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Bijesh_Tests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

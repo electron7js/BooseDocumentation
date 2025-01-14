@@ -1,0 +1,165 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes
+  commentId: T:ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes
+  id: AppConditionalCommand.ConditionalTypes
+  parent: ASE_Assignment_Bijesh.Src.Conditionals
+  children:
+  - ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes.commFor
+  - ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes.commIF
+  - ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes.commWhile
+  langs:
+  - csharp
+  - vb
+  name: AppConditionalCommand.ConditionalTypes
+  nameWithType: AppConditionalCommand.ConditionalTypes
+  fullName: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes
+  type: Enum
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Bijesh/Src/Conditionals/AppConditionalCommand.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: ConditionalTypes
+    path: ../ASE Assignment Bijesh/ASE Assignment Bijesh/Src/Conditionals/AppConditionalCommand.cs
+    startLine: 27
+  assemblies:
+  - ASE Assignment Bijesh
+  namespace: ASE_Assignment_Bijesh.Src.Conditionals
+  summary: Specifies the conditional types
+  example: []
+  syntax:
+    content: public enum AppConditionalCommand.ConditionalTypes
+    content.vb: Public Enum AppConditionalCommand.ConditionalTypes
+- uid: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes.commIF
+  commentId: F:ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes.commIF
+  id: commIF
+  parent: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes
+  langs:
+  - csharp
+  - vb
+  name: commIF
+  nameWithType: AppConditionalCommand.ConditionalTypes.commIF
+  fullName: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes.commIF
+  type: Field
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Bijesh/Src/Conditionals/AppConditionalCommand.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: commIF
+    path: ../ASE Assignment Bijesh/ASE Assignment Bijesh/Src/Conditionals/AppConditionalCommand.cs
+    startLine: 29
+  assemblies:
+  - ASE Assignment Bijesh
+  namespace: ASE_Assignment_Bijesh.Src.Conditionals
+  syntax:
+    content: commIF = 0
+    return:
+      type: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes
+- uid: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes.commWhile
+  commentId: F:ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes.commWhile
+  id: commWhile
+  parent: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes
+  langs:
+  - csharp
+  - vb
+  name: commWhile
+  nameWithType: AppConditionalCommand.ConditionalTypes.commWhile
+  fullName: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes.commWhile
+  type: Field
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Bijesh/Src/Conditionals/AppConditionalCommand.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: commWhile
+    path: ../ASE Assignment Bijesh/ASE Assignment Bijesh/Src/Conditionals/AppConditionalCommand.cs
+    startLine: 30
+  assemblies:
+  - ASE Assignment Bijesh
+  namespace: ASE_Assignment_Bijesh.Src.Conditionals
+  syntax:
+    content: commWhile = 1
+    return:
+      type: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes
+- uid: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes.commFor
+  commentId: F:ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes.commFor
+  id: commFor
+  parent: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes
+  langs:
+  - csharp
+  - vb
+  name: commFor
+  nameWithType: AppConditionalCommand.ConditionalTypes.commFor
+  fullName: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes.commFor
+  type: Field
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Bijesh/Src/Conditionals/AppConditionalCommand.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: commFor
+    path: ../ASE Assignment Bijesh/ASE Assignment Bijesh/Src/Conditionals/AppConditionalCommand.cs
+    startLine: 31
+  assemblies:
+  - ASE Assignment Bijesh
+  namespace: ASE_Assignment_Bijesh.Src.Conditionals
+  syntax:
+    content: commFor = 2
+    return:
+      type: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes
+references:
+- uid: ASE_Assignment_Bijesh.Src.Conditionals
+  commentId: N:ASE_Assignment_Bijesh.Src.Conditionals
+  href: ASE_Assignment_Bijesh.html
+  name: ASE_Assignment_Bijesh.Src.Conditionals
+  nameWithType: ASE_Assignment_Bijesh.Src.Conditionals
+  fullName: ASE_Assignment_Bijesh.Src.Conditionals
+  spec.csharp:
+  - uid: ASE_Assignment_Bijesh
+    name: ASE_Assignment_Bijesh
+    href: ASE_Assignment_Bijesh.html
+  - name: .
+  - uid: ASE_Assignment_Bijesh.Src
+    name: Src
+    href: ASE_Assignment_Bijesh.Src.html
+  - name: .
+  - uid: ASE_Assignment_Bijesh.Src.Conditionals
+    name: Conditionals
+    href: ASE_Assignment_Bijesh.Src.Conditionals.html
+  spec.vb:
+  - uid: ASE_Assignment_Bijesh
+    name: ASE_Assignment_Bijesh
+    href: ASE_Assignment_Bijesh.html
+  - name: .
+  - uid: ASE_Assignment_Bijesh.Src
+    name: Src
+    href: ASE_Assignment_Bijesh.Src.html
+  - name: .
+  - uid: ASE_Assignment_Bijesh.Src.Conditionals
+    name: Conditionals
+    href: ASE_Assignment_Bijesh.Src.Conditionals.html
+- uid: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes
+  commentId: T:ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes
+  parent: ASE_Assignment_Bijesh.Src.Conditionals
+  href: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.html
+  name: AppConditionalCommand.ConditionalTypes
+  nameWithType: AppConditionalCommand.ConditionalTypes
+  fullName: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes
+  spec.csharp:
+  - uid: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand
+    name: AppConditionalCommand
+    href: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.html
+  - name: .
+  - uid: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes
+    name: ConditionalTypes
+    href: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes.html
+  spec.vb:
+  - uid: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand
+    name: AppConditionalCommand
+    href: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.html
+  - name: .
+  - uid: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes
+    name: ConditionalTypes
+    href: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes.html

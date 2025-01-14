@@ -1,0 +1,90 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment_Bijesh.Src.Components
+  commentId: N:ASE_Assignment_Bijesh.Src.Components
+  id: ASE_Assignment_Bijesh.Src.Components
+  children:
+  - ASE_Assignment_Bijesh.Src.Components.AppCanvas
+  - ASE_Assignment_Bijesh.Src.Components.AppCommand
+  - ASE_Assignment_Bijesh.Src.Components.AppCommandFactory
+  - ASE_Assignment_Bijesh.Src.Components.AppParser
+  - ASE_Assignment_Bijesh.Src.Components.AppStoredProgram
+  - ASE_Assignment_Bijesh.Src.Components.IExtendedCanvas
+  langs:
+  - csharp
+  - vb
+  name: ASE_Assignment_Bijesh.Src.Components
+  nameWithType: ASE_Assignment_Bijesh.Src.Components
+  fullName: ASE_Assignment_Bijesh.Src.Components
+  type: Namespace
+  assemblies:
+  - ASE Assignment Bijesh
+references:
+- uid: ASE_Assignment_Bijesh.Src.Components.AppCanvas
+  commentId: T:ASE_Assignment_Bijesh.Src.Components.AppCanvas
+  href: ASE_Assignment_Bijesh.Src.Components.AppCanvas.html
+  name: AppCanvas
+  nameWithType: AppCanvas
+  fullName: ASE_Assignment_Bijesh.Src.Components.AppCanvas
+- uid: ASE_Assignment_Bijesh.Src.Components.AppCommand
+  commentId: T:ASE_Assignment_Bijesh.Src.Components.AppCommand
+  href: ASE_Assignment_Bijesh.Src.Components.AppCommand.html
+  name: AppCommand
+  nameWithType: AppCommand
+  fullName: ASE_Assignment_Bijesh.Src.Components.AppCommand
+- uid: ASE_Assignment_Bijesh.Src.Components.AppCommandFactory
+  commentId: T:ASE_Assignment_Bijesh.Src.Components.AppCommandFactory
+  href: ASE_Assignment_Bijesh.Src.Components.AppCommandFactory.html
+  name: AppCommandFactory
+  nameWithType: AppCommandFactory
+  fullName: ASE_Assignment_Bijesh.Src.Components.AppCommandFactory
+- uid: ASE_Assignment_Bijesh.Src.Components.AppParser
+  commentId: T:ASE_Assignment_Bijesh.Src.Components.AppParser
+  href: ASE_Assignment_Bijesh.Src.Components.AppParser.html
+  name: AppParser
+  nameWithType: AppParser
+  fullName: ASE_Assignment_Bijesh.Src.Components.AppParser
+- uid: ASE_Assignment_Bijesh.Src.Components.AppStoredProgram
+  commentId: T:ASE_Assignment_Bijesh.Src.Components.AppStoredProgram
+  parent: ASE_Assignment_Bijesh.Src.Components
+  href: ASE_Assignment_Bijesh.Src.Components.AppStoredProgram.html
+  name: AppStoredProgram
+  nameWithType: AppStoredProgram
+  fullName: ASE_Assignment_Bijesh.Src.Components.AppStoredProgram
+- uid: ASE_Assignment_Bijesh.Src.Components.IExtendedCanvas
+  commentId: T:ASE_Assignment_Bijesh.Src.Components.IExtendedCanvas
+  parent: ASE_Assignment_Bijesh.Src.Components
+  href: ASE_Assignment_Bijesh.Src.Components.IExtendedCanvas.html
+  name: IExtendedCanvas
+  nameWithType: IExtendedCanvas
+  fullName: ASE_Assignment_Bijesh.Src.Components.IExtendedCanvas
+- uid: ASE_Assignment_Bijesh.Src.Components
+  commentId: N:ASE_Assignment_Bijesh.Src.Components
+  href: ASE_Assignment_Bijesh.html
+  name: ASE_Assignment_Bijesh.Src.Components
+  nameWithType: ASE_Assignment_Bijesh.Src.Components
+  fullName: ASE_Assignment_Bijesh.Src.Components
+  spec.csharp:
+  - uid: ASE_Assignment_Bijesh
+    name: ASE_Assignment_Bijesh
+    href: ASE_Assignment_Bijesh.html
+  - name: .
+  - uid: ASE_Assignment_Bijesh.Src
+    name: Src
+    href: ASE_Assignment_Bijesh.Src.html
+  - name: .
+  - uid: ASE_Assignment_Bijesh.Src.Components
+    name: Components
+    href: ASE_Assignment_Bijesh.Src.Components.html
+  spec.vb:
+  - uid: ASE_Assignment_Bijesh
+    name: ASE_Assignment_Bijesh
+    href: ASE_Assignment_Bijesh.html
+  - name: .
+  - uid: ASE_Assignment_Bijesh.Src
+    name: Src
+    href: ASE_Assignment_Bijesh.Src.html
+  - name: .
+  - uid: ASE_Assignment_Bijesh.Src.Components
+    name: Components
+    href: ASE_Assignment_Bijesh.Src.Components.html

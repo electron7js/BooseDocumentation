@@ -1,0 +1,638 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment_Bijesh.Src.Components.IExtendedCanvas
+  commentId: T:ASE_Assignment_Bijesh.Src.Components.IExtendedCanvas
+  id: IExtendedCanvas
+  parent: ASE_Assignment_Bijesh.Src.Components
+  children:
+  - ASE_Assignment_Bijesh.Src.Components.IExtendedCanvas.BrushColour
+  - ASE_Assignment_Bijesh.Src.Components.IExtendedCanvas.SetBrushColour(System.Int32,System.Int32,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: IExtendedCanvas
+  nameWithType: IExtendedCanvas
+  fullName: ASE_Assignment_Bijesh.Src.Components.IExtendedCanvas
+  type: Interface
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Bijesh/Src/Components/IExtendedCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: IExtendedCanvas
+    path: ../ASE Assignment Bijesh/ASE Assignment Bijesh/Src/Components/IExtendedCanvas.cs
+    startLine: 12
+  assemblies:
+  - ASE Assignment Bijesh
+  namespace: ASE_Assignment_Bijesh.Src.Components
+  summary: Extended canvas interface to support additional features.
+  example: []
+  syntax:
+    content: 'public interface IExtendedCanvas : ICanvas'
+    content.vb: Public Interface IExtendedCanvas Inherits ICanvas
+  inheritedMembers:
+  - BOOSE.ICanvas.Set(System.Int32,System.Int32)
+  - BOOSE.ICanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  - BOOSE.ICanvas.MoveTo(System.Int32,System.Int32)
+  - BOOSE.ICanvas.DrawTo(System.Int32,System.Int32)
+  - BOOSE.ICanvas.Clear
+  - BOOSE.ICanvas.Reset
+  - BOOSE.ICanvas.Circle(System.Int32,System.Boolean)
+  - BOOSE.ICanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  - BOOSE.ICanvas.Tri(System.Int32,System.Int32)
+  - BOOSE.ICanvas.WriteText(System.String)
+  - BOOSE.ICanvas.getBitmap
+  - BOOSE.ICanvas.Xpos
+  - BOOSE.ICanvas.Ypos
+  - BOOSE.ICanvas.PenColour
+- uid: ASE_Assignment_Bijesh.Src.Components.IExtendedCanvas.SetBrushColour(System.Int32,System.Int32,System.Int32)
+  commentId: M:ASE_Assignment_Bijesh.Src.Components.IExtendedCanvas.SetBrushColour(System.Int32,System.Int32,System.Int32)
+  id: SetBrushColour(System.Int32,System.Int32,System.Int32)
+  parent: ASE_Assignment_Bijesh.Src.Components.IExtendedCanvas
+  langs:
+  - csharp
+  - vb
+  name: SetBrushColour(int, int, int)
+  nameWithType: IExtendedCanvas.SetBrushColour(int, int, int)
+  fullName: ASE_Assignment_Bijesh.Src.Components.IExtendedCanvas.SetBrushColour(int, int, int)
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Bijesh/Src/Components/IExtendedCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: SetBrushColour
+    path: ../ASE Assignment Bijesh/ASE Assignment Bijesh/Src/Components/IExtendedCanvas.cs
+    startLine: 20
+  assemblies:
+  - ASE Assignment Bijesh
+  namespace: ASE_Assignment_Bijesh.Src.Components
+  summary: Change the color of the brush used for text and filled shapes
+  example: []
+  syntax:
+    content: void SetBrushColour(int red, int green, int blue)
+    parameters:
+    - id: red
+      type: System.Int32
+      description: ''
+    - id: green
+      type: System.Int32
+      description: ''
+    - id: blue
+      type: System.Int32
+      description: ''
+    content.vb: Sub SetBrushColour(red As Integer, green As Integer, blue As Integer)
+  overload: ASE_Assignment_Bijesh.Src.Components.IExtendedCanvas.SetBrushColour*
+  nameWithType.vb: IExtendedCanvas.SetBrushColour(Integer, Integer, Integer)
+  fullName.vb: ASE_Assignment_Bijesh.Src.Components.IExtendedCanvas.SetBrushColour(Integer, Integer, Integer)
+  name.vb: SetBrushColour(Integer, Integer, Integer)
+- uid: ASE_Assignment_Bijesh.Src.Components.IExtendedCanvas.BrushColour
+  commentId: P:ASE_Assignment_Bijesh.Src.Components.IExtendedCanvas.BrushColour
+  id: BrushColour
+  parent: ASE_Assignment_Bijesh.Src.Components.IExtendedCanvas
+  langs:
+  - csharp
+  - vb
+  name: BrushColour
+  nameWithType: IExtendedCanvas.BrushColour
+  fullName: ASE_Assignment_Bijesh.Src.Components.IExtendedCanvas.BrushColour
+  type: Property
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Bijesh/Src/Components/IExtendedCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: BrushColour
+    path: ../ASE Assignment Bijesh/ASE Assignment Bijesh/Src/Components/IExtendedCanvas.cs
+    startLine: 26
+  assemblies:
+  - ASE Assignment Bijesh
+  namespace: ASE_Assignment_Bijesh.Src.Components
+  summary: Return and set the brush colour
+  example: []
+  syntax:
+    content: object BrushColour { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Property BrushColour As Object
+  overload: ASE_Assignment_Bijesh.Src.Components.IExtendedCanvas.BrushColour*
+references:
+- uid: ASE_Assignment_Bijesh.Src.Components
+  commentId: N:ASE_Assignment_Bijesh.Src.Components
+  href: ASE_Assignment_Bijesh.html
+  name: ASE_Assignment_Bijesh.Src.Components
+  nameWithType: ASE_Assignment_Bijesh.Src.Components
+  fullName: ASE_Assignment_Bijesh.Src.Components
+  spec.csharp:
+  - uid: ASE_Assignment_Bijesh
+    name: ASE_Assignment_Bijesh
+    href: ASE_Assignment_Bijesh.html
+  - name: .
+  - uid: ASE_Assignment_Bijesh.Src
+    name: Src
+    href: ASE_Assignment_Bijesh.Src.html
+  - name: .
+  - uid: ASE_Assignment_Bijesh.Src.Components
+    name: Components
+    href: ASE_Assignment_Bijesh.Src.Components.html
+  spec.vb:
+  - uid: ASE_Assignment_Bijesh
+    name: ASE_Assignment_Bijesh
+    href: ASE_Assignment_Bijesh.html
+  - name: .
+  - uid: ASE_Assignment_Bijesh.Src
+    name: Src
+    href: ASE_Assignment_Bijesh.Src.html
+  - name: .
+  - uid: ASE_Assignment_Bijesh.Src.Components
+    name: Components
+    href: ASE_Assignment_Bijesh.Src.Components.html
+- uid: BOOSE.ICanvas.Set(System.Int32,System.Int32)
+  commentId: M:BOOSE.ICanvas.Set(System.Int32,System.Int32)
+  parent: BOOSE.ICanvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: Set(int, int)
+  nameWithType: ICanvas.Set(int, int)
+  fullName: BOOSE.ICanvas.Set(int, int)
+  nameWithType.vb: ICanvas.Set(Integer, Integer)
+  fullName.vb: BOOSE.ICanvas.Set(Integer, Integer)
+  name.vb: Set(Integer, Integer)
+  spec.csharp:
+  - uid: BOOSE.ICanvas.Set(System.Int32,System.Int32)
+    name: Set
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: BOOSE.ICanvas.Set(System.Int32,System.Int32)
+    name: Set
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: BOOSE.ICanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  commentId: M:BOOSE.ICanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  parent: BOOSE.ICanvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: SetColour(int, int, int)
+  nameWithType: ICanvas.SetColour(int, int, int)
+  fullName: BOOSE.ICanvas.SetColour(int, int, int)
+  nameWithType.vb: ICanvas.SetColour(Integer, Integer, Integer)
+  fullName.vb: BOOSE.ICanvas.SetColour(Integer, Integer, Integer)
+  name.vb: SetColour(Integer, Integer, Integer)
+  spec.csharp:
+  - uid: BOOSE.ICanvas.SetColour(System.Int32,System.Int32,System.Int32)
+    name: SetColour
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: BOOSE.ICanvas.SetColour(System.Int32,System.Int32,System.Int32)
+    name: SetColour
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: BOOSE.ICanvas.MoveTo(System.Int32,System.Int32)
+  commentId: M:BOOSE.ICanvas.MoveTo(System.Int32,System.Int32)
+  parent: BOOSE.ICanvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: MoveTo(int, int)
+  nameWithType: ICanvas.MoveTo(int, int)
+  fullName: BOOSE.ICanvas.MoveTo(int, int)
+  nameWithType.vb: ICanvas.MoveTo(Integer, Integer)
+  fullName.vb: BOOSE.ICanvas.MoveTo(Integer, Integer)
+  name.vb: MoveTo(Integer, Integer)
+  spec.csharp:
+  - uid: BOOSE.ICanvas.MoveTo(System.Int32,System.Int32)
+    name: MoveTo
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: BOOSE.ICanvas.MoveTo(System.Int32,System.Int32)
+    name: MoveTo
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: BOOSE.ICanvas.DrawTo(System.Int32,System.Int32)
+  commentId: M:BOOSE.ICanvas.DrawTo(System.Int32,System.Int32)
+  parent: BOOSE.ICanvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: DrawTo(int, int)
+  nameWithType: ICanvas.DrawTo(int, int)
+  fullName: BOOSE.ICanvas.DrawTo(int, int)
+  nameWithType.vb: ICanvas.DrawTo(Integer, Integer)
+  fullName.vb: BOOSE.ICanvas.DrawTo(Integer, Integer)
+  name.vb: DrawTo(Integer, Integer)
+  spec.csharp:
+  - uid: BOOSE.ICanvas.DrawTo(System.Int32,System.Int32)
+    name: DrawTo
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: BOOSE.ICanvas.DrawTo(System.Int32,System.Int32)
+    name: DrawTo
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: BOOSE.ICanvas.Clear
+  commentId: M:BOOSE.ICanvas.Clear
+  parent: BOOSE.ICanvas
+  isExternal: true
+  name: Clear()
+  nameWithType: ICanvas.Clear()
+  fullName: BOOSE.ICanvas.Clear()
+  spec.csharp:
+  - uid: BOOSE.ICanvas.Clear
+    name: Clear
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: BOOSE.ICanvas.Clear
+    name: Clear
+    isExternal: true
+  - name: (
+  - name: )
+- uid: BOOSE.ICanvas.Reset
+  commentId: M:BOOSE.ICanvas.Reset
+  parent: BOOSE.ICanvas
+  isExternal: true
+  name: Reset()
+  nameWithType: ICanvas.Reset()
+  fullName: BOOSE.ICanvas.Reset()
+  spec.csharp:
+  - uid: BOOSE.ICanvas.Reset
+    name: Reset
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: BOOSE.ICanvas.Reset
+    name: Reset
+    isExternal: true
+  - name: (
+  - name: )
+- uid: BOOSE.ICanvas.Circle(System.Int32,System.Boolean)
+  commentId: M:BOOSE.ICanvas.Circle(System.Int32,System.Boolean)
+  parent: BOOSE.ICanvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: Circle(int, bool)
+  nameWithType: ICanvas.Circle(int, bool)
+  fullName: BOOSE.ICanvas.Circle(int, bool)
+  nameWithType.vb: ICanvas.Circle(Integer, Boolean)
+  fullName.vb: BOOSE.ICanvas.Circle(Integer, Boolean)
+  name.vb: Circle(Integer, Boolean)
+  spec.csharp:
+  - uid: BOOSE.ICanvas.Circle(System.Int32,System.Boolean)
+    name: Circle
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: BOOSE.ICanvas.Circle(System.Int32,System.Boolean)
+    name: Circle
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: BOOSE.ICanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  commentId: M:BOOSE.ICanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  parent: BOOSE.ICanvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: Rect(int, int, bool)
+  nameWithType: ICanvas.Rect(int, int, bool)
+  fullName: BOOSE.ICanvas.Rect(int, int, bool)
+  nameWithType.vb: ICanvas.Rect(Integer, Integer, Boolean)
+  fullName.vb: BOOSE.ICanvas.Rect(Integer, Integer, Boolean)
+  name.vb: Rect(Integer, Integer, Boolean)
+  spec.csharp:
+  - uid: BOOSE.ICanvas.Rect(System.Int32,System.Int32,System.Boolean)
+    name: Rect
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: BOOSE.ICanvas.Rect(System.Int32,System.Int32,System.Boolean)
+    name: Rect
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: BOOSE.ICanvas.Tri(System.Int32,System.Int32)
+  commentId: M:BOOSE.ICanvas.Tri(System.Int32,System.Int32)
+  parent: BOOSE.ICanvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: Tri(int, int)
+  nameWithType: ICanvas.Tri(int, int)
+  fullName: BOOSE.ICanvas.Tri(int, int)
+  nameWithType.vb: ICanvas.Tri(Integer, Integer)
+  fullName.vb: BOOSE.ICanvas.Tri(Integer, Integer)
+  name.vb: Tri(Integer, Integer)
+  spec.csharp:
+  - uid: BOOSE.ICanvas.Tri(System.Int32,System.Int32)
+    name: Tri
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: BOOSE.ICanvas.Tri(System.Int32,System.Int32)
+    name: Tri
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: BOOSE.ICanvas.WriteText(System.String)
+  commentId: M:BOOSE.ICanvas.WriteText(System.String)
+  parent: BOOSE.ICanvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: WriteText(string)
+  nameWithType: ICanvas.WriteText(string)
+  fullName: BOOSE.ICanvas.WriteText(string)
+  nameWithType.vb: ICanvas.WriteText(String)
+  fullName.vb: BOOSE.ICanvas.WriteText(String)
+  name.vb: WriteText(String)
+  spec.csharp:
+  - uid: BOOSE.ICanvas.WriteText(System.String)
+    name: WriteText
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: BOOSE.ICanvas.WriteText(System.String)
+    name: WriteText
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: BOOSE.ICanvas.getBitmap
+  commentId: M:BOOSE.ICanvas.getBitmap
+  parent: BOOSE.ICanvas
+  isExternal: true
+  name: getBitmap()
+  nameWithType: ICanvas.getBitmap()
+  fullName: BOOSE.ICanvas.getBitmap()
+  spec.csharp:
+  - uid: BOOSE.ICanvas.getBitmap
+    name: getBitmap
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: BOOSE.ICanvas.getBitmap
+    name: getBitmap
+    isExternal: true
+  - name: (
+  - name: )
+- uid: BOOSE.ICanvas.Xpos
+  commentId: P:BOOSE.ICanvas.Xpos
+  parent: BOOSE.ICanvas
+  isExternal: true
+  name: Xpos
+  nameWithType: ICanvas.Xpos
+  fullName: BOOSE.ICanvas.Xpos
+- uid: BOOSE.ICanvas.Ypos
+  commentId: P:BOOSE.ICanvas.Ypos
+  parent: BOOSE.ICanvas
+  isExternal: true
+  name: Ypos
+  nameWithType: ICanvas.Ypos
+  fullName: BOOSE.ICanvas.Ypos
+- uid: BOOSE.ICanvas.PenColour
+  commentId: P:BOOSE.ICanvas.PenColour
+  parent: BOOSE.ICanvas
+  isExternal: true
+  name: PenColour
+  nameWithType: ICanvas.PenColour
+  fullName: BOOSE.ICanvas.PenColour
+- uid: BOOSE.ICanvas
+  commentId: T:BOOSE.ICanvas
+  parent: BOOSE
+  isExternal: true
+  name: ICanvas
+  nameWithType: ICanvas
+  fullName: BOOSE.ICanvas
+- uid: BOOSE
+  commentId: N:BOOSE
+  isExternal: true
+  name: BOOSE
+  nameWithType: BOOSE
+  fullName: BOOSE
+- uid: ASE_Assignment_Bijesh.Src.Components.IExtendedCanvas.SetBrushColour*
+  commentId: Overload:ASE_Assignment_Bijesh.Src.Components.IExtendedCanvas.SetBrushColour
+  href: ASE_Assignment_Bijesh.Src.Components.IExtendedCanvas.html#ASE_Assignment_Bijesh_Src_Components_IExtendedCanvas_SetBrushColour_System_Int32_System_Int32_System_Int32_
+  name: SetBrushColour
+  nameWithType: IExtendedCanvas.SetBrushColour
+  fullName: ASE_Assignment_Bijesh.Src.Components.IExtendedCanvas.SetBrushColour
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ASE_Assignment_Bijesh.Src.Components.IExtendedCanvas.BrushColour*
+  commentId: Overload:ASE_Assignment_Bijesh.Src.Components.IExtendedCanvas.BrushColour
+  href: ASE_Assignment_Bijesh.Src.Components.IExtendedCanvas.html#ASE_Assignment_Bijesh_Src_Components_IExtendedCanvas_BrushColour
+  name: BrushColour
+  nameWithType: IExtendedCanvas.BrushColour
+  fullName: ASE_Assignment_Bijesh.Src.Components.IExtendedCanvas.BrushColour
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object

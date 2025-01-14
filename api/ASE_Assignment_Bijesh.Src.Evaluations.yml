@@ -1,0 +1,124 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment_Bijesh.Src.Evaluations
+  commentId: N:ASE_Assignment_Bijesh.Src.Evaluations
+  id: ASE_Assignment_Bijesh.Src.Evaluations
+  children:
+  - ASE_Assignment_Bijesh.Src.Evaluations.EvaluationArray
+  - ASE_Assignment_Bijesh.Src.Evaluations.EvaluationBool
+  - ASE_Assignment_Bijesh.Src.Evaluations.EvaluationElse
+  - ASE_Assignment_Bijesh.Src.Evaluations.EvaluationEnd
+  - ASE_Assignment_Bijesh.Src.Evaluations.EvaluationFor
+  - ASE_Assignment_Bijesh.Src.Evaluations.EvaluationIf
+  - ASE_Assignment_Bijesh.Src.Evaluations.EvaluationInt
+  - ASE_Assignment_Bijesh.Src.Evaluations.EvaluationIntRewrite
+  - ASE_Assignment_Bijesh.Src.Evaluations.EvaluationMethod
+  - ASE_Assignment_Bijesh.Src.Evaluations.EvaluationReal
+  - ASE_Assignment_Bijesh.Src.Evaluations.EvaluationWhile
+  langs:
+  - csharp
+  - vb
+  name: ASE_Assignment_Bijesh.Src.Evaluations
+  nameWithType: ASE_Assignment_Bijesh.Src.Evaluations
+  fullName: ASE_Assignment_Bijesh.Src.Evaluations
+  type: Namespace
+  assemblies:
+  - ASE Assignment Bijesh
+references:
+- uid: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationArray
+  commentId: T:ASE_Assignment_Bijesh.Src.Evaluations.EvaluationArray
+  href: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationArray.html
+  name: EvaluationArray
+  nameWithType: EvaluationArray
+  fullName: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationArray
+- uid: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationBool
+  commentId: T:ASE_Assignment_Bijesh.Src.Evaluations.EvaluationBool
+  href: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationBool.html
+  name: EvaluationBool
+  nameWithType: EvaluationBool
+  fullName: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationBool
+- uid: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationElse
+  commentId: T:ASE_Assignment_Bijesh.Src.Evaluations.EvaluationElse
+  href: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationElse.html
+  name: EvaluationElse
+  nameWithType: EvaluationElse
+  fullName: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationElse
+- uid: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationEnd
+  commentId: T:ASE_Assignment_Bijesh.Src.Evaluations.EvaluationEnd
+  href: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationEnd.html
+  name: EvaluationEnd
+  nameWithType: EvaluationEnd
+  fullName: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationEnd
+- uid: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationFor
+  commentId: T:ASE_Assignment_Bijesh.Src.Evaluations.EvaluationFor
+  href: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationFor.html
+  name: EvaluationFor
+  nameWithType: EvaluationFor
+  fullName: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationFor
+- uid: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationIf
+  commentId: T:ASE_Assignment_Bijesh.Src.Evaluations.EvaluationIf
+  href: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationIf.html
+  name: EvaluationIf
+  nameWithType: EvaluationIf
+  fullName: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationIf
+- uid: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationInt
+  commentId: T:ASE_Assignment_Bijesh.Src.Evaluations.EvaluationInt
+  href: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationInt.html
+  name: EvaluationInt
+  nameWithType: EvaluationInt
+  fullName: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationInt
+- uid: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationIntRewrite
+  commentId: T:ASE_Assignment_Bijesh.Src.Evaluations.EvaluationIntRewrite
+  href: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationIntRewrite.html
+  name: EvaluationIntRewrite
+  nameWithType: EvaluationIntRewrite
+  fullName: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationIntRewrite
+- uid: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationMethod
+  commentId: T:ASE_Assignment_Bijesh.Src.Evaluations.EvaluationMethod
+  parent: ASE_Assignment_Bijesh.Src.Evaluations
+  href: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationMethod.html
+  name: EvaluationMethod
+  nameWithType: EvaluationMethod
+  fullName: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationMethod
+- uid: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationReal
+  commentId: T:ASE_Assignment_Bijesh.Src.Evaluations.EvaluationReal
+  href: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationReal.html
+  name: EvaluationReal
+  nameWithType: EvaluationReal
+  fullName: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationReal
+- uid: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationWhile
+  commentId: T:ASE_Assignment_Bijesh.Src.Evaluations.EvaluationWhile
+  href: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationWhile.html
+  name: EvaluationWhile
+  nameWithType: EvaluationWhile
+  fullName: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationWhile
+- uid: ASE_Assignment_Bijesh.Src.Evaluations
+  commentId: N:ASE_Assignment_Bijesh.Src.Evaluations
+  href: ASE_Assignment_Bijesh.html
+  name: ASE_Assignment_Bijesh.Src.Evaluations
+  nameWithType: ASE_Assignment_Bijesh.Src.Evaluations
+  fullName: ASE_Assignment_Bijesh.Src.Evaluations
+  spec.csharp:
+  - uid: ASE_Assignment_Bijesh
+    name: ASE_Assignment_Bijesh
+    href: ASE_Assignment_Bijesh.html
+  - name: .
+  - uid: ASE_Assignment_Bijesh.Src
+    name: Src
+    href: ASE_Assignment_Bijesh.Src.html
+  - name: .
+  - uid: ASE_Assignment_Bijesh.Src.Evaluations
+    name: Evaluations
+    href: ASE_Assignment_Bijesh.Src.Evaluations.html
+  spec.vb:
+  - uid: ASE_Assignment_Bijesh
+    name: ASE_Assignment_Bijesh
+    href: ASE_Assignment_Bijesh.html
+  - name: .
+  - uid: ASE_Assignment_Bijesh.Src
+    name: Src
+    href: ASE_Assignment_Bijesh.Src.html
+  - name: .
+  - uid: ASE_Assignment_Bijesh.Src.Evaluations
+    name: Evaluations
+    href: ASE_Assignment_Bijesh.Src.Evaluations.html

@@ -1,0 +1,384 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment_Bijesh.Src.IBooseWrapper
+  commentId: T:ASE_Assignment_Bijesh.Src.IBooseWrapper
+  id: IBooseWrapper
+  parent: ASE_Assignment_Bijesh.Src
+  children:
+  - ASE_Assignment_Bijesh.Src.IBooseWrapper.ClearScreen
+  - ASE_Assignment_Bijesh.Src.IBooseWrapper.GetBitmap
+  - ASE_Assignment_Bijesh.Src.IBooseWrapper.GetCurrentPosition
+  - ASE_Assignment_Bijesh.Src.IBooseWrapper.GetInstance
+  - ASE_Assignment_Bijesh.Src.IBooseWrapper.Instance
+  - ASE_Assignment_Bijesh.Src.IBooseWrapper.Reset
+  - ASE_Assignment_Bijesh.Src.IBooseWrapper.RunProgram(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IBooseWrapper
+  nameWithType: IBooseWrapper
+  fullName: ASE_Assignment_Bijesh.Src.IBooseWrapper
+  type: Interface
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Bijesh/Src/IBooseWrapper.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: IBooseWrapper
+    path: ../ASE Assignment Bijesh/ASE Assignment Bijesh/Src/IBooseWrapper.cs
+    startLine: 13
+  assemblies:
+  - ASE Assignment Bijesh
+  namespace: ASE_Assignment_Bijesh.Src
+  summary: An interface to create a streamlined boose wrapper
+  example: []
+  syntax:
+    content: public interface IBooseWrapper
+    content.vb: Public Interface IBooseWrapper
+- uid: ASE_Assignment_Bijesh.Src.IBooseWrapper.Instance
+  commentId: F:ASE_Assignment_Bijesh.Src.IBooseWrapper.Instance
+  id: Instance
+  parent: ASE_Assignment_Bijesh.Src.IBooseWrapper
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: IBooseWrapper.Instance
+  fullName: ASE_Assignment_Bijesh.Src.IBooseWrapper.Instance
+  type: Field
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Bijesh/Src/IBooseWrapper.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: Instance
+    path: ../ASE Assignment Bijesh/ASE Assignment Bijesh/Src/IBooseWrapper.cs
+    startLine: 19
+  assemblies:
+  - ASE Assignment Bijesh
+  namespace: ASE_Assignment_Bijesh.Src
+  summary: Single static singleton instance
+  example: []
+  syntax:
+    content: public static BooseWrapper Instance
+    return:
+      type: ASE_Assignment_Bijesh.Src.BooseWrapper
+    content.vb: Public Shared Instance As BooseWrapper
+- uid: ASE_Assignment_Bijesh.Src.IBooseWrapper.RunProgram(System.String)
+  commentId: M:ASE_Assignment_Bijesh.Src.IBooseWrapper.RunProgram(System.String)
+  id: RunProgram(System.String)
+  parent: ASE_Assignment_Bijesh.Src.IBooseWrapper
+  langs:
+  - csharp
+  - vb
+  name: RunProgram(string)
+  nameWithType: IBooseWrapper.RunProgram(string)
+  fullName: ASE_Assignment_Bijesh.Src.IBooseWrapper.RunProgram(string)
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Bijesh/Src/IBooseWrapper.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: RunProgram
+    path: ../ASE Assignment Bijesh/ASE Assignment Bijesh/Src/IBooseWrapper.cs
+    startLine: 26
+  assemblies:
+  - ASE Assignment Bijesh
+  namespace: ASE_Assignment_Bijesh.Src
+  summary: Compiles and runs the program given in the program string
+  example: []
+  syntax:
+    content: void RunProgram(string program)
+    parameters:
+    - id: program
+      type: System.String
+      description: ''
+    content.vb: Sub RunProgram(program As String)
+  overload: ASE_Assignment_Bijesh.Src.IBooseWrapper.RunProgram*
+  nameWithType.vb: IBooseWrapper.RunProgram(String)
+  fullName.vb: ASE_Assignment_Bijesh.Src.IBooseWrapper.RunProgram(String)
+  name.vb: RunProgram(String)
+- uid: ASE_Assignment_Bijesh.Src.IBooseWrapper.GetBitmap
+  commentId: M:ASE_Assignment_Bijesh.Src.IBooseWrapper.GetBitmap
+  id: GetBitmap
+  parent: ASE_Assignment_Bijesh.Src.IBooseWrapper
+  langs:
+  - csharp
+  - vb
+  name: GetBitmap()
+  nameWithType: IBooseWrapper.GetBitmap()
+  fullName: ASE_Assignment_Bijesh.Src.IBooseWrapper.GetBitmap()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Bijesh/Src/IBooseWrapper.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: GetBitmap
+    path: ../ASE Assignment Bijesh/ASE Assignment Bijesh/Src/IBooseWrapper.cs
+    startLine: 32
+  assemblies:
+  - ASE Assignment Bijesh
+  namespace: ASE_Assignment_Bijesh.Src
+  summary: Returns the bitmap of the current state of the canvas
+  example: []
+  syntax:
+    content: Bitmap GetBitmap()
+    return:
+      type: System.Drawing.Bitmap
+      description: ''
+    content.vb: Function GetBitmap() As Bitmap
+  overload: ASE_Assignment_Bijesh.Src.IBooseWrapper.GetBitmap*
+- uid: ASE_Assignment_Bijesh.Src.IBooseWrapper.GetInstance
+  commentId: M:ASE_Assignment_Bijesh.Src.IBooseWrapper.GetInstance
+  id: GetInstance
+  parent: ASE_Assignment_Bijesh.Src.IBooseWrapper
+  langs:
+  - csharp
+  - vb
+  name: GetInstance()
+  nameWithType: IBooseWrapper.GetInstance()
+  fullName: ASE_Assignment_Bijesh.Src.IBooseWrapper.GetInstance()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Bijesh/Src/IBooseWrapper.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: GetInstance
+    path: ../ASE Assignment Bijesh/ASE Assignment Bijesh/Src/IBooseWrapper.cs
+    startLine: 38
+  assemblies:
+  - ASE Assignment Bijesh
+  namespace: ASE_Assignment_Bijesh.Src
+  summary: Returns the static instance
+  example: []
+  syntax:
+    content: public static abstract IBooseWrapper GetInstance()
+    return:
+      type: ASE_Assignment_Bijesh.Src.IBooseWrapper
+      description: ''
+    content.vb: Public Shared MustInherit Function GetInstance() As IBooseWrapper
+  overload: ASE_Assignment_Bijesh.Src.IBooseWrapper.GetInstance*
+- uid: ASE_Assignment_Bijesh.Src.IBooseWrapper.ClearScreen
+  commentId: M:ASE_Assignment_Bijesh.Src.IBooseWrapper.ClearScreen
+  id: ClearScreen
+  parent: ASE_Assignment_Bijesh.Src.IBooseWrapper
+  langs:
+  - csharp
+  - vb
+  name: ClearScreen()
+  nameWithType: IBooseWrapper.ClearScreen()
+  fullName: ASE_Assignment_Bijesh.Src.IBooseWrapper.ClearScreen()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Bijesh/Src/IBooseWrapper.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: ClearScreen
+    path: ../ASE Assignment Bijesh/ASE Assignment Bijesh/Src/IBooseWrapper.cs
+    startLine: 42
+  assemblies:
+  - ASE Assignment Bijesh
+  namespace: ASE_Assignment_Bijesh.Src
+  summary: Clears the Screen
+  example: []
+  syntax:
+    content: void ClearScreen()
+    content.vb: Sub ClearScreen()
+  overload: ASE_Assignment_Bijesh.Src.IBooseWrapper.ClearScreen*
+- uid: ASE_Assignment_Bijesh.Src.IBooseWrapper.GetCurrentPosition
+  commentId: M:ASE_Assignment_Bijesh.Src.IBooseWrapper.GetCurrentPosition
+  id: GetCurrentPosition
+  parent: ASE_Assignment_Bijesh.Src.IBooseWrapper
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentPosition()
+  nameWithType: IBooseWrapper.GetCurrentPosition()
+  fullName: ASE_Assignment_Bijesh.Src.IBooseWrapper.GetCurrentPosition()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Bijesh/Src/IBooseWrapper.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: GetCurrentPosition
+    path: ../ASE Assignment Bijesh/ASE Assignment Bijesh/Src/IBooseWrapper.cs
+    startLine: 48
+  assemblies:
+  - ASE Assignment Bijesh
+  namespace: ASE_Assignment_Bijesh.Src
+  summary: Returns the current X,Y coordinate of the virtual cursor at
+  example: []
+  syntax:
+    content: Point GetCurrentPosition()
+    return:
+      type: System.Drawing.Point
+      description: ''
+    content.vb: Function GetCurrentPosition() As Point
+  overload: ASE_Assignment_Bijesh.Src.IBooseWrapper.GetCurrentPosition*
+- uid: ASE_Assignment_Bijesh.Src.IBooseWrapper.Reset
+  commentId: M:ASE_Assignment_Bijesh.Src.IBooseWrapper.Reset
+  id: Reset
+  parent: ASE_Assignment_Bijesh.Src.IBooseWrapper
+  langs:
+  - csharp
+  - vb
+  name: Reset()
+  nameWithType: IBooseWrapper.Reset()
+  fullName: ASE_Assignment_Bijesh.Src.IBooseWrapper.Reset()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Bijesh/Src/IBooseWrapper.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: Reset
+    path: ../ASE Assignment Bijesh/ASE Assignment Bijesh/Src/IBooseWrapper.cs
+    startLine: 55
+  assemblies:
+  - ASE Assignment Bijesh
+  namespace: ASE_Assignment_Bijesh.Src
+  summary: Resets the interpreter to the starting condition
+  example: []
+  syntax:
+    content: void Reset()
+    content.vb: Sub Reset()
+  overload: ASE_Assignment_Bijesh.Src.IBooseWrapper.Reset*
+references:
+- uid: ASE_Assignment_Bijesh.Src
+  commentId: N:ASE_Assignment_Bijesh.Src
+  href: ASE_Assignment_Bijesh.html
+  name: ASE_Assignment_Bijesh.Src
+  nameWithType: ASE_Assignment_Bijesh.Src
+  fullName: ASE_Assignment_Bijesh.Src
+  spec.csharp:
+  - uid: ASE_Assignment_Bijesh
+    name: ASE_Assignment_Bijesh
+    href: ASE_Assignment_Bijesh.html
+  - name: .
+  - uid: ASE_Assignment_Bijesh.Src
+    name: Src
+    href: ASE_Assignment_Bijesh.Src.html
+  spec.vb:
+  - uid: ASE_Assignment_Bijesh
+    name: ASE_Assignment_Bijesh
+    href: ASE_Assignment_Bijesh.html
+  - name: .
+  - uid: ASE_Assignment_Bijesh.Src
+    name: Src
+    href: ASE_Assignment_Bijesh.Src.html
+- uid: ASE_Assignment_Bijesh.Src.BooseWrapper
+  commentId: T:ASE_Assignment_Bijesh.Src.BooseWrapper
+  parent: ASE_Assignment_Bijesh.Src
+  href: ASE_Assignment_Bijesh.Src.BooseWrapper.html
+  name: BooseWrapper
+  nameWithType: BooseWrapper
+  fullName: ASE_Assignment_Bijesh.Src.BooseWrapper
+- uid: ASE_Assignment_Bijesh.Src.IBooseWrapper.RunProgram*
+  commentId: Overload:ASE_Assignment_Bijesh.Src.IBooseWrapper.RunProgram
+  href: ASE_Assignment_Bijesh.Src.IBooseWrapper.html#ASE_Assignment_Bijesh_Src_IBooseWrapper_RunProgram_System_String_
+  name: RunProgram
+  nameWithType: IBooseWrapper.RunProgram
+  fullName: ASE_Assignment_Bijesh.Src.IBooseWrapper.RunProgram
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ASE_Assignment_Bijesh.Src.IBooseWrapper.GetBitmap*
+  commentId: Overload:ASE_Assignment_Bijesh.Src.IBooseWrapper.GetBitmap
+  href: ASE_Assignment_Bijesh.Src.IBooseWrapper.html#ASE_Assignment_Bijesh_Src_IBooseWrapper_GetBitmap
+  name: GetBitmap
+  nameWithType: IBooseWrapper.GetBitmap
+  fullName: ASE_Assignment_Bijesh.Src.IBooseWrapper.GetBitmap
+- uid: System.Drawing.Bitmap
+  commentId: T:System.Drawing.Bitmap
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.bitmap
+  name: Bitmap
+  nameWithType: Bitmap
+  fullName: System.Drawing.Bitmap
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+- uid: ASE_Assignment_Bijesh.Src.IBooseWrapper.GetInstance*
+  commentId: Overload:ASE_Assignment_Bijesh.Src.IBooseWrapper.GetInstance
+  href: ASE_Assignment_Bijesh.Src.IBooseWrapper.html#ASE_Assignment_Bijesh_Src_IBooseWrapper_GetInstance
+  name: GetInstance
+  nameWithType: IBooseWrapper.GetInstance
+  fullName: ASE_Assignment_Bijesh.Src.IBooseWrapper.GetInstance
+- uid: ASE_Assignment_Bijesh.Src.IBooseWrapper
+  commentId: T:ASE_Assignment_Bijesh.Src.IBooseWrapper
+  parent: ASE_Assignment_Bijesh.Src
+  href: ASE_Assignment_Bijesh.Src.IBooseWrapper.html
+  name: IBooseWrapper
+  nameWithType: IBooseWrapper
+  fullName: ASE_Assignment_Bijesh.Src.IBooseWrapper
+- uid: ASE_Assignment_Bijesh.Src.IBooseWrapper.ClearScreen*
+  commentId: Overload:ASE_Assignment_Bijesh.Src.IBooseWrapper.ClearScreen
+  href: ASE_Assignment_Bijesh.Src.IBooseWrapper.html#ASE_Assignment_Bijesh_Src_IBooseWrapper_ClearScreen
+  name: ClearScreen
+  nameWithType: IBooseWrapper.ClearScreen
+  fullName: ASE_Assignment_Bijesh.Src.IBooseWrapper.ClearScreen
+- uid: ASE_Assignment_Bijesh.Src.IBooseWrapper.GetCurrentPosition*
+  commentId: Overload:ASE_Assignment_Bijesh.Src.IBooseWrapper.GetCurrentPosition
+  href: ASE_Assignment_Bijesh.Src.IBooseWrapper.html#ASE_Assignment_Bijesh_Src_IBooseWrapper_GetCurrentPosition
+  name: GetCurrentPosition
+  nameWithType: IBooseWrapper.GetCurrentPosition
+  fullName: ASE_Assignment_Bijesh.Src.IBooseWrapper.GetCurrentPosition
+- uid: System.Drawing.Point
+  commentId: T:System.Drawing.Point
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.point
+  name: Point
+  nameWithType: Point
+  fullName: System.Drawing.Point
+- uid: ASE_Assignment_Bijesh.Src.IBooseWrapper.Reset*
+  commentId: Overload:ASE_Assignment_Bijesh.Src.IBooseWrapper.Reset
+  href: ASE_Assignment_Bijesh.Src.IBooseWrapper.html#ASE_Assignment_Bijesh_Src_IBooseWrapper_Reset
+  name: Reset
+  nameWithType: IBooseWrapper.Reset
+  fullName: ASE_Assignment_Bijesh.Src.IBooseWrapper.Reset

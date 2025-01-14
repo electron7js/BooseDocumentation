@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment_Bijesh_Tests
+  commentId: N:ASE_Assignment_Bijesh_Tests
+  id: ASE_Assignment_Bijesh_Tests
+  children:
+  - ASE_Assignment_Bijesh_Tests.BooseWrapperTests
+  - ASE_Assignment_Bijesh_Tests.CanvasTests
+  - ASE_Assignment_Bijesh_Tests.MainAppTests
+  langs:
+  - csharp
+  - vb
+  name: ASE_Assignment_Bijesh_Tests
+  nameWithType: ASE_Assignment_Bijesh_Tests
+  fullName: ASE_Assignment_Bijesh_Tests
+  type: Namespace
+  assemblies:
+  - ASE Assignment Tests
+references:
+- uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests
+  commentId: T:ASE_Assignment_Bijesh_Tests.BooseWrapperTests
+  href: ASE_Assignment_Bijesh_Tests.BooseWrapperTests.html
+  name: BooseWrapperTests
+  nameWithType: BooseWrapperTests
+  fullName: ASE_Assignment_Bijesh_Tests.BooseWrapperTests
+- uid: ASE_Assignment_Bijesh_Tests.CanvasTests
+  commentId: T:ASE_Assignment_Bijesh_Tests.CanvasTests
+  href: ASE_Assignment_Bijesh_Tests.CanvasTests.html
+  name: CanvasTests
+  nameWithType: CanvasTests
+  fullName: ASE_Assignment_Bijesh_Tests.CanvasTests
+- uid: ASE_Assignment_Bijesh_Tests.MainAppTests
+  commentId: T:ASE_Assignment_Bijesh_Tests.MainAppTests
+  href: ASE_Assignment_Bijesh_Tests.MainAppTests.html
+  name: MainAppTests
+  nameWithType: MainAppTests
+  fullName: ASE_Assignment_Bijesh_Tests.MainAppTests

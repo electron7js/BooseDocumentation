@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment_Bijesh.Src.Conditionals
+  commentId: N:ASE_Assignment_Bijesh.Src.Conditionals
+  id: ASE_Assignment_Bijesh.Src.Conditionals
+  children:
+  - ASE_Assignment_Bijesh.Src.Conditionals.AppCompoundCommand
+  - ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand
+  - ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes
+  langs:
+  - csharp
+  - vb
+  name: ASE_Assignment_Bijesh.Src.Conditionals
+  nameWithType: ASE_Assignment_Bijesh.Src.Conditionals
+  fullName: ASE_Assignment_Bijesh.Src.Conditionals
+  type: Namespace
+  assemblies:
+  - ASE Assignment Bijesh
+references:
+- uid: ASE_Assignment_Bijesh.Src.Conditionals.AppCompoundCommand
+  commentId: T:ASE_Assignment_Bijesh.Src.Conditionals.AppCompoundCommand
+  href: ASE_Assignment_Bijesh.Src.Conditionals.AppCompoundCommand.html
+  name: AppCompoundCommand
+  nameWithType: AppCompoundCommand
+  fullName: ASE_Assignment_Bijesh.Src.Conditionals.AppCompoundCommand
+- uid: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand
+  commentId: T:ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand
+  parent: ASE_Assignment_Bijesh.Src.Conditionals
+  href: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.html
+  name: AppConditionalCommand
+  nameWithType: AppConditionalCommand
+  fullName: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand
+- uid: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes
+  commentId: T:ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes
+  parent: ASE_Assignment_Bijesh.Src.Conditionals
+  href: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.html
+  name: AppConditionalCommand.ConditionalTypes
+  nameWithType: AppConditionalCommand.ConditionalTypes
+  fullName: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes
+  spec.csharp:
+  - uid: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand
+    name: AppConditionalCommand
+    href: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.html
+  - name: .
+  - uid: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes
+    name: ConditionalTypes
+    href: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes.html
+  spec.vb:
+  - uid: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand
+    name: AppConditionalCommand
+    href: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.html
+  - name: .
+  - uid: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes
+    name: ConditionalTypes
+    href: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes.html
+- uid: ASE_Assignment_Bijesh.Src.Conditionals
+  commentId: N:ASE_Assignment_Bijesh.Src.Conditionals
+  href: ASE_Assignment_Bijesh.html
+  name: ASE_Assignment_Bijesh.Src.Conditionals
+  nameWithType: ASE_Assignment_Bijesh.Src.Conditionals
+  fullName: ASE_Assignment_Bijesh.Src.Conditionals
+  spec.csharp:
+  - uid: ASE_Assignment_Bijesh
+    name: ASE_Assignment_Bijesh
+    href: ASE_Assignment_Bijesh.html
+  - name: .
+  - uid: ASE_Assignment_Bijesh.Src
+    name: Src
+    href: ASE_Assignment_Bijesh.Src.html
+  - name: .
+  - uid: ASE_Assignment_Bijesh.Src.Conditionals
+    name: Conditionals
+    href: ASE_Assignment_Bijesh.Src.Conditionals.html
+  spec.vb:
+  - uid: ASE_Assignment_Bijesh
+    name: ASE_Assignment_Bijesh
+    href: ASE_Assignment_Bijesh.html
+  - name: .
+  - uid: ASE_Assignment_Bijesh.Src
+    name: Src
+    href: ASE_Assignment_Bijesh.Src.html
+  - name: .
+  - uid: ASE_Assignment_Bijesh.Src.Conditionals
+    name: Conditionals
+    href: ASE_Assignment_Bijesh.Src.Conditionals.html

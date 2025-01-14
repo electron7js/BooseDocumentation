@@ -1,0 +1,72 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment_Bijesh.Src.Command
+  commentId: N:ASE_Assignment_Bijesh.Src.Command
+  id: ASE_Assignment_Bijesh.Src.Command
+  children:
+  - ASE_Assignment_Bijesh.Src.Command.CommandBrushColor
+  - ASE_Assignment_Bijesh.Src.Command.CommandCall
+  - ASE_Assignment_Bijesh.Src.Command.CommandCircle
+  - ASE_Assignment_Bijesh.Src.Command.CommandFilledCircle
+  - ASE_Assignment_Bijesh.Src.Command.CommandFilledRectangle
+  - ASE_Assignment_Bijesh.Src.Command.CommandRect
+  - ASE_Assignment_Bijesh.Src.Command.CommandTriangle
+  - ASE_Assignment_Bijesh.Src.Command.CommandWrite
+  langs:
+  - csharp
+  - vb
+  name: ASE_Assignment_Bijesh.Src.Command
+  nameWithType: ASE_Assignment_Bijesh.Src.Command
+  fullName: ASE_Assignment_Bijesh.Src.Command
+  type: Namespace
+  assemblies:
+  - ASE Assignment Bijesh
+references:
+- uid: ASE_Assignment_Bijesh.Src.Command.CommandBrushColor
+  commentId: T:ASE_Assignment_Bijesh.Src.Command.CommandBrushColor
+  href: ASE_Assignment_Bijesh.Src.Command.CommandBrushColor.html
+  name: CommandBrushColor
+  nameWithType: CommandBrushColor
+  fullName: ASE_Assignment_Bijesh.Src.Command.CommandBrushColor
+- uid: ASE_Assignment_Bijesh.Src.Command.CommandCall
+  commentId: T:ASE_Assignment_Bijesh.Src.Command.CommandCall
+  href: ASE_Assignment_Bijesh.Src.Command.CommandCall.html
+  name: CommandCall
+  nameWithType: CommandCall
+  fullName: ASE_Assignment_Bijesh.Src.Command.CommandCall
+- uid: ASE_Assignment_Bijesh.Src.Command.CommandCircle
+  commentId: T:ASE_Assignment_Bijesh.Src.Command.CommandCircle
+  href: ASE_Assignment_Bijesh.Src.Command.CommandCircle.html
+  name: CommandCircle
+  nameWithType: CommandCircle
+  fullName: ASE_Assignment_Bijesh.Src.Command.CommandCircle
+- uid: ASE_Assignment_Bijesh.Src.Command.CommandFilledCircle
+  commentId: T:ASE_Assignment_Bijesh.Src.Command.CommandFilledCircle
+  href: ASE_Assignment_Bijesh.Src.Command.CommandFilledCircle.html
+  name: CommandFilledCircle
+  nameWithType: CommandFilledCircle
+  fullName: ASE_Assignment_Bijesh.Src.Command.CommandFilledCircle
+- uid: ASE_Assignment_Bijesh.Src.Command.CommandFilledRectangle
+  commentId: T:ASE_Assignment_Bijesh.Src.Command.CommandFilledRectangle
+  href: ASE_Assignment_Bijesh.Src.Command.CommandFilledRectangle.html
+  name: CommandFilledRectangle
+  nameWithType: CommandFilledRectangle
+  fullName: ASE_Assignment_Bijesh.Src.Command.CommandFilledRectangle
+- uid: ASE_Assignment_Bijesh.Src.Command.CommandRect
+  commentId: T:ASE_Assignment_Bijesh.Src.Command.CommandRect
+  href: ASE_Assignment_Bijesh.Src.Command.CommandRect.html
+  name: CommandRect
+  nameWithType: CommandRect
+  fullName: ASE_Assignment_Bijesh.Src.Command.CommandRect
+- uid: ASE_Assignment_Bijesh.Src.Command.CommandTriangle
+  commentId: T:ASE_Assignment_Bijesh.Src.Command.CommandTriangle
+  href: ASE_Assignment_Bijesh.Src.Command.CommandTriangle.html
+  name: CommandTriangle
+  nameWithType: CommandTriangle
+  fullName: ASE_Assignment_Bijesh.Src.Command.CommandTriangle
+- uid: ASE_Assignment_Bijesh.Src.Command.CommandWrite
+  commentId: T:ASE_Assignment_Bijesh.Src.Command.CommandWrite
+  href: ASE_Assignment_Bijesh.Src.Command.CommandWrite.html
+  name: CommandWrite
+  nameWithType: CommandWrite
+  fullName: ASE_Assignment_Bijesh.Src.Command.CommandWrite

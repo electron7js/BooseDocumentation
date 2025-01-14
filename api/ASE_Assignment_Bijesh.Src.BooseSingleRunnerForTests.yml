@@ -1,0 +1,461 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests
+  commentId: T:ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests
+  id: BooseSingleRunnerForTests
+  parent: ASE_Assignment_Bijesh.Src
+  children:
+  - ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests.#ctor
+  - ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests.GetCurrentPosition
+  - ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests.RunProgram(System.String)
+  langs:
+  - csharp
+  - vb
+  name: BooseSingleRunnerForTests
+  nameWithType: BooseSingleRunnerForTests
+  fullName: ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests
+  type: Class
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Bijesh/Src/BooseSingleRunnerForTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: BooseSingleRunnerForTests
+    path: ../ASE Assignment Bijesh/ASE Assignment Bijesh/Src/BooseSingleRunnerForTests.cs
+    startLine: 13
+  assemblies:
+  - ASE Assignment Bijesh
+  namespace: ASE_Assignment_Bijesh.Src
+  summary: An encapsulated streamlined class for testing the BOOSE interpreter
+  example: []
+  syntax:
+    content: public class BooseSingleRunnerForTests
+    content.vb: Public Class BooseSingleRunnerForTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests.#ctor
+  commentId: M:ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests.#ctor
+  id: '#ctor'
+  parent: ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests
+  langs:
+  - csharp
+  - vb
+  name: BooseSingleRunnerForTests()
+  nameWithType: BooseSingleRunnerForTests.BooseSingleRunnerForTests()
+  fullName: ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests.BooseSingleRunnerForTests()
+  type: Constructor
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Bijesh/Src/BooseSingleRunnerForTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: .ctor
+    path: ../ASE Assignment Bijesh/ASE Assignment Bijesh/Src/BooseSingleRunnerForTests.cs
+    startLine: 38
+  assemblies:
+  - ASE Assignment Bijesh
+  namespace: ASE_Assignment_Bijesh.Src
+  summary: Public constructor
+  example: []
+  syntax:
+    content: public BooseSingleRunnerForTests()
+    content.vb: Public Sub New()
+  overload: ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests.#ctor*
+  nameWithType.vb: BooseSingleRunnerForTests.New()
+  fullName.vb: ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests.New()
+  name.vb: New()
+- uid: ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests.RunProgram(System.String)
+  commentId: M:ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests.RunProgram(System.String)
+  id: RunProgram(System.String)
+  parent: ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests
+  langs:
+  - csharp
+  - vb
+  name: RunProgram(string)
+  nameWithType: BooseSingleRunnerForTests.RunProgram(string)
+  fullName: ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests.RunProgram(string)
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Bijesh/Src/BooseSingleRunnerForTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: RunProgram
+    path: ../ASE Assignment Bijesh/ASE Assignment Bijesh/Src/BooseSingleRunnerForTests.cs
+    startLine: 44
+  assemblies:
+  - ASE Assignment Bijesh
+  namespace: ASE_Assignment_Bijesh.Src
+  syntax:
+    content: public void RunProgram(string program)
+    parameters:
+    - id: program
+      type: System.String
+    content.vb: Public Sub RunProgram(program As String)
+  overload: ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests.RunProgram*
+  nameWithType.vb: BooseSingleRunnerForTests.RunProgram(String)
+  fullName.vb: ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests.RunProgram(String)
+  name.vb: RunProgram(String)
+- uid: ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests.GetCurrentPosition
+  commentId: M:ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests.GetCurrentPosition
+  id: GetCurrentPosition
+  parent: ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentPosition()
+  nameWithType: BooseSingleRunnerForTests.GetCurrentPosition()
+  fullName: ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests.GetCurrentPosition()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Bijesh/Src/BooseSingleRunnerForTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: GetCurrentPosition
+    path: ../ASE Assignment Bijesh/ASE Assignment Bijesh/Src/BooseSingleRunnerForTests.cs
+    startLine: 62
+  assemblies:
+  - ASE Assignment Bijesh
+  namespace: ASE_Assignment_Bijesh.Src
+  syntax:
+    content: public Point GetCurrentPosition()
+    return:
+      type: System.Drawing.Point
+    content.vb: Public Function GetCurrentPosition() As Point
+  overload: ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests.GetCurrentPosition*
+references:
+- uid: ASE_Assignment_Bijesh.Src
+  commentId: N:ASE_Assignment_Bijesh.Src
+  href: ASE_Assignment_Bijesh.html
+  name: ASE_Assignment_Bijesh.Src
+  nameWithType: ASE_Assignment_Bijesh.Src
+  fullName: ASE_Assignment_Bijesh.Src
+  spec.csharp:
+  - uid: ASE_Assignment_Bijesh
+    name: ASE_Assignment_Bijesh
+    href: ASE_Assignment_Bijesh.html
+  - name: .
+  - uid: ASE_Assignment_Bijesh.Src
+    name: Src
+    href: ASE_Assignment_Bijesh.Src.html
+  spec.vb:
+  - uid: ASE_Assignment_Bijesh
+    name: ASE_Assignment_Bijesh
+    href: ASE_Assignment_Bijesh.html
+  - name: .
+  - uid: ASE_Assignment_Bijesh.Src
+    name: Src
+    href: ASE_Assignment_Bijesh.Src.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests.#ctor*
+  commentId: Overload:ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests.#ctor
+  href: ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests.html#ASE_Assignment_Bijesh_Src_BooseSingleRunnerForTests__ctor
+  name: BooseSingleRunnerForTests
+  nameWithType: BooseSingleRunnerForTests.BooseSingleRunnerForTests
+  fullName: ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests.BooseSingleRunnerForTests
+  nameWithType.vb: BooseSingleRunnerForTests.New
+  fullName.vb: ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests.New
+  name.vb: New
+- uid: ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests.RunProgram*
+  commentId: Overload:ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests.RunProgram
+  href: ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests.html#ASE_Assignment_Bijesh_Src_BooseSingleRunnerForTests_RunProgram_System_String_
+  name: RunProgram
+  nameWithType: BooseSingleRunnerForTests.RunProgram
+  fullName: ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests.RunProgram
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests.GetCurrentPosition*
+  commentId: Overload:ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests.GetCurrentPosition
+  href: ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests.html#ASE_Assignment_Bijesh_Src_BooseSingleRunnerForTests_GetCurrentPosition
+  name: GetCurrentPosition
+  nameWithType: BooseSingleRunnerForTests.GetCurrentPosition
+  fullName: ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests.GetCurrentPosition
+- uid: System.Drawing.Point
+  commentId: T:System.Drawing.Point
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.point
+  name: Point
+  nameWithType: Point
+  fullName: System.Drawing.Point
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing

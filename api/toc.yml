@@ -1,0 +1,136 @@
+### YamlMime:TableOfContent
+items:
+- uid: ASE_Assignment_Bijesh
+  name: ASE_Assignment_Bijesh
+  type: Namespace
+  items:
+  - uid: ASE_Assignment_Bijesh.MainForm
+    name: MainForm
+    type: Class
+- uid: ASE_Assignment_Bijesh.Src
+  name: ASE_Assignment_Bijesh.Src
+  type: Namespace
+  items:
+  - uid: ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests
+    name: BooseSingleRunnerForTests
+    type: Class
+  - uid: ASE_Assignment_Bijesh.Src.BooseWrapper
+    name: BooseWrapper
+    type: Class
+  - uid: ASE_Assignment_Bijesh.Src.IBooseWrapper
+    name: IBooseWrapper
+    type: Interface
+- uid: ASE_Assignment_Bijesh.Src.Command
+  name: ASE_Assignment_Bijesh.Src.Command
+  type: Namespace
+  items:
+  - uid: ASE_Assignment_Bijesh.Src.Command.CommandBrushColor
+    name: CommandBrushColor
+    type: Class
+  - uid: ASE_Assignment_Bijesh.Src.Command.CommandCall
+    name: CommandCall
+    type: Class
+  - uid: ASE_Assignment_Bijesh.Src.Command.CommandCircle
+    name: CommandCircle
+    type: Class
+  - uid: ASE_Assignment_Bijesh.Src.Command.CommandFilledCircle
+    name: CommandFilledCircle
+    type: Class
+  - uid: ASE_Assignment_Bijesh.Src.Command.CommandFilledRectangle
+    name: CommandFilledRectangle
+    type: Class
+  - uid: ASE_Assignment_Bijesh.Src.Command.CommandRect
+    name: CommandRect
+    type: Class
+  - uid: ASE_Assignment_Bijesh.Src.Command.CommandTriangle
+    name: CommandTriangle
+    type: Class
+  - uid: ASE_Assignment_Bijesh.Src.Command.CommandWrite
+    name: CommandWrite
+    type: Class
+- uid: ASE_Assignment_Bijesh.Src.Components
+  name: ASE_Assignment_Bijesh.Src.Components
+  type: Namespace
+  items:
+  - uid: ASE_Assignment_Bijesh.Src.Components.AppCanvas
+    name: AppCanvas
+    type: Class
+  - uid: ASE_Assignment_Bijesh.Src.Components.AppCommand
+    name: AppCommand
+    type: Class
+  - uid: ASE_Assignment_Bijesh.Src.Components.AppCommandFactory
+    name: AppCommandFactory
+    type: Class
+  - uid: ASE_Assignment_Bijesh.Src.Components.AppParser
+    name: AppParser
+    type: Class
+  - uid: ASE_Assignment_Bijesh.Src.Components.AppStoredProgram
+    name: AppStoredProgram
+    type: Class
+  - uid: ASE_Assignment_Bijesh.Src.Components.IExtendedCanvas
+    name: IExtendedCanvas
+    type: Interface
+- uid: ASE_Assignment_Bijesh.Src.Conditionals
+  name: ASE_Assignment_Bijesh.Src.Conditionals
+  type: Namespace
+  items:
+  - uid: ASE_Assignment_Bijesh.Src.Conditionals.AppCompoundCommand
+    name: AppCompoundCommand
+    type: Class
+  - uid: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand
+    name: AppConditionalCommand
+    type: Class
+  - uid: ASE_Assignment_Bijesh.Src.Conditionals.AppConditionalCommand.ConditionalTypes
+    name: AppConditionalCommand.ConditionalTypes
+    type: Enum
+- uid: ASE_Assignment_Bijesh.Src.Evaluations
+  name: ASE_Assignment_Bijesh.Src.Evaluations
+  type: Namespace
+  items:
+  - uid: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationArray
+    name: EvaluationArray
+    type: Class
+  - uid: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationBool
+    name: EvaluationBool
+    type: Class
+  - uid: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationElse
+    name: EvaluationElse
+    type: Class
+  - uid: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationEnd
+    name: EvaluationEnd
+    type: Class
+  - uid: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationFor
+    name: EvaluationFor
+    type: Class
+  - uid: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationIf
+    name: EvaluationIf
+    type: Class
+  - uid: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationInt
+    name: EvaluationInt
+    type: Class
+  - uid: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationIntRewrite
+    name: EvaluationIntRewrite
+    type: Class
+  - uid: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationMethod
+    name: EvaluationMethod
+    type: Class
+  - uid: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationReal
+    name: EvaluationReal
+    type: Class
+  - uid: ASE_Assignment_Bijesh.Src.Evaluations.EvaluationWhile
+    name: EvaluationWhile
+    type: Class
+- uid: ASE_Assignment_Bijesh_Tests
+  name: ASE_Assignment_Bijesh_Tests
+  type: Namespace
+  items:
+  - uid: ASE_Assignment_Bijesh_Tests.BooseWrapperTests
+    name: BooseWrapperTests
+    type: Class
+  - uid: ASE_Assignment_Bijesh_Tests.CanvasTests
+    name: CanvasTests
+    type: Class
+  - uid: ASE_Assignment_Bijesh_Tests.MainAppTests
+    name: MainAppTests
+    type: Class
+memberLayout: SamePage

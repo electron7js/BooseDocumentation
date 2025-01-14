@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment_Bijesh.Src
+  commentId: N:ASE_Assignment_Bijesh.Src
+  id: ASE_Assignment_Bijesh.Src
+  children:
+  - ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests
+  - ASE_Assignment_Bijesh.Src.BooseWrapper
+  - ASE_Assignment_Bijesh.Src.IBooseWrapper
+  langs:
+  - csharp
+  - vb
+  name: ASE_Assignment_Bijesh.Src
+  nameWithType: ASE_Assignment_Bijesh.Src
+  fullName: ASE_Assignment_Bijesh.Src
+  type: Namespace
+  assemblies:
+  - ASE Assignment Bijesh
+references:
+- uid: ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests
+  commentId: T:ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests
+  href: ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests.html
+  name: BooseSingleRunnerForTests
+  nameWithType: BooseSingleRunnerForTests
+  fullName: ASE_Assignment_Bijesh.Src.BooseSingleRunnerForTests
+- uid: ASE_Assignment_Bijesh.Src.BooseWrapper
+  commentId: T:ASE_Assignment_Bijesh.Src.BooseWrapper
+  parent: ASE_Assignment_Bijesh.Src
+  href: ASE_Assignment_Bijesh.Src.BooseWrapper.html
+  name: BooseWrapper
+  nameWithType: BooseWrapper
+  fullName: ASE_Assignment_Bijesh.Src.BooseWrapper
+- uid: ASE_Assignment_Bijesh.Src.IBooseWrapper
+  commentId: T:ASE_Assignment_Bijesh.Src.IBooseWrapper
+  parent: ASE_Assignment_Bijesh.Src
+  href: ASE_Assignment_Bijesh.Src.IBooseWrapper.html
+  name: IBooseWrapper
+  nameWithType: IBooseWrapper
+  fullName: ASE_Assignment_Bijesh.Src.IBooseWrapper
+- uid: ASE_Assignment_Bijesh.Src
+  commentId: N:ASE_Assignment_Bijesh.Src
+  href: ASE_Assignment_Bijesh.html
+  name: ASE_Assignment_Bijesh.Src
+  nameWithType: ASE_Assignment_Bijesh.Src
+  fullName: ASE_Assignment_Bijesh.Src
+  spec.csharp:
+  - uid: ASE_Assignment_Bijesh
+    name: ASE_Assignment_Bijesh
+    href: ASE_Assignment_Bijesh.html
+  - name: .
+  - uid: ASE_Assignment_Bijesh.Src
+    name: Src
+    href: ASE_Assignment_Bijesh.Src.html
+  spec.vb:
+  - uid: ASE_Assignment_Bijesh
+    name: ASE_Assignment_Bijesh
+    href: ASE_Assignment_Bijesh.html
+  - name: .
+  - uid: ASE_Assignment_Bijesh.Src
+    name: Src
+    href: ASE_Assignment_Bijesh.Src.html

@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment_Bijesh
+  commentId: N:ASE_Assignment_Bijesh
+  id: ASE_Assignment_Bijesh
+  children:
+  - ASE_Assignment_Bijesh.MainForm
+  langs:
+  - csharp
+  - vb
+  name: ASE_Assignment_Bijesh
+  nameWithType: ASE_Assignment_Bijesh
+  fullName: ASE_Assignment_Bijesh
+  type: Namespace
+  assemblies:
+  - ASE Assignment Bijesh
+references:
+- uid: ASE_Assignment_Bijesh.MainForm
+  commentId: T:ASE_Assignment_Bijesh.MainForm
+  href: ASE_Assignment_Bijesh.MainForm.html
+  name: MainForm
+  nameWithType: MainForm
+  fullName: ASE_Assignment_Bijesh.MainForm
