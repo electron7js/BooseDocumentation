@@ -5,7 +5,17 @@ items:
   id: ASE_Assignment_Tests.EvaluationTests
   children:
   - ASE_Assignment_Tests.EvaluationTests.BooseWrapperTests
+  - ASE_Assignment_Tests.EvaluationTests.EvaluationArrayTests
+  - ASE_Assignment_Tests.EvaluationTests.EvaluationBoolTests
   - ASE_Assignment_Tests.EvaluationTests.EvaluationCallTests
+  - ASE_Assignment_Tests.EvaluationTests.EvaluationElseTests
+  - ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests
+  - ASE_Assignment_Tests.EvaluationTests.EvaluationForTests
+  - ASE_Assignment_Tests.EvaluationTests.EvaluationIfTests
+  - ASE_Assignment_Tests.EvaluationTests.EvaluationIntTests
+  - ASE_Assignment_Tests.EvaluationTests.EvaluationMethodTests
+  - ASE_Assignment_Tests.EvaluationTests.EvaluationRealTests
+  - ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests
   langs:
   - csharp
   - vb
@@ -22,9 +32,69 @@ references:
   name: BooseWrapperTests
   nameWithType: BooseWrapperTests
   fullName: ASE_Assignment_Tests.EvaluationTests.BooseWrapperTests
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationArrayTests
+  commentId: T:ASE_Assignment_Tests.EvaluationTests.EvaluationArrayTests
+  href: ASE_Assignment_Tests.EvaluationTests.EvaluationArrayTests.html
+  name: EvaluationArrayTests
+  nameWithType: EvaluationArrayTests
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationArrayTests
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationBoolTests
+  commentId: T:ASE_Assignment_Tests.EvaluationTests.EvaluationBoolTests
+  href: ASE_Assignment_Tests.EvaluationTests.EvaluationBoolTests.html
+  name: EvaluationBoolTests
+  nameWithType: EvaluationBoolTests
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationBoolTests
 - uid: ASE_Assignment_Tests.EvaluationTests.EvaluationCallTests
   commentId: T:ASE_Assignment_Tests.EvaluationTests.EvaluationCallTests
   href: ASE_Assignment_Tests.EvaluationTests.EvaluationCallTests.html
   name: EvaluationCallTests
   nameWithType: EvaluationCallTests
   fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationCallTests
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationElseTests
+  commentId: T:ASE_Assignment_Tests.EvaluationTests.EvaluationElseTests
+  href: ASE_Assignment_Tests.EvaluationTests.EvaluationElseTests.html
+  name: EvaluationElseTests
+  nameWithType: EvaluationElseTests
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationElseTests
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests
+  commentId: T:ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests
+  href: ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.html
+  name: EvaluationEndTests
+  nameWithType: EvaluationEndTests
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationForTests
+  commentId: T:ASE_Assignment_Tests.EvaluationTests.EvaluationForTests
+  href: ASE_Assignment_Tests.EvaluationTests.EvaluationForTests.html
+  name: EvaluationForTests
+  nameWithType: EvaluationForTests
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationForTests
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationIfTests
+  commentId: T:ASE_Assignment_Tests.EvaluationTests.EvaluationIfTests
+  href: ASE_Assignment_Tests.EvaluationTests.EvaluationIfTests.html
+  name: EvaluationIfTests
+  nameWithType: EvaluationIfTests
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationIfTests
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationIntTests
+  commentId: T:ASE_Assignment_Tests.EvaluationTests.EvaluationIntTests
+  href: ASE_Assignment_Tests.EvaluationTests.EvaluationIntTests.html
+  name: EvaluationIntTests
+  nameWithType: EvaluationIntTests
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationIntTests
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationMethodTests
+  commentId: T:ASE_Assignment_Tests.EvaluationTests.EvaluationMethodTests
+  href: ASE_Assignment_Tests.EvaluationTests.EvaluationMethodTests.html
+  name: EvaluationMethodTests
+  nameWithType: EvaluationMethodTests
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationMethodTests
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationRealTests
+  commentId: T:ASE_Assignment_Tests.EvaluationTests.EvaluationRealTests
+  href: ASE_Assignment_Tests.EvaluationTests.EvaluationRealTests.html
+  name: EvaluationRealTests
+  nameWithType: EvaluationRealTests
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationRealTests
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests
+  commentId: T:ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests
+  href: ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.html
+  name: EvaluationWhileTests
+  nameWithType: EvaluationWhileTests
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests

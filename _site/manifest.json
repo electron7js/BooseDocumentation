@@ -492,106 +492,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ASE_Assignment_Tests.CommandTests.EvaluationArrayTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ASE_Assignment_Tests.CommandTests.EvaluationArrayTests.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ASE_Assignment_Tests.CommandTests.EvaluationBoolTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ASE_Assignment_Tests.CommandTests.EvaluationBoolTests.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ASE_Assignment_Tests.CommandTests.EvaluationElseTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ASE_Assignment_Tests.CommandTests.EvaluationElseTests.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ASE_Assignment_Tests.CommandTests.EvaluationEndTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ASE_Assignment_Tests.CommandTests.EvaluationEndTests.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ASE_Assignment_Tests.CommandTests.EvaluationForTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ASE_Assignment_Tests.CommandTests.EvaluationForTests.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ASE_Assignment_Tests.CommandTests.EvaluationIfTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ASE_Assignment_Tests.CommandTests.EvaluationIfTests.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ASE_Assignment_Tests.CommandTests.EvaluationIntTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ASE_Assignment_Tests.CommandTests.EvaluationIntTests.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ASE_Assignment_Tests.CommandTests.EvaluationMethodTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ASE_Assignment_Tests.CommandTests.EvaluationMethodTests.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ASE_Assignment_Tests.CommandTests.EvaluationRealTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ASE_Assignment_Tests.CommandTests.EvaluationRealTests.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ASE_Assignment_Tests.CommandTests.EvaluationWhileTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ASE_Assignment_Tests.CommandTests.EvaluationWhileTests.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/ASE_Assignment_Tests.CommandTests.yml",
       "output": {
         ".html": {
@@ -662,10 +562,110 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Tests.EvaluationTests.EvaluationArrayTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Tests.EvaluationTests.EvaluationArrayTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Tests.EvaluationTests.EvaluationBoolTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Tests.EvaluationTests.EvaluationBoolTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ASE_Assignment_Tests.EvaluationTests.EvaluationCallTests.yml",
       "output": {
         ".html": {
           "relative_path": "api/ASE_Assignment_Tests.EvaluationTests.EvaluationCallTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Tests.EvaluationTests.EvaluationElseTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Tests.EvaluationTests.EvaluationElseTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Tests.EvaluationTests.EvaluationForTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Tests.EvaluationTests.EvaluationForTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Tests.EvaluationTests.EvaluationIfTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Tests.EvaluationTests.EvaluationIfTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Tests.EvaluationTests.EvaluationIntTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Tests.EvaluationTests.EvaluationIntTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Tests.EvaluationTests.EvaluationMethodTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Tests.EvaluationTests.EvaluationMethodTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Tests.EvaluationTests.EvaluationRealTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Tests.EvaluationTests.EvaluationRealTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.html"
         }
       },
       "version": ""

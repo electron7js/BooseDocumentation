@@ -1,43 +1,43 @@
 ### YamlMime:ManagedReference
 items:
-- uid: ASE_Assignment_Tests.CommandTests.EvaluationForTests
-  commentId: T:ASE_Assignment_Tests.CommandTests.EvaluationForTests
-  id: EvaluationForTests
-  parent: ASE_Assignment_Tests.CommandTests
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests
+  commentId: T:ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests
+  id: EvaluationWhileTests
+  parent: ASE_Assignment_Tests.EvaluationTests
   children:
-  - ASE_Assignment_Tests.CommandTests.EvaluationForTests.CheckObjectCreation
-  - ASE_Assignment_Tests.CommandTests.EvaluationForTests.CheckObjectCreationRestriction
-  - ASE_Assignment_Tests.CommandTests.EvaluationForTests.CorrectForDoesNotThrowException
-  - ASE_Assignment_Tests.CommandTests.EvaluationForTests.IncorrectForThrowsException
+  - ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.CheckObjectCreation
+  - ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.CheckObjectCreationRestriction
+  - ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.InvalidDeclarationThrowsException
+  - ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.ValidDeclarationDoesNotThrowException
   langs:
   - csharp
   - vb
-  name: EvaluationForTests
-  nameWithType: EvaluationForTests
-  fullName: ASE_Assignment_Tests.CommandTests.EvaluationForTests
+  name: EvaluationWhileTests
+  nameWithType: EvaluationWhileTests
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests
   type: Class
   source:
     remote:
-      path: ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationForTests.cs
+      path: ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationWhileTests.cs
       branch: main
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
-    id: EvaluationForTests
-    path: ../ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationForTests.cs
-    startLine: 13
+    id: EvaluationWhileTests
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationWhileTests.cs
+    startLine: 12
   assemblies:
   - ASE Assignment Tests
-  namespace: ASE_Assignment_Tests.CommandTests
-  summary: The Unit tests for the EvaluationFor Class
+  namespace: ASE_Assignment_Tests.EvaluationTests
+  summary: The Unit tests for the EvaluationWhile Class
   example: []
   syntax:
     content: >-
       [TestClass]
 
-      public class EvaluationForTests
+      public class EvaluationWhileTests
     content.vb: >-
       <TestClass>
 
-      Public Class EvaluationForTests
+      Public Class EvaluationWhileTests
   inheritance:
   - System.Object
   inheritedMembers:
@@ -52,28 +52,28 @@ items:
   - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
     ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
     arguments: []
-- uid: ASE_Assignment_Tests.CommandTests.EvaluationForTests.CheckObjectCreation
-  commentId: M:ASE_Assignment_Tests.CommandTests.EvaluationForTests.CheckObjectCreation
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.CheckObjectCreation
+  commentId: M:ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.CheckObjectCreation
   id: CheckObjectCreation
-  parent: ASE_Assignment_Tests.CommandTests.EvaluationForTests
+  parent: ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests
   langs:
   - csharp
   - vb
   name: CheckObjectCreation()
-  nameWithType: EvaluationForTests.CheckObjectCreation()
-  fullName: ASE_Assignment_Tests.CommandTests.EvaluationForTests.CheckObjectCreation()
+  nameWithType: EvaluationWhileTests.CheckObjectCreation()
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.CheckObjectCreation()
   type: Method
   source:
     remote:
-      path: ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationForTests.cs
+      path: ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationWhileTests.cs
       branch: main
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: CheckObjectCreation
-    path: ../ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationForTests.cs
-    startLine: 20
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationWhileTests.cs
+    startLine: 19
   assemblies:
   - ASE Assignment Tests
-  namespace: ASE_Assignment_Tests.CommandTests
+  namespace: ASE_Assignment_Tests.EvaluationTests
   summary: Checks if the class objects can be initialized
   example: []
   syntax:
@@ -85,33 +85,33 @@ items:
       <TestMethod>
 
       Public Sub CheckObjectCreation()
-  overload: ASE_Assignment_Tests.CommandTests.EvaluationForTests.CheckObjectCreation*
+  overload: ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.CheckObjectCreation*
   attributes:
   - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
     ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
     arguments: []
-- uid: ASE_Assignment_Tests.CommandTests.EvaluationForTests.CheckObjectCreationRestriction
-  commentId: M:ASE_Assignment_Tests.CommandTests.EvaluationForTests.CheckObjectCreationRestriction
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.CheckObjectCreationRestriction
+  commentId: M:ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.CheckObjectCreationRestriction
   id: CheckObjectCreationRestriction
-  parent: ASE_Assignment_Tests.CommandTests.EvaluationForTests
+  parent: ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests
   langs:
   - csharp
   - vb
   name: CheckObjectCreationRestriction()
-  nameWithType: EvaluationForTests.CheckObjectCreationRestriction()
-  fullName: ASE_Assignment_Tests.CommandTests.EvaluationForTests.CheckObjectCreationRestriction()
+  nameWithType: EvaluationWhileTests.CheckObjectCreationRestriction()
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.CheckObjectCreationRestriction()
   type: Method
   source:
     remote:
-      path: ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationForTests.cs
+      path: ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationWhileTests.cs
       branch: main
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: CheckObjectCreationRestriction
-    path: ../ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationForTests.cs
-    startLine: 29
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationWhileTests.cs
+    startLine: 27
   assemblies:
   - ASE Assignment Tests
-  namespace: ASE_Assignment_Tests.CommandTests
+  namespace: ASE_Assignment_Tests.EvaluationTests
   summary: Checks if the restrictions are overridden by initializing 1000 objects
   example: []
   syntax:
@@ -123,110 +123,110 @@ items:
       <TestMethod>
 
       Public Sub CheckObjectCreationRestriction()
-  overload: ASE_Assignment_Tests.CommandTests.EvaluationForTests.CheckObjectCreationRestriction*
+  overload: ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.CheckObjectCreationRestriction*
   attributes:
   - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
     ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
     arguments: []
-- uid: ASE_Assignment_Tests.CommandTests.EvaluationForTests.IncorrectForThrowsException
-  commentId: M:ASE_Assignment_Tests.CommandTests.EvaluationForTests.IncorrectForThrowsException
-  id: IncorrectForThrowsException
-  parent: ASE_Assignment_Tests.CommandTests.EvaluationForTests
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.InvalidDeclarationThrowsException
+  commentId: M:ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.InvalidDeclarationThrowsException
+  id: InvalidDeclarationThrowsException
+  parent: ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests
   langs:
   - csharp
   - vb
-  name: IncorrectForThrowsException()
-  nameWithType: EvaluationForTests.IncorrectForThrowsException()
-  fullName: ASE_Assignment_Tests.CommandTests.EvaluationForTests.IncorrectForThrowsException()
+  name: InvalidDeclarationThrowsException()
+  nameWithType: EvaluationWhileTests.InvalidDeclarationThrowsException()
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.InvalidDeclarationThrowsException()
   type: Method
   source:
     remote:
-      path: ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationForTests.cs
+      path: ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationWhileTests.cs
       branch: main
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
-    id: IncorrectForThrowsException
-    path: ../ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationForTests.cs
-    startLine: 41
+    id: InvalidDeclarationThrowsException
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationWhileTests.cs
+    startLine: 38
   assemblies:
   - ASE Assignment Tests
-  namespace: ASE_Assignment_Tests.CommandTests
+  namespace: ASE_Assignment_Tests.EvaluationTests
   summary: Checks if incorrect for declaration throw exception
   example: []
   syntax:
     content: >-
       [TestMethod]
 
-      public void IncorrectForThrowsException()
+      public void InvalidDeclarationThrowsException()
     content.vb: >-
       <TestMethod>
 
-      Public Sub IncorrectForThrowsException()
-  overload: ASE_Assignment_Tests.CommandTests.EvaluationForTests.IncorrectForThrowsException*
+      Public Sub InvalidDeclarationThrowsException()
+  overload: ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.InvalidDeclarationThrowsException*
   attributes:
   - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
     ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
     arguments: []
-- uid: ASE_Assignment_Tests.CommandTests.EvaluationForTests.CorrectForDoesNotThrowException
-  commentId: M:ASE_Assignment_Tests.CommandTests.EvaluationForTests.CorrectForDoesNotThrowException
-  id: CorrectForDoesNotThrowException
-  parent: ASE_Assignment_Tests.CommandTests.EvaluationForTests
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.ValidDeclarationDoesNotThrowException
+  commentId: M:ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.ValidDeclarationDoesNotThrowException
+  id: ValidDeclarationDoesNotThrowException
+  parent: ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests
   langs:
   - csharp
   - vb
-  name: CorrectForDoesNotThrowException()
-  nameWithType: EvaluationForTests.CorrectForDoesNotThrowException()
-  fullName: ASE_Assignment_Tests.CommandTests.EvaluationForTests.CorrectForDoesNotThrowException()
+  name: ValidDeclarationDoesNotThrowException()
+  nameWithType: EvaluationWhileTests.ValidDeclarationDoesNotThrowException()
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.ValidDeclarationDoesNotThrowException()
   type: Method
   source:
     remote:
-      path: ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationForTests.cs
+      path: ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationWhileTests.cs
       branch: main
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
-    id: CorrectForDoesNotThrowException
-    path: ../ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationForTests.cs
-    startLine: 60
+    id: ValidDeclarationDoesNotThrowException
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationWhileTests.cs
+    startLine: 52
   assemblies:
   - ASE Assignment Tests
-  namespace: ASE_Assignment_Tests.CommandTests
+  namespace: ASE_Assignment_Tests.EvaluationTests
   summary: Checks correct for declaration doesn't throw exception
   example: []
   syntax:
     content: >-
       [TestMethod]
 
-      public void CorrectForDoesNotThrowException()
+      public void ValidDeclarationDoesNotThrowException()
     content.vb: >-
       <TestMethod>
 
-      Public Sub CorrectForDoesNotThrowException()
-  overload: ASE_Assignment_Tests.CommandTests.EvaluationForTests.CorrectForDoesNotThrowException*
+      Public Sub ValidDeclarationDoesNotThrowException()
+  overload: ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.ValidDeclarationDoesNotThrowException*
   attributes:
   - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
     ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
     arguments: []
 references:
-- uid: ASE_Assignment_Tests.CommandTests
-  commentId: N:ASE_Assignment_Tests.CommandTests
+- uid: ASE_Assignment_Tests.EvaluationTests
+  commentId: N:ASE_Assignment_Tests.EvaluationTests
   href: ASE_Assignment_Tests.html
-  name: ASE_Assignment_Tests.CommandTests
-  nameWithType: ASE_Assignment_Tests.CommandTests
-  fullName: ASE_Assignment_Tests.CommandTests
+  name: ASE_Assignment_Tests.EvaluationTests
+  nameWithType: ASE_Assignment_Tests.EvaluationTests
+  fullName: ASE_Assignment_Tests.EvaluationTests
   spec.csharp:
   - uid: ASE_Assignment_Tests
     name: ASE_Assignment_Tests
     href: ASE_Assignment_Tests.html
   - name: .
-  - uid: ASE_Assignment_Tests.CommandTests
-    name: CommandTests
-    href: ASE_Assignment_Tests.CommandTests.html
+  - uid: ASE_Assignment_Tests.EvaluationTests
+    name: EvaluationTests
+    href: ASE_Assignment_Tests.EvaluationTests.html
   spec.vb:
   - uid: ASE_Assignment_Tests
     name: ASE_Assignment_Tests
     href: ASE_Assignment_Tests.html
   - name: .
-  - uid: ASE_Assignment_Tests.CommandTests
-    name: CommandTests
-    href: ASE_Assignment_Tests.CommandTests.html
+  - uid: ASE_Assignment_Tests.EvaluationTests
+    name: EvaluationTests
+    href: ASE_Assignment_Tests.EvaluationTests.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -464,27 +464,27 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: ASE_Assignment_Tests.CommandTests.EvaluationForTests.CheckObjectCreation*
-  commentId: Overload:ASE_Assignment_Tests.CommandTests.EvaluationForTests.CheckObjectCreation
-  href: ASE_Assignment_Tests.CommandTests.EvaluationForTests.html#ASE_Assignment_Tests_CommandTests_EvaluationForTests_CheckObjectCreation
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.CheckObjectCreation*
+  commentId: Overload:ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.CheckObjectCreation
+  href: ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.html#ASE_Assignment_Tests_EvaluationTests_EvaluationWhileTests_CheckObjectCreation
   name: CheckObjectCreation
-  nameWithType: EvaluationForTests.CheckObjectCreation
-  fullName: ASE_Assignment_Tests.CommandTests.EvaluationForTests.CheckObjectCreation
-- uid: ASE_Assignment_Tests.CommandTests.EvaluationForTests.CheckObjectCreationRestriction*
-  commentId: Overload:ASE_Assignment_Tests.CommandTests.EvaluationForTests.CheckObjectCreationRestriction
-  href: ASE_Assignment_Tests.CommandTests.EvaluationForTests.html#ASE_Assignment_Tests_CommandTests_EvaluationForTests_CheckObjectCreationRestriction
+  nameWithType: EvaluationWhileTests.CheckObjectCreation
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.CheckObjectCreation
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.CheckObjectCreationRestriction*
+  commentId: Overload:ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.CheckObjectCreationRestriction
+  href: ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.html#ASE_Assignment_Tests_EvaluationTests_EvaluationWhileTests_CheckObjectCreationRestriction
   name: CheckObjectCreationRestriction
-  nameWithType: EvaluationForTests.CheckObjectCreationRestriction
-  fullName: ASE_Assignment_Tests.CommandTests.EvaluationForTests.CheckObjectCreationRestriction
-- uid: ASE_Assignment_Tests.CommandTests.EvaluationForTests.IncorrectForThrowsException*
-  commentId: Overload:ASE_Assignment_Tests.CommandTests.EvaluationForTests.IncorrectForThrowsException
-  href: ASE_Assignment_Tests.CommandTests.EvaluationForTests.html#ASE_Assignment_Tests_CommandTests_EvaluationForTests_IncorrectForThrowsException
-  name: IncorrectForThrowsException
-  nameWithType: EvaluationForTests.IncorrectForThrowsException
-  fullName: ASE_Assignment_Tests.CommandTests.EvaluationForTests.IncorrectForThrowsException
-- uid: ASE_Assignment_Tests.CommandTests.EvaluationForTests.CorrectForDoesNotThrowException*
-  commentId: Overload:ASE_Assignment_Tests.CommandTests.EvaluationForTests.CorrectForDoesNotThrowException
-  href: ASE_Assignment_Tests.CommandTests.EvaluationForTests.html#ASE_Assignment_Tests_CommandTests_EvaluationForTests_CorrectForDoesNotThrowException
-  name: CorrectForDoesNotThrowException
-  nameWithType: EvaluationForTests.CorrectForDoesNotThrowException
-  fullName: ASE_Assignment_Tests.CommandTests.EvaluationForTests.CorrectForDoesNotThrowException
+  nameWithType: EvaluationWhileTests.CheckObjectCreationRestriction
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.CheckObjectCreationRestriction
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.InvalidDeclarationThrowsException*
+  commentId: Overload:ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.InvalidDeclarationThrowsException
+  href: ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.html#ASE_Assignment_Tests_EvaluationTests_EvaluationWhileTests_InvalidDeclarationThrowsException
+  name: InvalidDeclarationThrowsException
+  nameWithType: EvaluationWhileTests.InvalidDeclarationThrowsException
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.InvalidDeclarationThrowsException
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.ValidDeclarationDoesNotThrowException*
+  commentId: Overload:ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.ValidDeclarationDoesNotThrowException
+  href: ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.html#ASE_Assignment_Tests_EvaluationTests_EvaluationWhileTests_ValidDeclarationDoesNotThrowException
+  name: ValidDeclarationDoesNotThrowException
+  nameWithType: EvaluationWhileTests.ValidDeclarationDoesNotThrowException
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests.ValidDeclarationDoesNotThrowException

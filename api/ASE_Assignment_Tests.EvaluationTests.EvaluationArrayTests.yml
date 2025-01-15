@@ -1,43 +1,41 @@
 ### YamlMime:ManagedReference
 items:
-- uid: ASE_Assignment_Tests.CommandTests.EvaluationIntTests
-  commentId: T:ASE_Assignment_Tests.CommandTests.EvaluationIntTests
-  id: EvaluationIntTests
-  parent: ASE_Assignment_Tests.CommandTests
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationArrayTests
+  commentId: T:ASE_Assignment_Tests.EvaluationTests.EvaluationArrayTests
+  id: EvaluationArrayTests
+  parent: ASE_Assignment_Tests.EvaluationTests
   children:
-  - ASE_Assignment_Tests.CommandTests.EvaluationIntTests.CheckObjectCreation
-  - ASE_Assignment_Tests.CommandTests.EvaluationIntTests.CheckObjectCreationRestriction
-  - ASE_Assignment_Tests.CommandTests.EvaluationIntTests.InvalidValueThrowsException
-  - ASE_Assignment_Tests.CommandTests.EvaluationIntTests.ValidValueDoesNotThrowException
+  - ASE_Assignment_Tests.EvaluationTests.EvaluationArrayTests.CheckObjectCreation
+  - ASE_Assignment_Tests.EvaluationTests.EvaluationArrayTests.CheckObjectCreationRestriction
   langs:
   - csharp
   - vb
-  name: EvaluationIntTests
-  nameWithType: EvaluationIntTests
-  fullName: ASE_Assignment_Tests.CommandTests.EvaluationIntTests
+  name: EvaluationArrayTests
+  nameWithType: EvaluationArrayTests
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationArrayTests
   type: Class
   source:
     remote:
-      path: ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationIntTests.cs
+      path: ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationArrayTests.cs
       branch: main
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
-    id: EvaluationIntTests
-    path: ../ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationIntTests.cs
+    id: EvaluationArrayTests
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationArrayTests.cs
     startLine: 12
   assemblies:
   - ASE Assignment Tests
-  namespace: ASE_Assignment_Tests.CommandTests
-  summary: The Unit tests for the EvaluationInt Class
+  namespace: ASE_Assignment_Tests.EvaluationTests
+  summary: The Unit tests for the EvaluationArray Class
   example: []
   syntax:
     content: >-
       [TestClass]
 
-      public class EvaluationIntTests
+      public class EvaluationArrayTests
     content.vb: >-
       <TestClass>
 
-      Public Class EvaluationIntTests
+      Public Class EvaluationArrayTests
   inheritance:
   - System.Object
   inheritedMembers:
@@ -52,28 +50,28 @@ items:
   - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
     ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
     arguments: []
-- uid: ASE_Assignment_Tests.CommandTests.EvaluationIntTests.CheckObjectCreation
-  commentId: M:ASE_Assignment_Tests.CommandTests.EvaluationIntTests.CheckObjectCreation
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationArrayTests.CheckObjectCreation
+  commentId: M:ASE_Assignment_Tests.EvaluationTests.EvaluationArrayTests.CheckObjectCreation
   id: CheckObjectCreation
-  parent: ASE_Assignment_Tests.CommandTests.EvaluationIntTests
+  parent: ASE_Assignment_Tests.EvaluationTests.EvaluationArrayTests
   langs:
   - csharp
   - vb
   name: CheckObjectCreation()
-  nameWithType: EvaluationIntTests.CheckObjectCreation()
-  fullName: ASE_Assignment_Tests.CommandTests.EvaluationIntTests.CheckObjectCreation()
+  nameWithType: EvaluationArrayTests.CheckObjectCreation()
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationArrayTests.CheckObjectCreation()
   type: Method
   source:
     remote:
-      path: ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationIntTests.cs
+      path: ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationArrayTests.cs
       branch: main
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: CheckObjectCreation
-    path: ../ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationIntTests.cs
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationArrayTests.cs
     startLine: 19
   assemblies:
   - ASE Assignment Tests
-  namespace: ASE_Assignment_Tests.CommandTests
+  namespace: ASE_Assignment_Tests.EvaluationTests
   summary: Checks if the class objects can be initialized
   example: []
   syntax:
@@ -85,33 +83,33 @@ items:
       <TestMethod>
 
       Public Sub CheckObjectCreation()
-  overload: ASE_Assignment_Tests.CommandTests.EvaluationIntTests.CheckObjectCreation*
+  overload: ASE_Assignment_Tests.EvaluationTests.EvaluationArrayTests.CheckObjectCreation*
   attributes:
   - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
     ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
     arguments: []
-- uid: ASE_Assignment_Tests.CommandTests.EvaluationIntTests.CheckObjectCreationRestriction
-  commentId: M:ASE_Assignment_Tests.CommandTests.EvaluationIntTests.CheckObjectCreationRestriction
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationArrayTests.CheckObjectCreationRestriction
+  commentId: M:ASE_Assignment_Tests.EvaluationTests.EvaluationArrayTests.CheckObjectCreationRestriction
   id: CheckObjectCreationRestriction
-  parent: ASE_Assignment_Tests.CommandTests.EvaluationIntTests
+  parent: ASE_Assignment_Tests.EvaluationTests.EvaluationArrayTests
   langs:
   - csharp
   - vb
   name: CheckObjectCreationRestriction()
-  nameWithType: EvaluationIntTests.CheckObjectCreationRestriction()
-  fullName: ASE_Assignment_Tests.CommandTests.EvaluationIntTests.CheckObjectCreationRestriction()
+  nameWithType: EvaluationArrayTests.CheckObjectCreationRestriction()
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationArrayTests.CheckObjectCreationRestriction()
   type: Method
   source:
     remote:
-      path: ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationIntTests.cs
+      path: ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationArrayTests.cs
       branch: main
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: CheckObjectCreationRestriction
-    path: ../ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationIntTests.cs
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationArrayTests.cs
     startLine: 28
   assemblies:
   - ASE Assignment Tests
-  namespace: ASE_Assignment_Tests.CommandTests
+  namespace: ASE_Assignment_Tests.EvaluationTests
   summary: Checks if the restrictions are overridden by initializing 1000 objects
   example: []
   syntax:
@@ -123,110 +121,34 @@ items:
       <TestMethod>
 
       Public Sub CheckObjectCreationRestriction()
-  overload: ASE_Assignment_Tests.CommandTests.EvaluationIntTests.CheckObjectCreationRestriction*
-  attributes:
-  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
-    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
-    arguments: []
-- uid: ASE_Assignment_Tests.CommandTests.EvaluationIntTests.InvalidValueThrowsException
-  commentId: M:ASE_Assignment_Tests.CommandTests.EvaluationIntTests.InvalidValueThrowsException
-  id: InvalidValueThrowsException
-  parent: ASE_Assignment_Tests.CommandTests.EvaluationIntTests
-  langs:
-  - csharp
-  - vb
-  name: InvalidValueThrowsException()
-  nameWithType: EvaluationIntTests.InvalidValueThrowsException()
-  fullName: ASE_Assignment_Tests.CommandTests.EvaluationIntTests.InvalidValueThrowsException()
-  type: Method
-  source:
-    remote:
-      path: ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationIntTests.cs
-      branch: main
-      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
-    id: InvalidValueThrowsException
-    path: ../ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationIntTests.cs
-    startLine: 39
-  assemblies:
-  - ASE Assignment Tests
-  namespace: ASE_Assignment_Tests.CommandTests
-  summary: Checks if invalid value throws exception
-  example: []
-  syntax:
-    content: >-
-      [TestMethod]
-
-      public void InvalidValueThrowsException()
-    content.vb: >-
-      <TestMethod>
-
-      Public Sub InvalidValueThrowsException()
-  overload: ASE_Assignment_Tests.CommandTests.EvaluationIntTests.InvalidValueThrowsException*
-  attributes:
-  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
-    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
-    arguments: []
-- uid: ASE_Assignment_Tests.CommandTests.EvaluationIntTests.ValidValueDoesNotThrowException
-  commentId: M:ASE_Assignment_Tests.CommandTests.EvaluationIntTests.ValidValueDoesNotThrowException
-  id: ValidValueDoesNotThrowException
-  parent: ASE_Assignment_Tests.CommandTests.EvaluationIntTests
-  langs:
-  - csharp
-  - vb
-  name: ValidValueDoesNotThrowException()
-  nameWithType: EvaluationIntTests.ValidValueDoesNotThrowException()
-  fullName: ASE_Assignment_Tests.CommandTests.EvaluationIntTests.ValidValueDoesNotThrowException()
-  type: Method
-  source:
-    remote:
-      path: ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationIntTests.cs
-      branch: main
-      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
-    id: ValidValueDoesNotThrowException
-    path: ../ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationIntTests.cs
-    startLine: 55
-  assemblies:
-  - ASE Assignment Tests
-  namespace: ASE_Assignment_Tests.CommandTests
-  summary: Checks if valid value doesn't throw exception
-  example: []
-  syntax:
-    content: >-
-      [TestMethod]
-
-      public void ValidValueDoesNotThrowException()
-    content.vb: >-
-      <TestMethod>
-
-      Public Sub ValidValueDoesNotThrowException()
-  overload: ASE_Assignment_Tests.CommandTests.EvaluationIntTests.ValidValueDoesNotThrowException*
+  overload: ASE_Assignment_Tests.EvaluationTests.EvaluationArrayTests.CheckObjectCreationRestriction*
   attributes:
   - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
     ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
     arguments: []
 references:
-- uid: ASE_Assignment_Tests.CommandTests
-  commentId: N:ASE_Assignment_Tests.CommandTests
+- uid: ASE_Assignment_Tests.EvaluationTests
+  commentId: N:ASE_Assignment_Tests.EvaluationTests
   href: ASE_Assignment_Tests.html
-  name: ASE_Assignment_Tests.CommandTests
-  nameWithType: ASE_Assignment_Tests.CommandTests
-  fullName: ASE_Assignment_Tests.CommandTests
+  name: ASE_Assignment_Tests.EvaluationTests
+  nameWithType: ASE_Assignment_Tests.EvaluationTests
+  fullName: ASE_Assignment_Tests.EvaluationTests
   spec.csharp:
   - uid: ASE_Assignment_Tests
     name: ASE_Assignment_Tests
     href: ASE_Assignment_Tests.html
   - name: .
-  - uid: ASE_Assignment_Tests.CommandTests
-    name: CommandTests
-    href: ASE_Assignment_Tests.CommandTests.html
+  - uid: ASE_Assignment_Tests.EvaluationTests
+    name: EvaluationTests
+    href: ASE_Assignment_Tests.EvaluationTests.html
   spec.vb:
   - uid: ASE_Assignment_Tests
     name: ASE_Assignment_Tests
     href: ASE_Assignment_Tests.html
   - name: .
-  - uid: ASE_Assignment_Tests.CommandTests
-    name: CommandTests
-    href: ASE_Assignment_Tests.CommandTests.html
+  - uid: ASE_Assignment_Tests.EvaluationTests
+    name: EvaluationTests
+    href: ASE_Assignment_Tests.EvaluationTests.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -464,27 +386,15 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: ASE_Assignment_Tests.CommandTests.EvaluationIntTests.CheckObjectCreation*
-  commentId: Overload:ASE_Assignment_Tests.CommandTests.EvaluationIntTests.CheckObjectCreation
-  href: ASE_Assignment_Tests.CommandTests.EvaluationIntTests.html#ASE_Assignment_Tests_CommandTests_EvaluationIntTests_CheckObjectCreation
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationArrayTests.CheckObjectCreation*
+  commentId: Overload:ASE_Assignment_Tests.EvaluationTests.EvaluationArrayTests.CheckObjectCreation
+  href: ASE_Assignment_Tests.EvaluationTests.EvaluationArrayTests.html#ASE_Assignment_Tests_EvaluationTests_EvaluationArrayTests_CheckObjectCreation
   name: CheckObjectCreation
-  nameWithType: EvaluationIntTests.CheckObjectCreation
-  fullName: ASE_Assignment_Tests.CommandTests.EvaluationIntTests.CheckObjectCreation
-- uid: ASE_Assignment_Tests.CommandTests.EvaluationIntTests.CheckObjectCreationRestriction*
-  commentId: Overload:ASE_Assignment_Tests.CommandTests.EvaluationIntTests.CheckObjectCreationRestriction
-  href: ASE_Assignment_Tests.CommandTests.EvaluationIntTests.html#ASE_Assignment_Tests_CommandTests_EvaluationIntTests_CheckObjectCreationRestriction
+  nameWithType: EvaluationArrayTests.CheckObjectCreation
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationArrayTests.CheckObjectCreation
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationArrayTests.CheckObjectCreationRestriction*
+  commentId: Overload:ASE_Assignment_Tests.EvaluationTests.EvaluationArrayTests.CheckObjectCreationRestriction
+  href: ASE_Assignment_Tests.EvaluationTests.EvaluationArrayTests.html#ASE_Assignment_Tests_EvaluationTests_EvaluationArrayTests_CheckObjectCreationRestriction
   name: CheckObjectCreationRestriction
-  nameWithType: EvaluationIntTests.CheckObjectCreationRestriction
-  fullName: ASE_Assignment_Tests.CommandTests.EvaluationIntTests.CheckObjectCreationRestriction
-- uid: ASE_Assignment_Tests.CommandTests.EvaluationIntTests.InvalidValueThrowsException*
-  commentId: Overload:ASE_Assignment_Tests.CommandTests.EvaluationIntTests.InvalidValueThrowsException
-  href: ASE_Assignment_Tests.CommandTests.EvaluationIntTests.html#ASE_Assignment_Tests_CommandTests_EvaluationIntTests_InvalidValueThrowsException
-  name: InvalidValueThrowsException
-  nameWithType: EvaluationIntTests.InvalidValueThrowsException
-  fullName: ASE_Assignment_Tests.CommandTests.EvaluationIntTests.InvalidValueThrowsException
-- uid: ASE_Assignment_Tests.CommandTests.EvaluationIntTests.ValidValueDoesNotThrowException*
-  commentId: Overload:ASE_Assignment_Tests.CommandTests.EvaluationIntTests.ValidValueDoesNotThrowException
-  href: ASE_Assignment_Tests.CommandTests.EvaluationIntTests.html#ASE_Assignment_Tests_CommandTests_EvaluationIntTests_ValidValueDoesNotThrowException
-  name: ValidValueDoesNotThrowException
-  nameWithType: EvaluationIntTests.ValidValueDoesNotThrowException
-  fullName: ASE_Assignment_Tests.CommandTests.EvaluationIntTests.ValidValueDoesNotThrowException
+  nameWithType: EvaluationArrayTests.CheckObjectCreationRestriction
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationArrayTests.CheckObjectCreationRestriction

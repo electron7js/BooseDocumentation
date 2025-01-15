@@ -152,36 +152,6 @@ items:
   - uid: ASE_Assignment_Tests.CommandTests.CommandWriteTests
     name: CommandWriteTests
     type: Class
-  - uid: ASE_Assignment_Tests.CommandTests.EvaluationArrayTests
-    name: EvaluationArrayTests
-    type: Class
-  - uid: ASE_Assignment_Tests.CommandTests.EvaluationBoolTests
-    name: EvaluationBoolTests
-    type: Class
-  - uid: ASE_Assignment_Tests.CommandTests.EvaluationElseTests
-    name: EvaluationElseTests
-    type: Class
-  - uid: ASE_Assignment_Tests.CommandTests.EvaluationEndTests
-    name: EvaluationEndTests
-    type: Class
-  - uid: ASE_Assignment_Tests.CommandTests.EvaluationForTests
-    name: EvaluationForTests
-    type: Class
-  - uid: ASE_Assignment_Tests.CommandTests.EvaluationIfTests
-    name: EvaluationIfTests
-    type: Class
-  - uid: ASE_Assignment_Tests.CommandTests.EvaluationIntTests
-    name: EvaluationIntTests
-    type: Class
-  - uid: ASE_Assignment_Tests.CommandTests.EvaluationMethodTests
-    name: EvaluationMethodTests
-    type: Class
-  - uid: ASE_Assignment_Tests.CommandTests.EvaluationRealTests
-    name: EvaluationRealTests
-    type: Class
-  - uid: ASE_Assignment_Tests.CommandTests.EvaluationWhileTests
-    name: EvaluationWhileTests
-    type: Class
 - uid: ASE_Assignment_Tests.ComponentTests
   name: ASE_Assignment_Tests.ComponentTests
   type: Namespace
@@ -205,8 +175,38 @@ items:
   - uid: ASE_Assignment_Tests.EvaluationTests.BooseWrapperTests
     name: BooseWrapperTests
     type: Class
+  - uid: ASE_Assignment_Tests.EvaluationTests.EvaluationArrayTests
+    name: EvaluationArrayTests
+    type: Class
+  - uid: ASE_Assignment_Tests.EvaluationTests.EvaluationBoolTests
+    name: EvaluationBoolTests
+    type: Class
   - uid: ASE_Assignment_Tests.EvaluationTests.EvaluationCallTests
     name: EvaluationCallTests
+    type: Class
+  - uid: ASE_Assignment_Tests.EvaluationTests.EvaluationElseTests
+    name: EvaluationElseTests
+    type: Class
+  - uid: ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests
+    name: EvaluationEndTests
+    type: Class
+  - uid: ASE_Assignment_Tests.EvaluationTests.EvaluationForTests
+    name: EvaluationForTests
+    type: Class
+  - uid: ASE_Assignment_Tests.EvaluationTests.EvaluationIfTests
+    name: EvaluationIfTests
+    type: Class
+  - uid: ASE_Assignment_Tests.EvaluationTests.EvaluationIntTests
+    name: EvaluationIntTests
+    type: Class
+  - uid: ASE_Assignment_Tests.EvaluationTests.EvaluationMethodTests
+    name: EvaluationMethodTests
+    type: Class
+  - uid: ASE_Assignment_Tests.EvaluationTests.EvaluationRealTests
+    name: EvaluationRealTests
+    type: Class
+  - uid: ASE_Assignment_Tests.EvaluationTests.EvaluationWhileTests
+    name: EvaluationWhileTests
     type: Class
 - uid: BooseWebApp.Server
   name: BooseWebApp.Server

@@ -1,41 +1,41 @@
 ### YamlMime:ManagedReference
 items:
-- uid: ASE_Assignment_Tests.CommandTests.EvaluationElseTests
-  commentId: T:ASE_Assignment_Tests.CommandTests.EvaluationElseTests
-  id: EvaluationElseTests
-  parent: ASE_Assignment_Tests.CommandTests
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationBoolTests
+  commentId: T:ASE_Assignment_Tests.EvaluationTests.EvaluationBoolTests
+  id: EvaluationBoolTests
+  parent: ASE_Assignment_Tests.EvaluationTests
   children:
-  - ASE_Assignment_Tests.CommandTests.EvaluationElseTests.CheckObjectCreation
-  - ASE_Assignment_Tests.CommandTests.EvaluationElseTests.CheckObjectCreationRestriction
+  - ASE_Assignment_Tests.EvaluationTests.EvaluationBoolTests.CheckObjectCreation
+  - ASE_Assignment_Tests.EvaluationTests.EvaluationBoolTests.CheckObjectCreationRestriction
   langs:
   - csharp
   - vb
-  name: EvaluationElseTests
-  nameWithType: EvaluationElseTests
-  fullName: ASE_Assignment_Tests.CommandTests.EvaluationElseTests
+  name: EvaluationBoolTests
+  nameWithType: EvaluationBoolTests
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationBoolTests
   type: Class
   source:
     remote:
-      path: ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationElseTests.cs
+      path: ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationBoolTests.cs
       branch: main
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
-    id: EvaluationElseTests
-    path: ../ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationElseTests.cs
+    id: EvaluationBoolTests
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationBoolTests.cs
     startLine: 12
   assemblies:
   - ASE Assignment Tests
-  namespace: ASE_Assignment_Tests.CommandTests
-  summary: The Unit tests for the EvaluationElse Class
+  namespace: ASE_Assignment_Tests.EvaluationTests
+  summary: The Unit tests for the EvaluationBool Class
   example: []
   syntax:
     content: >-
       [TestClass]
 
-      public class EvaluationElseTests
+      public class EvaluationBoolTests
     content.vb: >-
       <TestClass>
 
-      Public Class EvaluationElseTests
+      Public Class EvaluationBoolTests
   inheritance:
   - System.Object
   inheritedMembers:
@@ -50,28 +50,28 @@ items:
   - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
     ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
     arguments: []
-- uid: ASE_Assignment_Tests.CommandTests.EvaluationElseTests.CheckObjectCreation
-  commentId: M:ASE_Assignment_Tests.CommandTests.EvaluationElseTests.CheckObjectCreation
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationBoolTests.CheckObjectCreation
+  commentId: M:ASE_Assignment_Tests.EvaluationTests.EvaluationBoolTests.CheckObjectCreation
   id: CheckObjectCreation
-  parent: ASE_Assignment_Tests.CommandTests.EvaluationElseTests
+  parent: ASE_Assignment_Tests.EvaluationTests.EvaluationBoolTests
   langs:
   - csharp
   - vb
   name: CheckObjectCreation()
-  nameWithType: EvaluationElseTests.CheckObjectCreation()
-  fullName: ASE_Assignment_Tests.CommandTests.EvaluationElseTests.CheckObjectCreation()
+  nameWithType: EvaluationBoolTests.CheckObjectCreation()
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationBoolTests.CheckObjectCreation()
   type: Method
   source:
     remote:
-      path: ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationElseTests.cs
+      path: ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationBoolTests.cs
       branch: main
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: CheckObjectCreation
-    path: ../ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationElseTests.cs
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationBoolTests.cs
     startLine: 19
   assemblies:
   - ASE Assignment Tests
-  namespace: ASE_Assignment_Tests.CommandTests
+  namespace: ASE_Assignment_Tests.EvaluationTests
   summary: Checks if the class objects can be initialized
   example: []
   syntax:
@@ -83,34 +83,34 @@ items:
       <TestMethod>
 
       Public Sub CheckObjectCreation()
-  overload: ASE_Assignment_Tests.CommandTests.EvaluationElseTests.CheckObjectCreation*
+  overload: ASE_Assignment_Tests.EvaluationTests.EvaluationBoolTests.CheckObjectCreation*
   attributes:
   - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
     ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
     arguments: []
-- uid: ASE_Assignment_Tests.CommandTests.EvaluationElseTests.CheckObjectCreationRestriction
-  commentId: M:ASE_Assignment_Tests.CommandTests.EvaluationElseTests.CheckObjectCreationRestriction
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationBoolTests.CheckObjectCreationRestriction
+  commentId: M:ASE_Assignment_Tests.EvaluationTests.EvaluationBoolTests.CheckObjectCreationRestriction
   id: CheckObjectCreationRestriction
-  parent: ASE_Assignment_Tests.CommandTests.EvaluationElseTests
+  parent: ASE_Assignment_Tests.EvaluationTests.EvaluationBoolTests
   langs:
   - csharp
   - vb
   name: CheckObjectCreationRestriction()
-  nameWithType: EvaluationElseTests.CheckObjectCreationRestriction()
-  fullName: ASE_Assignment_Tests.CommandTests.EvaluationElseTests.CheckObjectCreationRestriction()
+  nameWithType: EvaluationBoolTests.CheckObjectCreationRestriction()
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationBoolTests.CheckObjectCreationRestriction()
   type: Method
   source:
     remote:
-      path: ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationElseTests.cs
+      path: ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationBoolTests.cs
       branch: main
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: CheckObjectCreationRestriction
-    path: ../ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationElseTests.cs
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationBoolTests.cs
     startLine: 29
   assemblies:
   - ASE Assignment Tests
-  namespace: ASE_Assignment_Tests.CommandTests
-  summary: Checks if the restrictions are overridden by initializing 1000 objects
+  namespace: ASE_Assignment_Tests.EvaluationTests
+  summary: Checks if the class objects can be initialized
   example: []
   syntax:
     content: >-
@@ -121,34 +121,34 @@ items:
       <TestMethod>
 
       Public Sub CheckObjectCreationRestriction()
-  overload: ASE_Assignment_Tests.CommandTests.EvaluationElseTests.CheckObjectCreationRestriction*
+  overload: ASE_Assignment_Tests.EvaluationTests.EvaluationBoolTests.CheckObjectCreationRestriction*
   attributes:
   - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
     ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
     arguments: []
 references:
-- uid: ASE_Assignment_Tests.CommandTests
-  commentId: N:ASE_Assignment_Tests.CommandTests
+- uid: ASE_Assignment_Tests.EvaluationTests
+  commentId: N:ASE_Assignment_Tests.EvaluationTests
   href: ASE_Assignment_Tests.html
-  name: ASE_Assignment_Tests.CommandTests
-  nameWithType: ASE_Assignment_Tests.CommandTests
-  fullName: ASE_Assignment_Tests.CommandTests
+  name: ASE_Assignment_Tests.EvaluationTests
+  nameWithType: ASE_Assignment_Tests.EvaluationTests
+  fullName: ASE_Assignment_Tests.EvaluationTests
   spec.csharp:
   - uid: ASE_Assignment_Tests
     name: ASE_Assignment_Tests
     href: ASE_Assignment_Tests.html
   - name: .
-  - uid: ASE_Assignment_Tests.CommandTests
-    name: CommandTests
-    href: ASE_Assignment_Tests.CommandTests.html
+  - uid: ASE_Assignment_Tests.EvaluationTests
+    name: EvaluationTests
+    href: ASE_Assignment_Tests.EvaluationTests.html
   spec.vb:
   - uid: ASE_Assignment_Tests
     name: ASE_Assignment_Tests
     href: ASE_Assignment_Tests.html
   - name: .
-  - uid: ASE_Assignment_Tests.CommandTests
-    name: CommandTests
-    href: ASE_Assignment_Tests.CommandTests.html
+  - uid: ASE_Assignment_Tests.EvaluationTests
+    name: EvaluationTests
+    href: ASE_Assignment_Tests.EvaluationTests.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -386,15 +386,15 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: ASE_Assignment_Tests.CommandTests.EvaluationElseTests.CheckObjectCreation*
-  commentId: Overload:ASE_Assignment_Tests.CommandTests.EvaluationElseTests.CheckObjectCreation
-  href: ASE_Assignment_Tests.CommandTests.EvaluationElseTests.html#ASE_Assignment_Tests_CommandTests_EvaluationElseTests_CheckObjectCreation
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationBoolTests.CheckObjectCreation*
+  commentId: Overload:ASE_Assignment_Tests.EvaluationTests.EvaluationBoolTests.CheckObjectCreation
+  href: ASE_Assignment_Tests.EvaluationTests.EvaluationBoolTests.html#ASE_Assignment_Tests_EvaluationTests_EvaluationBoolTests_CheckObjectCreation
   name: CheckObjectCreation
-  nameWithType: EvaluationElseTests.CheckObjectCreation
-  fullName: ASE_Assignment_Tests.CommandTests.EvaluationElseTests.CheckObjectCreation
-- uid: ASE_Assignment_Tests.CommandTests.EvaluationElseTests.CheckObjectCreationRestriction*
-  commentId: Overload:ASE_Assignment_Tests.CommandTests.EvaluationElseTests.CheckObjectCreationRestriction
-  href: ASE_Assignment_Tests.CommandTests.EvaluationElseTests.html#ASE_Assignment_Tests_CommandTests_EvaluationElseTests_CheckObjectCreationRestriction
+  nameWithType: EvaluationBoolTests.CheckObjectCreation
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationBoolTests.CheckObjectCreation
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationBoolTests.CheckObjectCreationRestriction*
+  commentId: Overload:ASE_Assignment_Tests.EvaluationTests.EvaluationBoolTests.CheckObjectCreationRestriction
+  href: ASE_Assignment_Tests.EvaluationTests.EvaluationBoolTests.html#ASE_Assignment_Tests_EvaluationTests_EvaluationBoolTests_CheckObjectCreationRestriction
   name: CheckObjectCreationRestriction
-  nameWithType: EvaluationElseTests.CheckObjectCreationRestriction
-  fullName: ASE_Assignment_Tests.CommandTests.EvaluationElseTests.CheckObjectCreationRestriction
+  nameWithType: EvaluationBoolTests.CheckObjectCreationRestriction
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationBoolTests.CheckObjectCreationRestriction

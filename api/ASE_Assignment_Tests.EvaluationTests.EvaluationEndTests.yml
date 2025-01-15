@@ -1,41 +1,43 @@
 ### YamlMime:ManagedReference
 items:
-- uid: ASE_Assignment_Tests.CommandTests.EvaluationBoolTests
-  commentId: T:ASE_Assignment_Tests.CommandTests.EvaluationBoolTests
-  id: EvaluationBoolTests
-  parent: ASE_Assignment_Tests.CommandTests
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests
+  commentId: T:ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests
+  id: EvaluationEndTests
+  parent: ASE_Assignment_Tests.EvaluationTests
   children:
-  - ASE_Assignment_Tests.CommandTests.EvaluationBoolTests.CheckObjectCreation
-  - ASE_Assignment_Tests.CommandTests.EvaluationBoolTests.CheckObjectCreationRestriction
+  - ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.CheckObjectCreation
+  - ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.CheckObjectCreationRestriction
+  - ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.MatchedEndDoesNotThrowException
+  - ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.UnmatchedEndThrowsException
   langs:
   - csharp
   - vb
-  name: EvaluationBoolTests
-  nameWithType: EvaluationBoolTests
-  fullName: ASE_Assignment_Tests.CommandTests.EvaluationBoolTests
+  name: EvaluationEndTests
+  nameWithType: EvaluationEndTests
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests
   type: Class
   source:
     remote:
-      path: ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationBoolTests.cs
+      path: ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationEndTests.cs
       branch: main
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
-    id: EvaluationBoolTests
-    path: ../ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationBoolTests.cs
+    id: EvaluationEndTests
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationEndTests.cs
     startLine: 12
   assemblies:
   - ASE Assignment Tests
-  namespace: ASE_Assignment_Tests.CommandTests
-  summary: The Unit tests for the EvaluationBool Class
+  namespace: ASE_Assignment_Tests.EvaluationTests
+  summary: The Unit tests for the EvaluationEnd Class
   example: []
   syntax:
     content: >-
       [TestClass]
 
-      public class EvaluationBoolTests
+      public class EvaluationEndTests
     content.vb: >-
       <TestClass>
 
-      Public Class EvaluationBoolTests
+      Public Class EvaluationEndTests
   inheritance:
   - System.Object
   inheritedMembers:
@@ -50,28 +52,28 @@ items:
   - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
     ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
     arguments: []
-- uid: ASE_Assignment_Tests.CommandTests.EvaluationBoolTests.CheckObjectCreation
-  commentId: M:ASE_Assignment_Tests.CommandTests.EvaluationBoolTests.CheckObjectCreation
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.CheckObjectCreation
+  commentId: M:ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.CheckObjectCreation
   id: CheckObjectCreation
-  parent: ASE_Assignment_Tests.CommandTests.EvaluationBoolTests
+  parent: ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests
   langs:
   - csharp
   - vb
   name: CheckObjectCreation()
-  nameWithType: EvaluationBoolTests.CheckObjectCreation()
-  fullName: ASE_Assignment_Tests.CommandTests.EvaluationBoolTests.CheckObjectCreation()
+  nameWithType: EvaluationEndTests.CheckObjectCreation()
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.CheckObjectCreation()
   type: Method
   source:
     remote:
-      path: ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationBoolTests.cs
+      path: ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationEndTests.cs
       branch: main
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: CheckObjectCreation
-    path: ../ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationBoolTests.cs
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationEndTests.cs
     startLine: 19
   assemblies:
   - ASE Assignment Tests
-  namespace: ASE_Assignment_Tests.CommandTests
+  namespace: ASE_Assignment_Tests.EvaluationTests
   summary: Checks if the class objects can be initialized
   example: []
   syntax:
@@ -83,34 +85,34 @@ items:
       <TestMethod>
 
       Public Sub CheckObjectCreation()
-  overload: ASE_Assignment_Tests.CommandTests.EvaluationBoolTests.CheckObjectCreation*
+  overload: ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.CheckObjectCreation*
   attributes:
   - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
     ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
     arguments: []
-- uid: ASE_Assignment_Tests.CommandTests.EvaluationBoolTests.CheckObjectCreationRestriction
-  commentId: M:ASE_Assignment_Tests.CommandTests.EvaluationBoolTests.CheckObjectCreationRestriction
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.CheckObjectCreationRestriction
+  commentId: M:ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.CheckObjectCreationRestriction
   id: CheckObjectCreationRestriction
-  parent: ASE_Assignment_Tests.CommandTests.EvaluationBoolTests
+  parent: ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests
   langs:
   - csharp
   - vb
   name: CheckObjectCreationRestriction()
-  nameWithType: EvaluationBoolTests.CheckObjectCreationRestriction()
-  fullName: ASE_Assignment_Tests.CommandTests.EvaluationBoolTests.CheckObjectCreationRestriction()
+  nameWithType: EvaluationEndTests.CheckObjectCreationRestriction()
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.CheckObjectCreationRestriction()
   type: Method
   source:
     remote:
-      path: ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationBoolTests.cs
+      path: ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationEndTests.cs
       branch: main
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
     id: CheckObjectCreationRestriction
-    path: ../ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationBoolTests.cs
-    startLine: 29
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationEndTests.cs
+    startLine: 28
   assemblies:
   - ASE Assignment Tests
-  namespace: ASE_Assignment_Tests.CommandTests
-  summary: Checks if the class objects can be initialized
+  namespace: ASE_Assignment_Tests.EvaluationTests
+  summary: Checks if the restrictions are overridden by initializing 1000 objects
   example: []
   syntax:
     content: >-
@@ -121,34 +123,110 @@ items:
       <TestMethod>
 
       Public Sub CheckObjectCreationRestriction()
-  overload: ASE_Assignment_Tests.CommandTests.EvaluationBoolTests.CheckObjectCreationRestriction*
+  overload: ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.CheckObjectCreationRestriction*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.UnmatchedEndThrowsException
+  commentId: M:ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.UnmatchedEndThrowsException
+  id: UnmatchedEndThrowsException
+  parent: ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests
+  langs:
+  - csharp
+  - vb
+  name: UnmatchedEndThrowsException()
+  nameWithType: EvaluationEndTests.UnmatchedEndThrowsException()
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.UnmatchedEndThrowsException()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationEndTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: UnmatchedEndThrowsException
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationEndTests.cs
+    startLine: 40
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.EvaluationTests
+  summary: Checks if unmatched ends throw exception
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void UnmatchedEndThrowsException()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub UnmatchedEndThrowsException()
+  overload: ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.UnmatchedEndThrowsException*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.MatchedEndDoesNotThrowException
+  commentId: M:ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.MatchedEndDoesNotThrowException
+  id: MatchedEndDoesNotThrowException
+  parent: ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests
+  langs:
+  - csharp
+  - vb
+  name: MatchedEndDoesNotThrowException()
+  nameWithType: EvaluationEndTests.MatchedEndDoesNotThrowException()
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.MatchedEndDoesNotThrowException()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationEndTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-electron7js
+    id: MatchedEndDoesNotThrowException
+    path: ../ASE Assignment Bijesh/ASE Assignment Tests/EvaluationTests/EvaluationEndTests.cs
+    startLine: 59
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests.EvaluationTests
+  summary: Checks if matched end doesn't throw exception
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void MatchedEndDoesNotThrowException()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub MatchedEndDoesNotThrowException()
+  overload: ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.MatchedEndDoesNotThrowException*
   attributes:
   - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
     ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
     arguments: []
 references:
-- uid: ASE_Assignment_Tests.CommandTests
-  commentId: N:ASE_Assignment_Tests.CommandTests
+- uid: ASE_Assignment_Tests.EvaluationTests
+  commentId: N:ASE_Assignment_Tests.EvaluationTests
   href: ASE_Assignment_Tests.html
-  name: ASE_Assignment_Tests.CommandTests
-  nameWithType: ASE_Assignment_Tests.CommandTests
-  fullName: ASE_Assignment_Tests.CommandTests
+  name: ASE_Assignment_Tests.EvaluationTests
+  nameWithType: ASE_Assignment_Tests.EvaluationTests
+  fullName: ASE_Assignment_Tests.EvaluationTests
   spec.csharp:
   - uid: ASE_Assignment_Tests
     name: ASE_Assignment_Tests
     href: ASE_Assignment_Tests.html
   - name: .
-  - uid: ASE_Assignment_Tests.CommandTests
-    name: CommandTests
-    href: ASE_Assignment_Tests.CommandTests.html
+  - uid: ASE_Assignment_Tests.EvaluationTests
+    name: EvaluationTests
+    href: ASE_Assignment_Tests.EvaluationTests.html
   spec.vb:
   - uid: ASE_Assignment_Tests
     name: ASE_Assignment_Tests
     href: ASE_Assignment_Tests.html
   - name: .
-  - uid: ASE_Assignment_Tests.CommandTests
-    name: CommandTests
-    href: ASE_Assignment_Tests.CommandTests.html
+  - uid: ASE_Assignment_Tests.EvaluationTests
+    name: EvaluationTests
+    href: ASE_Assignment_Tests.EvaluationTests.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -386,15 +464,27 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: ASE_Assignment_Tests.CommandTests.EvaluationBoolTests.CheckObjectCreation*
-  commentId: Overload:ASE_Assignment_Tests.CommandTests.EvaluationBoolTests.CheckObjectCreation
-  href: ASE_Assignment_Tests.CommandTests.EvaluationBoolTests.html#ASE_Assignment_Tests_CommandTests_EvaluationBoolTests_CheckObjectCreation
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.CheckObjectCreation*
+  commentId: Overload:ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.CheckObjectCreation
+  href: ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.html#ASE_Assignment_Tests_EvaluationTests_EvaluationEndTests_CheckObjectCreation
   name: CheckObjectCreation
-  nameWithType: EvaluationBoolTests.CheckObjectCreation
-  fullName: ASE_Assignment_Tests.CommandTests.EvaluationBoolTests.CheckObjectCreation
-- uid: ASE_Assignment_Tests.CommandTests.EvaluationBoolTests.CheckObjectCreationRestriction*
-  commentId: Overload:ASE_Assignment_Tests.CommandTests.EvaluationBoolTests.CheckObjectCreationRestriction
-  href: ASE_Assignment_Tests.CommandTests.EvaluationBoolTests.html#ASE_Assignment_Tests_CommandTests_EvaluationBoolTests_CheckObjectCreationRestriction
+  nameWithType: EvaluationEndTests.CheckObjectCreation
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.CheckObjectCreation
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.CheckObjectCreationRestriction*
+  commentId: Overload:ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.CheckObjectCreationRestriction
+  href: ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.html#ASE_Assignment_Tests_EvaluationTests_EvaluationEndTests_CheckObjectCreationRestriction
   name: CheckObjectCreationRestriction
-  nameWithType: EvaluationBoolTests.CheckObjectCreationRestriction
-  fullName: ASE_Assignment_Tests.CommandTests.EvaluationBoolTests.CheckObjectCreationRestriction
+  nameWithType: EvaluationEndTests.CheckObjectCreationRestriction
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.CheckObjectCreationRestriction
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.UnmatchedEndThrowsException*
+  commentId: Overload:ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.UnmatchedEndThrowsException
+  href: ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.html#ASE_Assignment_Tests_EvaluationTests_EvaluationEndTests_UnmatchedEndThrowsException
+  name: UnmatchedEndThrowsException
+  nameWithType: EvaluationEndTests.UnmatchedEndThrowsException
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.UnmatchedEndThrowsException
+- uid: ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.MatchedEndDoesNotThrowException*
+  commentId: Overload:ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.MatchedEndDoesNotThrowException
+  href: ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.html#ASE_Assignment_Tests_EvaluationTests_EvaluationEndTests_MatchedEndDoesNotThrowException
+  name: MatchedEndDoesNotThrowException
+  nameWithType: EvaluationEndTests.MatchedEndDoesNotThrowException
+  fullName: ASE_Assignment_Tests.EvaluationTests.EvaluationEndTests.MatchedEndDoesNotThrowException
