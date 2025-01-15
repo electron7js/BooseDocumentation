@@ -27,7 +27,7 @@ items:
   assemblies:
   - ASE Assignment Tests
   namespace: ASE_Assignment_Tests.CommandTests
-  summary: The Unit tests for the CommandCall Class
+  summary: The Unit tests for the EvaluationWhile Class
   example: []
   syntax:
     content: >-
