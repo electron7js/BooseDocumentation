@@ -28,7 +28,7 @@ items:
   assemblies:
   - ASE Assignment Tests
   namespace: ASE_Assignment_Tests.ComponentTests
-  summary: The Unit tests for the AppCanvas Class. Tests the final positions of the cursor after the methods are called.
+  summary: The Unit tests for the AppStoredProgram Class. Checks the exceptions from the class.
   example: []
   syntax:
     content: >-

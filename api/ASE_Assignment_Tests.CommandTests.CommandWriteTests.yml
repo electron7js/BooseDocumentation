@@ -25,7 +25,7 @@ items:
   assemblies:
   - ASE Assignment Tests
   namespace: ASE_Assignment_Tests.CommandTests
-  summary: The Unit tests for the CommandCircle Class
+  summary: The Unit tests for the CommandWrite Class
   example: []
   syntax:
     content: >-
